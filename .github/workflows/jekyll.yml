@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main  # or the default branch of your repository
+      - main  # or your default branch
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22
         bundle install
 
     - name: Build the site
@@ -29,5 +29,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages  # Ensure the site is deployed to the gh-pages branch
+        publish_branch: gh-pages
         publish_dir: ./_site
