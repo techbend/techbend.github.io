@@ -38,7 +38,7 @@
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
                 {% for link in site.data.index_links %}
-                <li class="navigation__item"><a href="/{{ link.link }}" title="{{ link.hover_text }}"
+                <li class="navigation__item"><a href="{{ link.link }}" title="{{ link.hover_text }}"
                     class="blog-button">{{ link.title }}</a></li>
                 {% endfor %}
               </ul>
