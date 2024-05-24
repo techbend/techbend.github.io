@@ -17,10 +17,11 @@ jobs:
       with:
         ruby-version: '2.7'  # Specify the Ruby version you need
 
+    - name: Install Bundler
+      run: gem install bundler -v 2.4.22
+
     - name: Install dependencies
-      run: |
-        gem install bundler -v 2.4.22
-        bundle install
+      run: bundle install
 
     - name: Build the site
       run: bundle exec jekyll build
