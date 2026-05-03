@@ -1,0 +1,56 @@
+baseURL = 'https://techbend.dev'
+languageCode = 'en-us'
+title = 'TechBend — Ali Tavallaie'
+theme = 'techbend'
+
+[params]
+  author = 'Ali Tavallaie'
+  description = 'Python developer, open source maintainer, and builder of useful things.'
+  gravatarEmail = 'tavallaie@example.com'
+  github = 'tavallaie'
+  githubOrg = 'techbend'
+  twitter = ''
+  linkedin = ''
+  email = ''
+  calLink = 'https://cal.com/tavallaie'
+  sponsorLink = 'https://github.com/sponsors/tavallaie'
+  blogLink = 'https://blog.techbend.dev'
+  pypiUser = 'tavallaie'
+  formspreeId = ''
+  showGithub = true
+  showPyPI = true
+  showBooks = true
+  showResume = true
+  showContact = true
+  showSponsor = true
+  showCalendar = true
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 30
+  [[menu.main]]
+    name = 'Books'
+    url = '/books/'
+    weight = 40
+  [[menu.main]]
+    name = 'Blog'
+    url = 'https://blog.techbend.dev'
+    weight = 45
+  [[menu.main]]
+    name = 'Resume'
+    url = '/resume/'
+    weight = 50
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 60

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="page-content">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+            {{ if .Params.description }}
+            <p class="subtitle">{{ .Params.description }}</p>
+            {{ end }}
+        </header>
+
+        <div class="content-list">
+            {{ range .Pages }}
+            <article class="list-item">
+                <div class="list-item-meta">
+                    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                    {{ if .Params.readingTime }}
+                    <span>{{ .Params.readingTime }} min read</span>
+                    {{ end }}
+                </div>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Params.description | default .Summary | truncate 200 }}</p>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

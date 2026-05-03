@@ -1,0 +1,298 @@
+[
+  {
+    "day": "2026-04-20",
+    "version": "0.1.0",
+    "system": "Windows",
+    "python_version": "3.13.13",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-02-06",
+    "version": "0.1.0",
+    "system": "Windows",
+    "python_version": "3.11.0",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-19",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.13.11",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-15",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.13.5",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-13",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-12",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.14.2",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-08",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.9.6",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-12-04",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.9.6",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2025-10-21",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.18",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-09-19",
+    "version": "0.1.0",
+    "system": "Darwin",
+    "python_version": "3.12.6",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-24",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.11.8",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-17",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.11.8",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-05-22",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.3",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-05-22",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.11.11",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-05-21",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.7",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-05-19",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.3",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2025-03-15",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2025-03-01",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2025-02-11",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.9.6",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2025-02-07",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2024-11-23",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.2",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-28",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.3",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-25",
+    "version": "0.1.0",
+    "system": "Windows",
+    "python_version": "3.11.5",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-25",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.15",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-24",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.15",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-18",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.0",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-09-20",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-09-11",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.4",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-09-09",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-09-05",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 4
+  },
+  {
+    "day": "2024-08-23",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.3",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-08-20",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.12.3",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-08-09",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2024-06-27",
+    "version": "0.1.0",
+    "system": "Darwin",
+    "python_version": "3.11.6",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-06-07",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.10.12",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2024-02-09",
+    "version": "0.1.0",
+    "system": "Darwin",
+    "python_version": "3.11.4",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2024-02-04",
+    "version": "0.1.0",
+    "system": "Darwin",
+    "python_version": "3.11.4",
+    "installer": "pip",
+    "downloads": 2
+  }
+]

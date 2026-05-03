@@ -1,0 +1,12 @@
+name = 'TechBend'
+license = 'MIT'
+licenselink = 'https://github.com/techbend/techbend.github.io/blob/main/LICENSE'
+description = 'Minimal dark theme for techbend.dev'
+homepage = 'https://techbend.dev'
+tags = ['portfolio', 'dark', 'minimal']
+features = ['responsive', 'dark-mode']
+min_version = '0.118.0'
+
+[author]
+  name = 'Ali Tavallaie'
+  homepage = 'https://techbend.dev'

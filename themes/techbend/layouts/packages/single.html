@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="page-content packages-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>📦 Python Packages</h1>
+            <p class="subtitle">All {{ .Site.Params.pypiUser }}'s packages on PyPI with download statistics</p>
+        </header>
+        <div class="packages-controls">
+            <div class="packages-search"><input type="text" id="packageSearch" placeholder="Search packages..."></div>
+            <div class="packages-sort">
+                <select id="packageSort">
+                    <option value="downloads">Sort by Downloads</option>
+                    <option value="name">Sort by Name</option>
+                    <option value="recent">Sort by Recent</option>
+                </select>
+            </div>
+        </div>
+        <div class="packages-total" id="packagesTotal">Loading packages...</div>
+        <div class="pypi-grid packages-all" id="packagesAll">
+            <div class="pypi-skeleton"></div>
+            <div class="pypi-skeleton"></div>
+            <div class="pypi-skeleton"></div>
+            <div class="pypi-skeleton"></div>
+        </div>
+    </div>
+</section>
+{{ end }}

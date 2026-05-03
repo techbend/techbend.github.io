@@ -1,0 +1,26 @@
+[
+  {
+    "day": "2026-03-30",
+    "version": "0.1.0",
+    "system": "Windows",
+    "python_version": "3.12.10",
+    "installer": "pip",
+    "downloads": 2
+  },
+  {
+    "day": "2026-02-14",
+    "version": "0.1.0",
+    "system": "Linux",
+    "python_version": "3.13.5",
+    "installer": "pip",
+    "downloads": 1
+  },
+  {
+    "day": "2026-02-10",
+    "version": "0.1.0",
+    "system": "Darwin",
+    "python_version": "3.11.4",
+    "installer": "pip",
+    "downloads": 4
+  }
+]
