@@ -17,7 +17,7 @@ This repository produces a Hugo-based static site that serves as:
 The site is split into two distinct systems:
 
 1. **Hugo Static Site** (`content/`, `themes/`, `layouts/`, `public/`)
-2. **Python Data Pipeline** (`scripts/`, `static/data/`) — syncs PyPI download statistics from BigQuery
+2. **Python Data Pipeline** (`scripts/`, `static/data/`) — syncs PyPI download statistics from BigQuery and ClickPy, plus GitHub profile data
 
 There is no backend server at runtime; everything is either pre-built static HTML or client-side JavaScript fetching public APIs.
 
@@ -28,17 +28,18 @@ There is no backend server at runtime; everything is either pre-built static HTM
 | Layer | Technology | Version / Notes |
 |-------|-----------|-----------------|
 | Static Site Generator | Hugo (Extended) | `0.125.0` (pinned in CI) |
-| CSS Architecture | Custom CSS | Modular files: tokens, base, layout, components, effects |
+| CSS Architecture | Custom CSS | Modular files: reset, tokens, base, layout, components, effects |
 | CSS Features | Modern CSS | `@layer`, `@property`, CSS variables, `backdrop-filter`, container queries |
 | Frontend JS | Vanilla JavaScript | No frameworks, no build step beyond minification |
 | Python | CPython | `>=3.12` (specified in `pyproject.toml` and CI) |
 | Python Package Manager | `uv` | `uv.lock` present; virtualenv at `.venv/` |
 | Data Source | BigQuery Public Data | `bigquery-public-data.pypi.file_downloads` |
+| Data Source | ClickPy (ClickHouse) | `sql-clickhouse.clickhouse.com` — public PyPI mirror |
 | Hosting | GitHub Pages | Deployed via GitHub Actions |
 
-**Notably absent:** Node.js, npm, Docker, test frameworks, or JS frameworks (React/Vue).
+**Notably absent:** Node.js, npm, Docker, test frameworks, CSS frameworks (Tailwind, Bootstrap, DaisyUI), or JS frameworks (React/Vue).
 
-> **Note on CSS Architecture:** The theme uses a fully custom CSS design system with no external CSS frameworks. Styles are split into logical modules (tokens, base, layout, components, effects) and concatenated via Hugo's `resources.Concat`. This provides complete creative control while keeping the build dependency-free.
+> **Note on CSS Architecture:** The theme uses a fully custom CSS design system with no external CSS frameworks. Styles are split into logical modules (reset, tokens, base, layout, components, effects) and concatenated via Hugo's `resources.Concat`. This provides complete creative control while keeping the build dependency-free.
 
 ---
 
@@ -49,14 +50,13 @@ There is no backend server at runtime; everything is either pre-built static HTM
 ├── assets/               # Project-level assets (empty; theme owns all assets)
 ├── content/              # Markdown content pages
 │   ├── about.md
-│   ├── contact.md
-│   ├── packages.md       # Front-matter only; uses custom layout
+│   ├── books/
+│   │   └── _index.md
 │   ├── projects.md
-│   ├── resume.md
-│   └── books/
-│       └── _index.md
+│   └── resume.md
 ├── static/data/          # Generated data files
-│   ├── github.json       # GitHub profile & pinned repos
+│   ├── github.json       # GitHub profile, pinned repos, contributions
+│   ├── manifest.json     # Combined manifest (GitHub + PyPI top packages)
 │   ├── pypi.json         # PyPI package manifest
 │   └── pypi/             # Per-package JSON + CSV stats
 ├── env/                  # GCP service account key (local development only)
@@ -64,10 +64,14 @@ There is no backend server at runtime; everything is either pre-built static HTM
 ├── public/               # Hugo build output (generated; do not commit)
 ├── resources/            # Hugo resource cache
 ├── scripts/              # Python automation
+│   ├── diagnose_clickpy.py
 │   ├── discover_packages.py
-│   └── sync_stats.py
-├── static/               # Static files served directly (empty at project level)
-├── themes/techbend/      # Custom Hugo theme (modular, DaisyUI-based)
+│   ├── generate_manifest.py
+│   ├── sync_github.py
+│   ├── sync_stats_bigquery.py
+│   └── sync_stats_clickpy.py
+├── static/               # Static files served directly (generated data only)
+├── themes/techbend/      # Custom Hugo theme (fully custom CSS)
 │   ├── assets/
 │   │   ├── css/
 │   │   │   ├── reset.css         # Modern CSS reset
@@ -75,16 +79,16 @@ There is no backend server at runtime; everything is either pre-built static HTM
 │   │   │   ├── base.css          # Base styles, typography, selection
 │   │   │   ├── layout.css        # Containers, grids, utilities
 │   │   │   ├── components.css    # Nav, buttons, cards, footer, forms, prose
-│   │   │   └── effects.css       # Aurora, glow, animations, spotlight, typewriter
+│   │   │   ├── effects.css       # Aurora, glow, animations, spotlight, typewriter
+│   │   │   └── main.css          # Placeholder; actual CSS is concatenated in head.html
+│   │   ├── Icons/                # Favicon and touch icons
 │   │   └── js/main.js            # Client-side interactions & data fetching
 │   ├── layouts/
 │   │   ├── _default/
-│   │   │   ├── baseof.html       # Root layout
+│   │   │   ├── baseof.html       # Root layout (inline JS config + main.js)
 │   │   │   ├── list.html         # List pages (books, etc.)
 │   │   │   └── single.html       # Single content pages
 │   │   ├── index.html            # Homepage (composes partials)
-│   │   ├── packages/
-│   │   │   └── single.html       # Packages listing page
 │   │   └── partials/             # Modular reusable components
 │   │       ├── head.html         # CSS concat via Hugo pipeline
 │   │       ├── header.html       # Fixed nav with scroll blur
@@ -93,7 +97,6 @@ There is no backend server at runtime; everything is either pre-built static HTM
 │   │       └── sections/         # Homepage sections
 │   │           ├── github.html
 │   │           ├── pypi.html
-│   │           ├── activity.html
 │   │           ├── books.html
 │   │           └── booking.html
 │   └── theme.toml
@@ -146,7 +149,16 @@ source .venv/bin/activate
 python scripts/discover_packages.py
 
 # Sync PyPI download stats from BigQuery
-python scripts/sync_stats.py
+python scripts/sync_stats_bigquery.py
+
+# Sync PyPI download stats from ClickPy (ClickHouse)
+python scripts/sync_stats_clickpy.py
+
+# Sync GitHub profile and pinned repos
+python scripts/sync_github.py
+
+# Generate manifest.json (combines GitHub + PyPI data)
+python scripts/generate_manifest.py
 ```
 
 **Environment variable required for BigQuery:**
@@ -191,8 +203,8 @@ A local service account key exists at `env/techbend-89ea5a3e24a2.json` for devel
 - Single-file architecture: all client JS lives in `themes/techbend/assets/js/main.js`
 - Modular by function: each feature has an `init*` or `fetch*` function
 - Uses `DOMContentLoaded` event for initialization
-- Fetches public APIs: GitHub API, PyPI JSON API, and local `/data/pypi.json` (served from `static/data/')
-- Theme toggle is a custom button that swaps `data-theme` between `dark` and `light`
+- Fetches local `/data/manifest.json` for aggregated GitHub + PyPI data, and the PyPI JSON API directly for package details
+- Theme toggle is a custom button (`#themeToggle`) that swaps `data-theme` between `dark` and `light`, backed by `localStorage`
 - Mobile menu toggles the `.open` class on `#mobileNav`
 - Scroll-triggered nav blur adds `.scrolled` to `#siteNav` when `scrollY > 20`
 
@@ -217,36 +229,52 @@ Manual verification steps:
 1. Run `hugo server -D` and visually inspect the site at `http://localhost:1313`
 2. Check browser console for JS errors after page load
 3. Verify theme toggle works (dark ↔ light)
-4. Verify mobile menu opens/closes at viewport width `< 1024px` (DaisyUI `lg:` breakpoint)
+4. Verify mobile menu opens/closes at narrow viewport widths
 5. Run `python scripts/discover_packages.py` and confirm it returns the expected package list
-6. Run `python scripts/sync_stats.py` (with valid GCP credentials) and verify JSON/CSV files are written to `static/data/`
+6. Run `python scripts/sync_stats_bigquery.py` (with valid GCP credentials) and verify JSON/CSV files are written to `static/data/`
+7. Run `python scripts/sync_github.py` and verify `static/data/github.json` is updated
+8. Run `python scripts/generate_manifest.py` and verify `static/data/manifest.json` is created
 
 ---
 
-## Data Pipeline (PyPI Stats Sync)
+## Data Pipeline (PyPI Stats + GitHub Sync)
 
-The Python scripts form a small ETL pipeline:
+The Python scripts form a small ETL pipeline with multiple data sources:
 
 ```
-discover_packages.py          sync_stats.py
-       │                            │
-       ▼                            ▼
-Scrape PyPI user page     Query BigQuery public dataset
-for package names         (pypi.file_downloads)
-       │                            │
-       └────────────┬───────────────┘
-                    ▼
+discover_packages.py
+       │
+       ▼
+Scrape PyPI user page for package names
+       │
+       ├──────────────┬────────────────┐
+       ▼              ▼                ▼
+sync_stats_bigquery.py  sync_stats_clickpy.py  sync_github.py
+Query BigQuery          Query ClickPy           Query GitHub API
+(public dataset)        (ClickHouse)            + profile scrape
+       │              │                │
+       └──────────────┴────────────────┘
+                      │
+                      ▼
             static/data/pypi/{package}.json
             static/data/pypi/{package}.csv
-                    │
-                    ▼
+            static/data/github.json
             static/data/pypi.json
+                      │
+                      ▼
+            generate_manifest.py
+                      │
+                      ▼
+            static/data/manifest.json
 ```
 
 - `discover_packages.py` scrapes `https://pypi.org/user/tavallaie/` using `requests` + `BeautifulSoup`
-- `sync_stats.py` queries `bigquery-public-data.pypi.file_downloads` with smart incremental sync: discovers each package's first/last download date, then on subsequent runs only fetches new days
-- Output columns: `day`, `version`, `system`, `python_version`, `installer`, `downloads`
-- `pypi.json` aggregates totals and date ranges per package
+- `sync_stats_bigquery.py` queries `bigquery-public-data.pypi.file_downloads` with smart incremental sync: discovers each package's first/last download date, then on subsequent runs only fetches new days
+- `sync_stats_clickpy.py` queries the ClickPy ClickHouse instance (`sql-clickhouse.clickhouse.com`) for per-package download stats
+- `sync_github.py` scrapes the GitHub profile page for pinned repos and contribution count, then enriches with the GitHub REST API
+- `generate_manifest.py` reads `github.json` and `pypi.json`, selects the top 6 most-downloaded packages, and writes a combined `manifest.json` for the frontend
+- Output columns (PyPI): `day`, `version`, `system`, `python_version`, `installer`, `downloads`
+- The frontend fetches `manifest.json` for hero stats, GitHub pinned projects, and PyPI top packages
 
 This pipeline runs automatically via `.github/workflows/sync-pypi.yml` every day at 06:00 UTC.
 
@@ -263,7 +291,7 @@ Workflow: `.github/workflows/hugo.yml`
 1. Install Hugo Extended `0.125.0` on `ubuntu-latest`
 2. Checkout with `submodules: recursive` and `fetch-depth: 0`
 3. Configure GitHub Pages
-4. Build: `hugo --gc --minify --baseURL <pages-url>`
+4. Build: `hugo --gc --minify --baseURL <pages-url>/`
 5. Upload `./public` as artifact
 6. Deploy via `actions/deploy-pages@v4`
 
@@ -280,6 +308,8 @@ Workflow: `.github/workflows/sync-pypi.yml`
 5. Clean up credentials (runs `always()`)
 6. Commit and push changes in `static/data/` directory with bot identity
 
+> **Note:** The workflow currently references `scripts/sync_stats.py`, which no longer exists. The equivalent script is `scripts/sync_stats_bigquery.py`.
+
 ---
 
 ## Security Considerations
@@ -289,7 +319,7 @@ Workflow: `.github/workflows/sync-pypi.yml`
 - **Client-Side API Calls:** JavaScript calls public APIs (GitHub API, PyPI API) from the user's browser. No API keys are exposed in frontend code.
 - **Subresource Integrity:** Hugo's asset pipeline generates SRI hashes for CSS and JS in `baseof.html`.
 - **External Links:** All external menu links receive `rel="noopener"` to prevent `window.opener` exploits.
-- **No User Input Forms:** The contact page uses static cards/links. There is no active Formspree configuration (`formspreeId` is empty in `hugo.toml`).
+- **No User Input Forms:** There is no active contact form. The contact page uses static cards/links (if present). There is no active Formspree configuration (`formspreeId` is empty in `hugo.toml`).
 
 ---
 
@@ -297,7 +327,6 @@ Workflow: `.github/workflows/sync-pypi.yml`
 
 - The custom theme is named `techbend` and lives entirely under `themes/techbend/`
 - There are no project-level layout overrides in `/layouts/`
-- The `packages` content page (`content/packages.md`) uses a custom layout via front matter: `layout: "packages"`, which maps to `themes/techbend/layouts/packages/single.html`
 - The homepage (`layouts/index.html`) is a composition of partials only; it includes no direct markup
 - Custom assets are processed through Hugo pipelines:
   - CSS: 6 files are concatenated via `resources.Concat`, then minified and fingerprinted:
@@ -308,9 +337,9 @@ Workflow: `.github/workflows/sync-pypi.yml`
         | fingerprint }}
     ```
   - JS: `resources.Get "js/main.js" | resources.Minify | fingerprint`
-- Site parameters are exposed to JavaScript via an inline script in `partials/scripts.html` (e.g., `window.GITHUB_USER`, `window.PYPI_USER`)
+- Site parameters are exposed to JavaScript via an inline script in `baseof.html` (e.g., `window.GITHUB_USER`, `window.PYPI_USER`)
 - `theme.toml` specifies `min_version = "0.118.0"` for Hugo compatibility
-- **Light/Dark mode:** Controlled by `data-theme` attribute on `<html>`. DaisyUI provides both palettes. A `swap` checkbox with `theme-controller` class handles toggling, backed by `localStorage`.
+- **Light/Dark mode:** Controlled by `data-theme` attribute on `<html>`. A custom button (`#themeToggle`) swaps the attribute between `dark` and `light`, backed by `localStorage`. The active theme is also set via an inline script in `head.html` to prevent flash-of-unstyled-content.
 
 ---
 
@@ -322,9 +351,13 @@ Workflow: `.github/workflows/sync-pypi.yml`
 |-----------|-------|---------|
 | `baseURL` | `https://techbend.dev` | Production domain |
 | `theme` | `techbend` | Custom theme directory name |
+| `params.author` | `Ali Tavallaie` | Site author |
+| `params.description` | `AI Software Engineer & Open Source Maintainer` | Default meta description |
+| `params.gravatarEmail` | `a.tavallaie@gmail.com` | Gravatar email for avatar |
 | `params.github` | `tavallaie` | GitHub username for API calls |
 | `params.githubOrg` | `techbend` | GitHub org name |
 | `params.pypiUser` | `tavallaie` | PyPI username for scraping |
+| `params.email` | `ali@techbend.dev` | Contact email |
 | `params.calLink` | `https://cal.com/tavallaie` | Cal.com booking URL |
 | `params.sponsorLink` | `https://github.com/sponsors/tavallaie` | GitHub Sponsors URL |
 | `params.blogLink` | `https://blog.techbend.dev` | External blog link |
@@ -332,21 +365,23 @@ Workflow: `.github/workflows/sync-pypi.yml`
 | `params.showPyPI` | `true` | Toggle PyPI sections |
 | `params.showBooks` | `true` | Toggle books section |
 | `params.showResume` | `true` | Toggle resume page |
-| `params.showContact` | `true` | Toggle contact page |
 | `params.showSponsor` | `true` | Toggle sponsor button |
 | `params.showCalendar` | `true` | Toggle calendar/booking button |
 | `params.hero.name` | `Ali Tavallaie` | Hero section name |
-| `params.hero.subtitle` | `...` | Hero subtitle text |
+| `params.hero.subtitle` | (defaults to `description`) | Hero subtitle text |
 | `params.hero.statusText` | `Available for consulting` | Status badge text |
-| `params.hero.statusColor` | `success` | DaisyUI badge color for status |
+| `params.hero.statusColor` | `success` | Badge color for status |
+| `params.hero.avatarSize` | `200` | Avatar image size |
 | `params.sections.*.title` | various | Section headings |
 | `params.footer.columns` | array | Footer link columns (dynamic) |
-| `params.contact.cards` | array | Contact page cards (dynamic) |
+| `params.footer.copyright` | `Ali Tavallaie. Built with Hugo & caffeine.` | Footer copyright text |
+| `params.footer.showSponsor` | `true` | Toggle sponsor link in footer |
 
 ### `pyproject.toml`
 
 Python dependencies:
 - `beautifulsoup4>=4.14.3`
+- `clickhouse-connect>=0.15.1`
 - `db-dtypes>=1.5.1`
 - `google-cloud-bigquery>=3.41.0`
 - `pandas>=2.3.3`
@@ -363,11 +398,13 @@ Python dependencies:
 
 **Add a new content page:** Create a Markdown file in `content/` with front matter. It will automatically use `themes/techbend/layouts/_default/single.html` unless a custom layout is specified.
 
-**Modify styles:** Edit `themes/techbend/assets/css/main.css`. Only add styles for JS-injected components or prose content. For layout, spacing, colors, and UI components, use DaisyUI/Tailwind classes directly in templates.
+**Modify styles:** Edit the relevant module in `themes/techbend/assets/css/` (e.g., `components.css` for UI elements, `effects.css` for animations). Use existing CSS variables for colors and spacing. Only `main.css` is a placeholder — the actual CSS is concatenated via Hugo's pipeline in `head.html`.
 
 **Modify client-side behavior:** Edit `themes/techbend/assets/js/main.js`. The file is organized into discrete initialization functions called from a single `DOMContentLoaded` listener.
 
-**Add or update PyPI package tracking:** The package list is dynamically discovered by scraping the PyPI user page. No manual configuration is needed. If a package is missing, verify it appears on `https://pypi.org/user/tavallaie/` and re-run `sync_stats.py`.
+**Add or update PyPI package tracking:** The package list is dynamically discovered by scraping the PyPI user page. No manual configuration is needed. If a package is missing, verify it appears on `https://pypi.org/user/tavallaie/` and re-run `sync_stats_bigquery.py` or `sync_stats_clickpy.py`.
+
+**Regenerate the frontend manifest:** After updating GitHub or PyPI data, run `python scripts/generate_manifest.py` to update `static/data/manifest.json` with the latest combined data.
 
 **Update Hugo version:** Change `HUGO_VERSION` in `.github/workflows/hugo.yml` and update `min_version` in `themes/techbend/theme.toml` if necessary.
 
@@ -378,8 +415,7 @@ Python dependencies:
 ## Useful Links
 
 - Hugo documentation: https://gohugo.io/documentation/
-- DaisyUI documentation: https://daisyui.com/
-- Tailwind CSS documentation: https://tailwindcss.com/
 - BigQuery public PyPI dataset: https://console.cloud.google.com/marketplace/product/gcp-public-data-pypi
+- ClickPy (ClickHouse PyPI data): https://clickpy.clickhouse.com/
 - PyPI JSON API: https://docs.pypi.org/api/json/
 - GitHub API (users/repos): https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user

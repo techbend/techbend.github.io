@@ -28,8 +28,8 @@ theme = 'techbend'
   # Feature Toggles
   showGithub = true
   showPyPI = true
-  showBooks = true
-  showResume = true
+  showBooks = false
+  showResume = false
   showSponsor = true
   showCalendar = true
 
@@ -82,8 +82,6 @@ theme = 'techbend'
       title = 'Content'
       links = [
         { name = 'Projects', url = '/projects/' },
-        { name = 'Books', url = '/books/' },
-        { name = 'Resume', url = '/resume/' },
         { name = 'About', url = '/about/' }
       ]
 
@@ -97,15 +95,15 @@ theme = 'techbend'
     name = 'About'
     url = '/about/'
     weight = 20
-  [[menu.main]]
-    name = 'Books'
-    url = '/books/'
-    weight = 40
+  # [[menu.main]]
+  #   name = 'Books'
+  #   url = '/books/'
+  #   weight = 40
   [[menu.main]]
     name = 'Blog'
     url = 'https://blog.techbend.dev'
     weight = 45
-  [[menu.main]]
-    name = 'Resume'
-    url = '/resume/'
-    weight = 50
+  # [[menu.main]]
+  #   name = 'Resume'
+  #   url = '/resume/'
+  #   weight = 50
