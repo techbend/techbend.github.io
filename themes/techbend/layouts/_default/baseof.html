@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Language.Locale }}">
+
 <head>
   {{ partial "head.html" . }}
 </head>
+
 <body>
   {{ partial "header.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>
@@ -14,9 +16,10 @@
     window.PYPI_USER = '{{ .Site.Params.pypiUser }}';
     window.SHOW_SPONSOR = `{{ .Site.Params.showSponsor }}`;
     window.SHOW_CALENDAR = `{{ .Site.Params.showCalendar }}`;
-    window.PINNED_REPOS = {{ .Site.Params.pinnedRepos | default (slice) | jsonify }};
+    window.PINNED_REPOS = `{{ .Site.Params.pinnedRepos | default (slice) | jsonify }}`;
   </script>
   {{ $js := resources.Get "js/main.js" | resources.Minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 </body>
+
 </html>

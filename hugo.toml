@@ -8,7 +8,7 @@ theme = 'techbend'
 
 [params]
   author = 'Ali Tavallaie'
-  description = 'Python developer, open source maintainer, and builder of useful things.'
+  description = 'AI Software Engineer & Open Source Maintainer'
   gravatarEmail = 'a.tavallaie@gmail.com'
 
   # Social & External Accounts
@@ -38,7 +38,7 @@ theme = 'techbend'
   # Hero Section
   [params.hero]
     name = 'Ali Tavallaie'
-    subtitle = 'Python developer, open source maintainer, and builder of useful things.'
+    # subtitle defaults to params.description if not set
     statusText = 'Available for consulting'
     statusColor = 'success'
     avatarSize = 200
@@ -70,7 +70,7 @@ theme = 'techbend'
 
   # Footer Configuration
   [params.footer]
-    tagline = 'Python developer, open source maintainer, and builder of useful things.'
+    # tagline defaults to params.description if not set
     copyright = 'Ali Tavallaie. Built with Hugo & caffeine.'
     showSponsor = true
 

@@ -3,9 +3,9 @@
   <div class="container container-narrow">
     {{ if .Title }}
     <header class="mb-12 reveal">
-      <h1 style="margin-bottom:1rem;">{{ .Title }}</h1>
+      <h1 class="page-title">{{ .Title }}</h1>
       {{ if .Params.subtitle }}
-      <p style="font-size:1.125rem;">{{ .Params.subtitle }}</p>
+      <p class="page-subtitle">{{ .Params.subtitle }}</p>
       {{ end }}
     </header>
     {{ end }}

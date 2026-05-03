@@ -1,7 +1,8 @@
 <header class="site-nav" id="siteNav">
   <div class="container">
     <a href="/" class="nav-logo">
-      <span>⚡</span>
+      {{ $icon := resources.Get "Icons/favicon-32x32.png" }}
+      <img src="{{ $icon.RelPermalink }}" alt="" width="28" height="28" class="logo-icon">
       <span>TechBend</span>
     </a>
 
@@ -24,7 +25,7 @@
       {{ end }}
     </nav>
 
-    <div style="display:flex;align-items:center;gap:0.75rem;">
+    <div class="nav-actions">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <span id="themeIcon">🌙</span>
       </button>

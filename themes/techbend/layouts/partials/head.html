@@ -21,7 +21,12 @@
 {{ $css := slice $reset $tokens $base $layout $components $effects | resources.Concat "css/main.css" | resources.Minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+{{ $favicon32 := resources.Get "Icons/favicon-32x32.png" }}
+{{ $favicon16 := resources.Get "Icons/favicon-16x16.png" }}
+{{ $appleIcon := resources.Get "Icons/apple-touch-icon.png" }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleIcon.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
 
 <script>
   (function () {

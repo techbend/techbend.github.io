@@ -132,7 +132,6 @@ function initTypewriter() {
     } else {
       setTimeout(() => {
         el.style.borderRight = 'none';
-        el.style.whiteSpace = 'normal';
       }, 1000);
     }
   }

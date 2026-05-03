@@ -2,26 +2,26 @@
 <div class="section">
   <div class="container container-narrow">
     <header class="mb-12 reveal">
-      <h1 style="margin-bottom:1rem;">{{ .Title }}</h1>
+      <h1 class="page-title">{{ .Title }}</h1>
       {{ if .Params.description }}
-      <p style="font-size:1.125rem;">{{ .Params.description }}</p>
+      <p class="page-subtitle">{{ .Params.description }}</p>
       {{ end }}
     </header>
 
     <div class="flex flex-col gap-6 stagger-children">
       {{ range .Pages }}
       <article class="card spotlight-card reveal">
-        <div class="flex items-center gap-3" style="margin-bottom:0.75rem;font-size:0.875rem;color:var(--text-muted);">
+        <div class="list-meta">
           <time>{{ .Date.Format "Jan 2, 2006" }}</time>
           {{ if .Params.readingTime }}
           <span>•</span>
           <span>{{ .Params.readingTime }} min read</span>
           {{ end }}
         </div>
-        <h3 style="margin-bottom:0.5rem;">
+        <h3 class="list-title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h3>
-        <p style="font-size:0.95rem;">{{ .Params.description | default .Summary | truncate 200 }}</p>
+        <p class="list-desc">{{ .Params.description | default .Summary | truncate 200 }}</p>
       </article>
       {{ end }}
     </div>

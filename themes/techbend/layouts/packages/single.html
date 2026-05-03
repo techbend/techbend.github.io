@@ -2,16 +2,16 @@
 <section class="section">
   <div class="container">
     <header class="mb-12 reveal">
-      <h1 style="margin-bottom:1rem;">📦 Python Packages</h1>
-      <p style="font-size:1.125rem;">All {{ .Site.Params.pypiUser }}'s packages on PyPI with download statistics</p>
+      <h1 class="mb-4">📦 Python Packages</h1>
+      <p class="text-lg">All {{ .Site.Params.pypiUser }}'s packages on PyPI with download statistics</p>
     </header>
 
-    <div class="reveal mb-8" style="display:flex;flex-wrap:wrap;gap:1rem;">
-      <div style="flex:1;min-width:240px;">
+    <div class="reveal mb-8 packages-controls">
+      <div class="packages-search">
         <input type="text" id="packageSearch" placeholder="Search packages..." class="input" />
       </div>
-      <div>
-        <select id="packageSort" class="select" style="min-width:180px;">
+      <div class="packages-sort">
+        <select id="packageSort" class="select" aria-label="Sort packages by">
           <option value="downloads">Sort by Downloads</option>
           <option value="name">Sort by Name</option>
           <option value="recent">Sort by Recent</option>
@@ -19,13 +19,33 @@
       </div>
     </div>
 
-    <div class="reveal mb-4" style="font-size:0.875rem;color:var(--text-muted);" id="packagesTotal">Loading packages...</div>
+    <div class="reveal mb-4 packages-total" id="packagesTotal">Loading packages...</div>
 
     <div class="grid grid-3 gap-6 stagger-children" id="packagesAll">
-      <div class="card spotlight-card"><div class="skeleton" style="height:1.25rem;width:70%;margin-bottom:1rem;"></div><div class="skeleton" style="height:0.875rem;width:100%;margin-bottom:0.5rem;"></div><div class="skeleton" style="height:0.875rem;width:60%;margin-bottom:1.5rem;"></div><div class="skeleton" style="height:1.5rem;width:4rem;"></div></div>
-      <div class="card spotlight-card"><div class="skeleton" style="height:1.25rem;width:70%;margin-bottom:1rem;"></div><div class="skeleton" style="height:0.875rem;width:100%;margin-bottom:0.5rem;"></div><div class="skeleton" style="height:0.875rem;width:60%;margin-bottom:1.5rem;"></div><div class="skeleton" style="height:1.5rem;width:4rem;"></div></div>
-      <div class="card spotlight-card"><div class="skeleton" style="height:1.25rem;width:70%;margin-bottom:1rem;"></div><div class="skeleton" style="height:0.875rem;width:100%;margin-bottom:0.5rem;"></div><div class="skeleton" style="height:0.875rem;width:60%;margin-bottom:1.5rem;"></div><div class="skeleton" style="height:1.5rem;width:4rem;"></div></div>
-      <div class="card spotlight-card"><div class="skeleton" style="height:1.25rem;width:70%;margin-bottom:1rem;"></div><div class="skeleton" style="height:0.875rem;width:100%;margin-bottom:0.5rem;"></div><div class="skeleton" style="height:0.875rem;width:60%;margin-bottom:1.5rem;"></div><div class="skeleton" style="height:1.5rem;width:4rem;"></div></div>
+      <div class="card spotlight-card">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line-short"></div>
+        <div class="skeleton skeleton-badge"></div>
+      </div>
+      <div class="card spotlight-card">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line-short"></div>
+        <div class="skeleton skeleton-badge"></div>
+      </div>
+      <div class="card spotlight-card">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line-short"></div>
+        <div class="skeleton skeleton-badge"></div>
+      </div>
+      <div class="card spotlight-card">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line-short"></div>
+        <div class="skeleton skeleton-badge"></div>
+      </div>
     </div>
   </div>
 </section>
