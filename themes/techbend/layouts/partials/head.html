@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if and .Title (not .IsHome) }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
+<meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+
+<meta property="og:title" content="{{ .Title | default .Site.Title }}">
+<meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+{{ $reset := resources.Get "css/reset.css" }}
+{{ $tokens := resources.Get "css/tokens.css" }}
+{{ $base := resources.Get "css/base.css" }}
+{{ $layout := resources.Get "css/layout.css" }}
+{{ $components := resources.Get "css/components.css" }}
+{{ $effects := resources.Get "css/effects.css" }}
+{{ $css := slice $reset $tokens $base $layout $components $effects | resources.Concat "css/main.css" | resources.Minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+
+<script>
+  (function () {
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = saved || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>

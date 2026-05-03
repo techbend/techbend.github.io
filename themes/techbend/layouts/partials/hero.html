@@ -1,0 +1,81 @@
+<section class="section" style="min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:6rem;">
+  <!-- Aurora Background -->
+  <div class="aurora">
+    <div class="aurora-blob aurora-blob-1"></div>
+    <div class="aurora-blob aurora-blob-2"></div>
+    <div class="aurora-blob aurora-blob-3"></div>
+    <div class="grid-pattern"></div>
+  </div>
+
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="text-center" style="max-width:800px;margin:0 auto;">
+      <!-- Avatar -->
+      <div class="reveal" style="margin-bottom:1.5rem;display:flex;flex-direction:column;align-items:center;gap:0.75rem;">
+        <div style="width:120px;height:120px;border-radius:50%;overflow:hidden;border:2px solid var(--border);padding:4px;background:var(--bg-card);">
+          <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatarEmail }}?s=400&d=identicon" alt="{{ .Site.Params.hero.name }}" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" />
+        </div>
+        <div class="badge badge-success status-glow" style="background:var(--bg-card);border-color:var(--border);">
+          <span class="pulse-dot"></span>
+          {{ .Site.Params.hero.statusText }}
+        </div>
+      </div>
+
+      <!-- Name -->
+      <h1 class="reveal reveal-delay-1 gradient-text" style="font-size:clamp(3rem,8vw,5.5rem);margin-bottom:1.5rem;line-height:1;">
+        {{ .Site.Params.hero.name }}
+      </h1>
+
+      <!-- Subtitle with Typewriter -->
+      <div class="reveal reveal-delay-2" style="margin-bottom:2.5rem;min-height:3rem;">
+        <p style="font-size:clamp(1.1rem,2.5vw,1.5rem);color:var(--text-secondary);max-width:600px;margin:0 auto;" id="typewriterText">
+          {{ .Site.Params.hero.subtitle }}
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div class="reveal reveal-delay-3" style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.75rem;margin-bottom:3rem;">
+        {{ if .Site.Params.showCalendar }}
+        <a href="{{ .Site.Params.calLink }}" class="btn btn-primary" target="_blank" rel="noopener">
+          <span>📅</span> Book a Call
+        </a>
+        {{ end }}
+        <a href="https://github.com/{{ .Site.Params.github }}" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>💻</span> GitHub
+        </a>
+        <a href="https://pypi.org/user/{{ .Site.Params.pypiUser }}/" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>🐍</span> PyPI
+        </a>
+        {{ if .Site.Params.showSponsor }}
+        <a href="{{ .Site.Params.sponsorLink }}" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>❤️</span> Sponsor
+        </a>
+        {{ end }}
+        <a href="{{ .Site.Params.blogLink }}" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>📝</span> Blog
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="reveal reveal-delay-4 stagger-children" id="heroStats" style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
+        <div class="card card-glass" style="min-width:160px;text-align:center;">
+          <div class="skeleton" style="height:2rem;width:4rem;margin:0 auto 0.5rem;"></div>
+          <div class="skeleton" style="height:0.75rem;width:6rem;margin:0 auto;"></div>
+        </div>
+        <div class="card card-glass" style="min-width:160px;text-align:center;">
+          <div class="skeleton" style="height:2rem;width:4rem;margin:0 auto 0.5rem;"></div>
+          <div class="skeleton" style="height:0.75rem;width:6rem;margin:0 auto;"></div>
+        </div>
+        <div class="card card-glass" style="min-width:160px;text-align:center;">
+          <div class="skeleton" style="height:2rem;width:4rem;margin:0 auto 0.5rem;"></div>
+          <div class="skeleton" style="height:0.75rem;width:6rem;margin:0 auto;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</section>

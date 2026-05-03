@@ -1,29 +1,117 @@
 baseURL = 'https://techbend.dev'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'TechBend — Ali Tavallaie'
 theme = 'techbend'
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   author = 'Ali Tavallaie'
   description = 'Python developer, open source maintainer, and builder of useful things.'
-  gravatarEmail = 'tavallaie@example.com'
+  gravatarEmail = 'a.tavallaie@gmail.com'
+
+  # Social & External Accounts
   github = 'tavallaie'
   githubOrg = 'techbend'
+
+  # GitHub Pinned Repos (optional — if empty, shows top starred repos)
+  pinnedRepos = ['storyweaver', 'connectiva', 'devdock', 'pgmq', 'leanforge', 'woodsman']
   twitter = ''
   linkedin = ''
-  email = ''
+  email = 'ali@techbend.dev'
   calLink = 'https://cal.com/tavallaie'
   sponsorLink = 'https://github.com/sponsors/tavallaie'
   blogLink = 'https://blog.techbend.dev'
   pypiUser = 'tavallaie'
   formspreeId = ''
+
+  # Feature Toggles
   showGithub = true
   showPyPI = true
   showBooks = true
   showResume = true
   showContact = true
-  showSponsor = true
+  showSponsor = false
   showCalendar = true
+
+  # Hero Section
+  [params.hero]
+    name = 'Ali Tavallaie'
+    subtitle = 'Python developer, open source maintainer, and builder of useful things.'
+    statusText = 'Available for consulting'
+    statusColor = 'success'
+    avatarSize = 200
+
+  # Section Configuration
+  [params.sections]
+    [params.sections.github]
+      title = 'Pinned Projects'
+      icon = 'github'
+      viewAllText = 'View All'
+    [params.sections.pypi]
+      title = 'Top Python Libraries'
+      icon = 'package'
+      viewAllText = 'View All Packages'
+      viewAllUrl = '/packages/'
+    [params.sections.activity]
+      title = 'Latest Activity'
+      icon = 'activity'
+    [params.sections.books]
+      title = 'Books & Writing'
+      icon = 'book'
+      viewAllText = 'All Books'
+      viewAllUrl = '/books/'
+    [params.sections.booking]
+      title = "Let's Work Together"
+      icon = 'calendar'
+      description = 'Have a project in mind? Want to collaborate on open source? Pick a time that works for you.'
+      calLink = 'tavallaie'
+
+  # Footer Configuration
+  [params.footer]
+    tagline = 'Python developer, open source maintainer, and builder of useful things.'
+    copyright = 'Ali Tavallaie. Built with Hugo & caffeine.'
+    showSponsor = true
+
+    [[params.footer.columns]]
+      title = 'Connect'
+      links = [
+        { name = 'Personal GitHub', url = 'https://github.com/tavallaie', external = true },
+        { name = 'TechBend Org', url = 'https://github.com/techbend', external = true },
+        { name = 'PyPI', url = 'https://pypi.org/user/tavallaie/', external = true },
+        { name = 'Book a Call', url = 'https://cal.com/tavallaie', external = true }
+      ]
+    [[params.footer.columns]]
+      title = 'Content'
+      links = [
+        { name = 'Projects', url = '/projects/' },
+        { name = 'Books', url = '/books/' },
+        { name = 'Resume', url = '/resume/' },
+        { name = 'About', url = '/about/' }
+      ]
+
+  # Contact Page Cards
+  [[params.contact.cards]]
+    icon = '📅'
+    title = 'Book a Call'
+    description = 'Schedule a 30-min video call. Best for detailed discussions.'
+    action = 'Pick a time →'
+    url = 'https://cal.com/tavallaie'
+    external = true
+  [[params.contact.cards]]
+    icon = '❤️'
+    title = 'Sponsor'
+    description = 'Support my open source work through GitHub Sponsors.'
+    action = 'Become a sponsor →'
+    url = 'https://github.com/sponsors/tavallaie'
+    external = true
+  [[params.contact.cards]]
+    icon = '✉️'
+    title = 'Email'
+    description = 'For general inquiries and async communication.'
+    action = 'Send email →'
+    url = 'mailto:ali@techbend.dev'
 
 [menu]
   [[menu.main]]

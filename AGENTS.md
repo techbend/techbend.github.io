@@ -1,3 +1,4 @@
+<!-- From: /home/ali/projects/techbend.github.io/AGENTS.md -->
 # AGENTS.md — TechBend Developer Portal
 
 This file is the canonical reference for AI coding agents working on this repository. The project is a static personal developer portfolio and open-source showcase for Ali Tavallaie, deployed at `https://techbend.dev`.
@@ -27,14 +28,17 @@ There is no backend server at runtime; everything is either pre-built static HTM
 | Layer | Technology | Version / Notes |
 |-------|-----------|-----------------|
 | Static Site Generator | Hugo (Extended) | `0.125.0` (pinned in CI) |
-| Styling | SCSS | Compiled by Hugo's built-in Sass pipeline |
+| CSS Architecture | Custom CSS | Modular files: tokens, base, layout, components, effects |
+| CSS Features | Modern CSS | `@layer`, `@property`, CSS variables, `backdrop-filter`, container queries |
 | Frontend JS | Vanilla JavaScript | No frameworks, no build step beyond minification |
 | Python | CPython | `>=3.12` (specified in `pyproject.toml` and CI) |
 | Python Package Manager | `uv` | `uv.lock` present; virtualenv at `.venv/` |
 | Data Source | BigQuery Public Data | `bigquery-public-data.pypi.file_downloads` |
 | Hosting | GitHub Pages | Deployed via GitHub Actions |
 
-**Notably absent:** Node.js, npm, Docker, test frameworks, CSS frameworks (Bootstrap/Tailwind), or JS frameworks (React/Vue).
+**Notably absent:** Node.js, npm, Docker, test frameworks, or JS frameworks (React/Vue).
+
+> **Note on CSS Architecture:** The theme uses a fully custom CSS design system with no external CSS frameworks. Styles are split into logical modules (tokens, base, layout, components, effects) and concatenated via Hugo's `resources.Concat`. This provides complete creative control while keeping the build dependency-free.
 
 ---
 
@@ -55,25 +59,40 @@ There is no backend server at runtime; everything is either pre-built static HTM
 ├── env/                  # GCP service account key (local development only)
 ├── layouts/              # Project-level Hugo layouts (empty; theme provides all)
 ├── public/               # Hugo build output (generated; do not commit)
-├── resources/            # Hugo resource cache (SCSS → CSS, etc.)
+├── resources/            # Hugo resource cache
 ├── scripts/              # Python automation
 │   ├── discover_packages.py
 │   └── sync_stats.py
 ├── static/               # Static files served directly (empty at project level)
-├── themes/techbend/      # Custom Hugo theme (all layouts, SCSS, JS)
+├── themes/techbend/      # Custom Hugo theme (modular, DaisyUI-based)
 │   ├── assets/
-│   │   ├── css/main.scss
-│   │   └── js/main.js
+│   │   ├── css/
+│   │   │   ├── reset.css         # Modern CSS reset
+│   │   │   ├── tokens.css        # Design tokens (colors, spacing, typography)
+│   │   │   ├── base.css          # Base styles, typography, selection
+│   │   │   ├── layout.css        # Containers, grids, utilities
+│   │   │   ├── components.css    # Nav, buttons, cards, footer, forms, prose
+│   │   │   └── effects.css       # Aurora, glow, animations, spotlight, typewriter
+│   │   └── js/main.js            # Client-side interactions & data fetching
 │   ├── layouts/
 │   │   ├── _default/
-│   │   │   ├── baseof.html
-│   │   │   ├── list.html
-│   │   │   └── single.html
-│   │   ├── index.html
-│   │   ├── packages/single.html
-│   │   └── partials/
-│   │       ├── header.html
-│   │       └── footer.html
+│   │   │   ├── baseof.html       # Root layout
+│   │   │   ├── list.html         # List pages (books, etc.)
+│   │   │   └── single.html       # Single content pages
+│   │   ├── index.html            # Homepage (composes partials)
+│   │   ├── packages/
+│   │   │   └── single.html       # Packages listing page
+│   │   └── partials/             # Modular reusable components
+│   │       ├── head.html         # CSS concat via Hugo pipeline
+│   │       ├── header.html       # Fixed nav with scroll blur
+│   │       ├── footer.html       # Dynamic footer columns
+│   │       ├── hero.html         # Full-viewport hero with aurora
+│   │       └── sections/         # Homepage sections
+│   │           ├── github.html
+│   │           ├── pypi.html
+│   │           ├── activity.html
+│   │           ├── books.html
+│   │           └── booking.html
 │   └── theme.toml
 ├── .github/workflows/    # CI/CD definitions
 │   ├── hugo.yml          # Build and deploy to GitHub Pages
@@ -146,14 +165,23 @@ A local service account key exists at `env/techbend-89ea5a3e24a2.json` for devel
 - Prefer `where` and `first` for page queries (e.g., `{{ range first 3 (where .Site.RegularPages "Section" "books") }}`)
 - External menu links are detected with `hasPrefix .URL "http"` and receive `target="_blank" rel="noopener"`
 - Active nav state uses `$.IsMenuCurrent "main" .`
+- **Modular architecture:** The homepage (`index.html`) should only compose partials; no direct markup. Each section lives in `partials/sections/`.
+- **No hardcoded text:** All user-facing strings must come from `.Site.Params` or content front matter.
 
-### SCSS
+### CSS (Custom Design System)
 
-- Single-file architecture: all styles live in `themes/techbend/assets/css/main.scss`
-- CSS custom properties (variables) are defined on `:root` for the dark theme
-- BEM-like naming for component classes (e.g., `.hero-section`, `.pypi-grid`, `.stat-card`)
-- Mobile breakpoint is fixed at `768px`
-- The theme is dark-first; light mode toggling is handled by JavaScript setting `data-theme="light"` on `<html>`
+- **No external CSS frameworks.** All styles are hand-crafted in `themes/techbend/assets/css/`.
+- The CSS is split into 6 modules and concatenated via Hugo's `resources.Concat`:
+  1. `reset.css` — minimal modern reset
+  2. `tokens.css` — CSS custom properties for colors, spacing, typography, radii, shadows
+  3. `base.css` — body, headings, links, scrollbar, selection
+  4. `layout.css` — containers, grids, flex utilities, responsive breakpoints
+  5. `components.css` — nav, buttons, cards, badges, footer, forms, prose content
+  6. `effects.css` — aurora blobs, gradient text, spotlight hover, glow borders, reveal animations, shimmer skeletons, typewriter
+- Both `light` and `dark` themes are defined as complete token sets on `[data-theme="dark"]` and `[data-theme="light"]`.
+- Use CSS variables (`var(--bg)`, `var(--accent)`, etc.) for all colors and metrics.
+- Mobile breakpoint is at `768px`.
+- The `spotlight-card` class creates a radial gradient that follows the cursor on hover.
 
 ### JavaScript
 
@@ -161,7 +189,9 @@ A local service account key exists at `env/techbend-89ea5a3e24a2.json` for devel
 - Modular by function: each feature has an `init*` or `fetch*` function
 - Uses `DOMContentLoaded` event for initialization
 - Fetches public APIs: GitHub API, PyPI JSON API, and local `/data/manifest.json`
-- No external JS libraries are loaded
+- Theme toggle is a custom button that swaps `data-theme` between `dark` and `light`
+- Mobile menu toggles the `.open` class on `#mobileNav`
+- Scroll-triggered nav blur adds `.scrolled` to `#siteNav` when `scrollY > 20`
 
 ### Python
 
@@ -184,7 +214,7 @@ Manual verification steps:
 1. Run `hugo server -D` and visually inspect the site at `http://localhost:1313`
 2. Check browser console for JS errors after page load
 3. Verify theme toggle works (dark ↔ light)
-4. Verify mobile menu opens/closes at viewport width `< 768px`
+4. Verify mobile menu opens/closes at viewport width `< 1024px` (DaisyUI `lg:` breakpoint)
 5. Run `python scripts/discover_packages.py` and confirm it returns the expected package list
 6. Run `python scripts/sync_stats.py` (with valid GCP credentials) and verify JSON/CSV files are written to `data/`
 
@@ -265,12 +295,19 @@ Workflow: `.github/workflows/sync-pypi.yml`
 - The custom theme is named `techbend` and lives entirely under `themes/techbend/`
 - There are no project-level layout overrides in `/layouts/`
 - The `packages` content page (`content/packages.md`) uses a custom layout via front matter: `layout: "packages"`, which maps to `themes/techbend/layouts/packages/single.html`
-- The homepage (`layouts/index.html`) is the most complex template; it includes server-side skeleton HTML that is hydrated by client-side JavaScript
-- Assets are processed through Hugo pipelines:
-  - SCSS: `resources.Get "css/main.scss" | css.Sass | resources.Minify | fingerprint`
+- The homepage (`layouts/index.html`) is a composition of partials only; it includes no direct markup
+- Custom assets are processed through Hugo pipelines:
+  - CSS: 6 files are concatenated via `resources.Concat`, then minified and fingerprinted:
+    ```go
+    {{ $css := slice $reset $tokens $base $layout $components $effects
+        | resources.Concat "css/main.css"
+        | resources.Minify
+        | fingerprint }}
+    ```
   - JS: `resources.Get "js/main.js" | resources.Minify | fingerprint`
-- Site parameters are exposed to JavaScript via an inline script in `baseof.html` (e.g., `window.GITHUB_USER`, `window.PYPI_USER`)
+- Site parameters are exposed to JavaScript via an inline script in `partials/scripts.html` (e.g., `window.GITHUB_USER`, `window.PYPI_USER`)
 - `theme.toml` specifies `min_version = "0.118.0"` for Hugo compatibility
+- **Light/Dark mode:** Controlled by `data-theme` attribute on `<html>`. DaisyUI provides both palettes. A `swap` checkbox with `theme-controller` class handles toggling, backed by `localStorage`.
 
 ---
 
@@ -295,6 +332,13 @@ Workflow: `.github/workflows/sync-pypi.yml`
 | `params.showContact` | `true` | Toggle contact page |
 | `params.showSponsor` | `true` | Toggle sponsor button |
 | `params.showCalendar` | `true` | Toggle calendar/booking button |
+| `params.hero.name` | `Ali Tavallaie` | Hero section name |
+| `params.hero.subtitle` | `...` | Hero subtitle text |
+| `params.hero.statusText` | `Available for consulting` | Status badge text |
+| `params.hero.statusColor` | `success` | DaisyUI badge color for status |
+| `params.sections.*.title` | various | Section headings |
+| `params.footer.columns` | array | Footer link columns (dynamic) |
+| `params.contact.cards` | array | Contact page cards (dynamic) |
 
 ### `pyproject.toml`
 
@@ -309,11 +353,14 @@ Python dependencies:
 
 ## Common Tasks for Agents
 
-**Add a new section to the homepage:** Edit `themes/techbend/layouts/index.html` inside the `{{ define "main" }}` block. Follow the existing pattern of conditional rendering with `{{ if .Site.Params.showX }}`.
+**Add a new section to the homepage:**
+1. Create a new partial in `themes/techbend/layouts/partials/sections/my-section.html`
+2. Add corresponding params to `hugo.toml` under `[params.sections.mySection]`
+3. Include the partial in `themes/techbend/layouts/index.html`
 
 **Add a new content page:** Create a Markdown file in `content/` with front matter. It will automatically use `themes/techbend/layouts/_default/single.html` unless a custom layout is specified.
 
-**Modify styles:** Edit `themes/techbend/assets/css/main.scss`. The Hugo dev server will live-reload SCSS changes.
+**Modify styles:** Edit `themes/techbend/assets/css/main.css`. Only add styles for JS-injected components or prose content. For layout, spacing, colors, and UI components, use DaisyUI/Tailwind classes directly in templates.
 
 **Modify client-side behavior:** Edit `themes/techbend/assets/js/main.js`. The file is organized into discrete initialization functions called from a single `DOMContentLoaded` listener.
 
@@ -321,11 +368,15 @@ Python dependencies:
 
 **Update Hugo version:** Change `HUGO_VERSION` in `.github/workflows/hugo.yml` and update `min_version` in `themes/techbend/theme.toml` if necessary.
 
+**Change theme colors:** Edit `themes/techbend/assets/css/tokens.css`. Both `[data-theme="dark"]` and `[data-theme="light"]` have complete token sets. Modify any `--*` variable to change colors, spacing, or shadows across the entire site.
+
 ---
 
 ## Useful Links
 
 - Hugo documentation: https://gohugo.io/documentation/
+- DaisyUI documentation: https://daisyui.com/
+- Tailwind CSS documentation: https://tailwindcss.com/
 - BigQuery public PyPI dataset: https://console.cloud.google.com/marketplace/product/gcp-public-data-pypi
 - PyPI JSON API: https://docs.pypi.org/api/json/
 - GitHub API (users/repos): https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user

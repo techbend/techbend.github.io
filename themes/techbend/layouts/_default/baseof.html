@@ -1,44 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}" data-theme="dark">
-
+<html lang="{{ .Language.Locale }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if .Title }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
-    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
-    {{ $css := resources.Get "css/main.scss" | css.Sass | resources.Minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
-    <meta property="og:title" content="{{ .Title | default .Site.Title }}">
-    <meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <script>
-        window.GITHUB_USER = '{{ .Site.Params.github }}';
-        window.GITHUB_ORG = '{{ .Site.Params.githubOrg }}';
-        window.PYPI_USER = '{{ .Site.Params.pypiUser }}';
-        window.SHOW_SPONSOR = `{{ .Site.Params.showSponsor }}`;
-        window.SHOW_CALENDAR = `{{ .Site.Params.showCalendar }}`;
-        (function () {
-            const saved = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
-        })();
-    </script>
+  {{ partial "head.html" . }}
 </head>
-
 <body>
-    {{ partial "header.html" . }}
-    <main>{{ block "main" . }}{{ end }}</main>
-    {{ partial "footer.html" . }}
-    {{ $js := resources.Get "js/main.js" | resources.Minify | fingerprint }}
-    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-</body>
+  {{ partial "header.html" . }}
+  <main>{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
 
+  <script>
+    window.GITHUB_USER = '{{ .Site.Params.github }}';
+    window.GITHUB_ORG = '{{ .Site.Params.githubOrg }}';
+    window.PYPI_USER = '{{ .Site.Params.pypiUser }}';
+    window.SHOW_SPONSOR = `{{ .Site.Params.showSponsor }}`;
+    window.SHOW_CALENDAR = `{{ .Site.Params.showCalendar }}`;
+    window.PINNED_REPOS = {{ .Site.Params.pinnedRepos | default (slice) | jsonify }};
+  </script>
+  {{ $js := resources.Get "js/main.js" | resources.Minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+</body>
 </html>

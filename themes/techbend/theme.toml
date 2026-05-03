@@ -1,10 +1,10 @@
 name = 'TechBend'
 license = 'MIT'
 licenselink = 'https://github.com/techbend/techbend.github.io/blob/main/LICENSE'
-description = 'Minimal dark theme for techbend.dev'
+description = 'Nebula — A premium dark/light Hugo theme with aurora effects, glassmorphism, and smooth animations'
 homepage = 'https://techbend.dev'
-tags = ['portfolio', 'dark', 'minimal']
-features = ['responsive', 'dark-mode']
+tags = ['portfolio', 'dark', 'light', 'minimal', 'responsive', 'glassmorphism']
+features = ['responsive', 'dark-mode', 'aurora-effects', 'glassmorphism', 'scroll-animations']
 min_version = '0.118.0'
 
 [author]
