@@ -1,4 +1,10 @@
 <meta charset="UTF-8">
+{{ $favicon32 := resources.Get "Icons/favicon-32x32.png" }}
+{{ $favicon16 := resources.Get "Icons/favicon-16x16.png" }}
+{{ $appleIcon := resources.Get "Icons/apple-touch-icon.png" }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleIcon.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if and .Title (not .IsHome) }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
 <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
@@ -10,7 +16,9 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+  rel="stylesheet">
 
 {{ $reset := resources.Get "css/reset.css" }}
 {{ $tokens := resources.Get "css/tokens.css" }}
@@ -18,15 +26,9 @@
 {{ $layout := resources.Get "css/layout.css" }}
 {{ $components := resources.Get "css/components.css" }}
 {{ $effects := resources.Get "css/effects.css" }}
-{{ $css := slice $reset $tokens $base $layout $components $effects | resources.Concat "css/main.css" | resources.Minify | fingerprint }}
+{{ $css := slice $reset $tokens $base $layout $components $effects | resources.Concat "css/main.css" | resources.Minify
+| fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-
-{{ $favicon32 := resources.Get "Icons/favicon-32x32.png" }}
-{{ $favicon16 := resources.Get "Icons/favicon-16x16.png" }}
-{{ $appleIcon := resources.Get "Icons/apple-touch-icon.png" }}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleIcon.RelPermalink }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
 
 <script>
   (function () {
