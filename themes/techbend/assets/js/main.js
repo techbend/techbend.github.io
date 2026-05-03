@@ -152,7 +152,7 @@ async function fetchHeroStats() {
   try {
     const [githubResp, pypiResp] = await Promise.all([
       fetch(`https://api.github.com/users/${username}`),
-      fetch('/data/manifest.json').catch(() => null)
+      fetch('/data/pypi.json').catch(() => null)
     ]);
 
     const github = githubResp.ok ? await githubResp.json() : {};
@@ -190,30 +190,20 @@ async function fetchGitHubPinned() {
   if (!container) return;
 
   const username = window.GITHUB_USER || 'tavallaie';
-  const pinned = window.PINNED_REPOS || [];
 
   try {
-    let repos = [];
+    const response = await fetch('/data/github.json');
+    if (!response.ok) throw new Error('Failed to load github.json');
 
-    if (pinned.length > 0) {
-      // Fetch specific pinned repos
-      const responses = await Promise.all(
-        pinned.map(name => fetch(`https://api.github.com/repos/${username}/${name}`).catch(() => null))
-      );
-      repos = (await Promise.all(responses.map(r => r?.ok ? r.json() : null))).filter(Boolean);
-    } else {
-      // Fallback: top starred repos
-      const response = await fetch(`https://api.github.com/users/${username}/repos?sort=stars&direction=desc&per_page=6`);
-      if (!response.ok) throw new Error('GitHub API error');
-      repos = await response.json();
-    }
+    const data = await response.json();
+    const repos = data.repos || [];
 
     if (repos.length === 0) {
       container.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text-muted);">No repositories found.</p>';
       return;
     }
 
-    const cards = repos.slice(0, 6).map(repo => `
+    const cards = repos.map(repo => `
       <div class="card spotlight-card glow-border">
         <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.75rem;">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="color:var(--text-muted);flex-shrink:0;"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/></svg>
@@ -251,7 +241,7 @@ async function fetchPyPITop6() {
   if (!container) return;
 
   try {
-    const manifestResp = await fetch('/data/manifest.json');
+    const manifestResp = await fetch('/data/pypi.json');
     let packages = [];
 
     if (manifestResp.ok) {
@@ -291,7 +281,7 @@ async function fetchAllPackages() {
   if (!container) return;
 
   try {
-    const manifestResp = await fetch('/data/manifest.json');
+    const manifestResp = await fetch('/data/pypi.json');
     let packages = [];
 
     if (manifestResp.ok) {

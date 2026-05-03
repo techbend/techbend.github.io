@@ -17,7 +17,7 @@ This repository produces a Hugo-based static site that serves as:
 The site is split into two distinct systems:
 
 1. **Hugo Static Site** (`content/`, `themes/`, `layouts/`, `public/`)
-2. **Python Data Pipeline** (`scripts/`, `data/`) — syncs PyPI download statistics from BigQuery
+2. **Python Data Pipeline** (`scripts/`, `static/data/`) — syncs PyPI download statistics from BigQuery
 
 There is no backend server at runtime; everything is either pre-built static HTML or client-side JavaScript fetching public APIs.
 
@@ -55,7 +55,10 @@ There is no backend server at runtime; everything is either pre-built static HTM
 │   ├── resume.md
 │   └── books/
 │       └── _index.md
-├── data/                 # PyPI statistics — JSON + CSV per package + manifest.json
+├── static/data/          # Generated data files
+│   ├── github.json       # GitHub profile & pinned repos
+│   ├── pypi.json         # PyPI package manifest
+│   └── pypi/             # Per-package JSON + CSV stats
 ├── env/                  # GCP service account key (local development only)
 ├── layouts/              # Project-level Hugo layouts (empty; theme provides all)
 ├── public/               # Hugo build output (generated; do not commit)
@@ -188,7 +191,7 @@ A local service account key exists at `env/techbend-89ea5a3e24a2.json` for devel
 - Single-file architecture: all client JS lives in `themes/techbend/assets/js/main.js`
 - Modular by function: each feature has an `init*` or `fetch*` function
 - Uses `DOMContentLoaded` event for initialization
-- Fetches public APIs: GitHub API, PyPI JSON API, and local `/data/manifest.json`
+- Fetches public APIs: GitHub API, PyPI JSON API, and local `/data/pypi.json` (served from `static/data/')
 - Theme toggle is a custom button that swaps `data-theme` between `dark` and `light`
 - Mobile menu toggles the `.open` class on `#mobileNav`
 - Scroll-triggered nav blur adds `.scrolled` to `#siteNav` when `scrollY > 20`
@@ -216,7 +219,7 @@ Manual verification steps:
 3. Verify theme toggle works (dark ↔ light)
 4. Verify mobile menu opens/closes at viewport width `< 1024px` (DaisyUI `lg:` breakpoint)
 5. Run `python scripts/discover_packages.py` and confirm it returns the expected package list
-6. Run `python scripts/sync_stats.py` (with valid GCP credentials) and verify JSON/CSV files are written to `data/`
+6. Run `python scripts/sync_stats.py` (with valid GCP credentials) and verify JSON/CSV files are written to `static/data/`
 
 ---
 
@@ -233,17 +236,17 @@ for package names         (pypi.file_downloads)
        │                            │
        └────────────┬───────────────┘
                     ▼
-            data/{package}.json
-            data/{package}.csv
+            static/data/pypi/{package}.json
+            static/data/pypi/{package}.csv
                     │
                     ▼
-            data/manifest.json
+            static/data/pypi.json
 ```
 
 - `discover_packages.py` scrapes `https://pypi.org/user/tavallaie/` using `requests` + `BeautifulSoup`
-- `sync_stats.py` queries `bigquery-public-data.pypi.file_downloads` with date-range chunking (max 6 months per query, 2 years of history)
+- `sync_stats.py` queries `bigquery-public-data.pypi.file_downloads` with smart incremental sync: discovers each package's first/last download date, then on subsequent runs only fetches new days
 - Output columns: `day`, `version`, `system`, `python_version`, `installer`, `downloads`
-- `manifest.json` aggregates totals and date ranges per package
+- `pypi.json` aggregates totals and date ranges per package
 
 This pipeline runs automatically via `.github/workflows/sync-pypi.yml` every day at 06:00 UTC.
 
@@ -275,7 +278,7 @@ Workflow: `.github/workflows/sync-pypi.yml`
 3. Write GCP service account key from `secrets.GCP_SA_KEY` to `/tmp/gcp-key.json`
 4. Run `python scripts/sync_stats.py`
 5. Clean up credentials (runs `always()`)
-6. Commit and push changes in `data/` directory with bot identity
+6. Commit and push changes in `static/data/` directory with bot identity
 
 ---
 

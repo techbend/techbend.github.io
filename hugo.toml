@@ -15,8 +15,7 @@ theme = 'techbend'
   github = 'tavallaie'
   githubOrg = 'techbend'
 
-  # GitHub Pinned Repos (optional — if empty, shows top starred repos)
-  pinnedRepos = ['storyweaver', 'connectiva', 'devdock', 'pgmq', 'leanforge', 'woodsman']
+
   twitter = ''
   linkedin = ''
   email = 'ali@techbend.dev'

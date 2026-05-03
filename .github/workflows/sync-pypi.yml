@@ -38,6 +38,6 @@ jobs:
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git add data/
+                  git add static/data/
                   git diff --quiet && git diff --staged --quiet || git commit -m "Update PyPI stats $(date +%Y-%m-%d)"
                   git push
