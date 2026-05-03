@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 description: "Open source Python libraries and tools I've built."
+draft: true
 ---
 
 My projects span developer tooling, database utilities, and productivity enhancers.

@@ -30,8 +30,7 @@ theme = 'techbend'
   showPyPI = true
   showBooks = true
   showResume = true
-  showContact = true
-  showSponsor = false
+  showSponsor = true
   showCalendar = true
 
   # Hero Section
@@ -51,8 +50,6 @@ theme = 'techbend'
     [params.sections.pypi]
       title = 'Top Python Libraries'
       icon = 'package'
-      viewAllText = 'View All Packages'
-      viewAllUrl = '/packages/'
     [params.sections.activity]
       title = 'Latest Activity'
       icon = 'activity'
@@ -91,27 +88,6 @@ theme = 'techbend'
       ]
 
   # Contact Page Cards
-  [[params.contact.cards]]
-    icon = '📅'
-    title = 'Book a Call'
-    description = 'Schedule a 30-min video call. Best for detailed discussions.'
-    action = 'Pick a time →'
-    url = 'https://cal.com/tavallaie'
-    external = true
-  [[params.contact.cards]]
-    icon = '❤️'
-    title = 'Sponsor'
-    description = 'Support my open source work through GitHub Sponsors.'
-    action = 'Become a sponsor →'
-    url = 'https://github.com/sponsors/tavallaie'
-    external = true
-  [[params.contact.cards]]
-    icon = '✉️'
-    title = 'Email'
-    description = 'For general inquiries and async communication.'
-    action = 'Send email →'
-    url = 'mailto:ali@techbend.dev'
-
 [menu]
   [[menu.main]]
     name = 'Home'
@@ -121,10 +97,6 @@ theme = 'techbend'
     name = 'About'
     url = '/about/'
     weight = 20
-  [[menu.main]]
-    name = 'Projects'
-    url = '/projects/'
-    weight = 30
   [[menu.main]]
     name = 'Books'
     url = '/books/'
@@ -137,7 +109,3 @@ theme = 'techbend'
     name = 'Resume'
     url = '/resume/'
     weight = 50
-  [[menu.main]]
-    name = 'Contact'
-    url = '/contact/'
-    weight = 60
