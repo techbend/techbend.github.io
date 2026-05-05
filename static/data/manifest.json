@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T08:17:29.015107+00:00",
-  "public_repos": 118,
-  "contributions_last_year": 477,
+  "updated_at": "2026-05-05T07:54:32.501143+00:00",
+  "public_repos": 120,
+  "contributions_last_year": 493,
   "pinned_projects": [
     {
       "name": "pgmq",
@@ -10,15 +10,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 4828,
+      "stargazers_count": 4831,
       "forks_count": 137,
-      "open_issues_count": 40,
+      "open_issues_count": 36,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-05-03T15:35:46Z",
+      "updated_at": "2026-05-05T04:12:47Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 72564,
+      "stargazers_count": 72579,
       "forks_count": 34549,
-      "open_issues_count": 9354,
+      "open_issues_count": 9284,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-05-04T08:07:29Z",
+      "updated_at": "2026-05-05T07:50:09Z",
       "archived": false,
       "fork": false
     },
@@ -46,7 +46,7 @@
       "html_url": "https://github.com/ChuckHend/pg_vectorize",
       "description": "Full-text and semantic search on any Postgres",
       "language": "Rust",
-      "stargazers_count": 832,
+      "stargazers_count": 831,
       "forks_count": 39,
       "open_issues_count": 6,
       "topics": [
@@ -56,7 +56,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-05-02T14:59:21Z",
+      "updated_at": "2026-05-04T15:19:39Z",
       "archived": false,
       "fork": false
     },
@@ -67,13 +67,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 494,
+      "stargazers_count": 496,
       "forks_count": 48,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-04-30T12:18:42Z",
+      "updated_at": "2026-05-05T03:10:20Z",
       "archived": false,
       "fork": false
     },
@@ -106,310 +106,18 @@
       "language": "Python",
       "stargazers_count": 58,
       "forks_count": 8,
-      "open_issues_count": 5,
+      "open_issues_count": 4,
       "topics": [
         "postgresql",
         "python"
       ],
       "homepage": "https://pgmq.github.io/pgmq-py/",
       "created_at": "2025-08-19T13:38:53Z",
-      "updated_at": "2026-04-30T13:14:33Z",
+      "updated_at": "2026-05-04T20:24:52Z",
       "archived": false,
       "fork": false
     }
   ],
-  "packages": [
-    {
-      "name": "adjspecies3",
-      "first_seen": "2020-06-04",
-      "total_downloads": 6199,
-      "data_points": 1844,
-      "date_range": {
-        "from": "2020-06-04",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "auto-dns",
-      "first_seen": "2023-07-28",
-      "total_downloads": 7346,
-      "data_points": 1596,
-      "date_range": {
-        "from": "2023-07-28",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "connectiva",
-      "first_seen": "2024-08-03",
-      "total_downloads": 4226,
-      "data_points": 514,
-      "date_range": {
-        "from": "2024-08-03",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "devdock",
-      "first_seen": "2024-05-31",
-      "total_downloads": 4198,
-      "data_points": 1018,
-      "date_range": {
-        "from": "2024-05-31",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "djangowiz",
-      "first_seen": "2024-05-14",
-      "total_downloads": 5941,
-      "data_points": 1541,
-      "date_range": {
-        "from": "2024-05-14",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "ezkernel",
-      "first_seen": "2024-03-09",
-      "total_downloads": 2438,
-      "data_points": 597,
-      "date_range": {
-        "from": "2024-03-09",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "galactipedia",
-      "first_seen": "2026-02-09",
-      "total_downloads": 546,
-      "data_points": 72,
-      "date_range": {
-        "from": "2026-02-09",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "hyper-mirror",
-      "first_seen": "2026-02-13",
-      "total_downloads": 541,
-      "data_points": 70,
-      "date_range": {
-        "from": "2026-02-13",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "leanforge",
-      "first_seen": "2023-08-04",
-      "total_downloads": 2578,
-      "data_points": 706,
-      "date_range": {
-        "from": "2023-08-04",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "mirava",
-      "first_seen": "2026-02-13",
-      "total_downloads": 965,
-      "data_points": 124,
-      "date_range": {
-        "from": "2026-02-13",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "nemosyne",
-      "first_seen": "2021-06-25",
-      "total_downloads": 4240,
-      "data_points": 1228,
-      "date_range": {
-        "from": "2021-06-25",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "pgmq",
-      "first_seen": "2022-09-22",
-      "total_downloads": 55951,
-      "data_points": 3185,
-      "date_range": {
-        "from": "2022-09-22",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "pgpx",
-      "first_seen": "2024-10-18",
-      "total_downloads": 3276,
-      "data_points": 410,
-      "date_range": {
-        "from": "2024-10-18",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "pgxm",
-      "first_seen": "2025-09-21",
-      "total_downloads": 749,
-      "data_points": 166,
-      "date_range": {
-        "from": "2025-09-21",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "pychartjs",
-      "first_seen": "2017-05-27",
-      "total_downloads": 29906,
-      "data_points": 12864,
-      "date_range": {
-        "from": "2017-05-27",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "pyreveal",
-      "first_seen": "2023-09-29",
-      "total_downloads": 4702,
-      "data_points": 1197,
-      "date_range": {
-        "from": "2023-09-29",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "safarnama",
-      "first_seen": "2025-02-26",
-      "total_downloads": 9832,
-      "data_points": 2118,
-      "date_range": {
-        "from": "2025-02-26",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "storyweaver",
-      "first_seen": "2024-05-29",
-      "total_downloads": 1861,
-      "data_points": 487,
-      "date_range": {
-        "from": "2024-05-29",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "takumitools",
-      "first_seen": "2024-05-29",
-      "total_downloads": 1934,
-      "data_points": 490,
-      "date_range": {
-        "from": "2024-05-29",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "transmutate",
-      "first_seen": "2024-08-04",
-      "total_downloads": 6108,
-      "data_points": 1160,
-      "date_range": {
-        "from": "2024-08-04",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "trunco",
-      "first_seen": "2024-08-14",
-      "total_downloads": 9114,
-      "data_points": 1650,
-      "date_range": {
-        "from": "2024-08-14",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "trunco-core",
-      "first_seen": "2025-02-28",
-      "total_downloads": 1934,
-      "data_points": 477,
-      "date_range": {
-        "from": "2025-02-28",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "woodsman",
-      "first_seen": "2025-02-25",
-      "total_downloads": 1956,
-      "data_points": 463,
-      "date_range": {
-        "from": "2025-02-25",
-        "to": "2026-05-03"
-      }
-    }
-  ],
-  "top_packages": [
-    {
-      "name": "pgmq",
-      "first_seen": "2022-09-22",
-      "total_downloads": 55951,
-      "data_points": 3185,
-      "date_range": {
-        "from": "2022-09-22",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "pychartjs",
-      "first_seen": "2017-05-27",
-      "total_downloads": 29906,
-      "data_points": 12864,
-      "date_range": {
-        "from": "2017-05-27",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "safarnama",
-      "first_seen": "2025-02-26",
-      "total_downloads": 9832,
-      "data_points": 2118,
-      "date_range": {
-        "from": "2025-02-26",
-        "to": "2026-05-02"
-      }
-    },
-    {
-      "name": "trunco",
-      "first_seen": "2024-08-14",
-      "total_downloads": 9114,
-      "data_points": 1650,
-      "date_range": {
-        "from": "2024-08-14",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "auto-dns",
-      "first_seen": "2023-07-28",
-      "total_downloads": 7346,
-      "data_points": 1596,
-      "date_range": {
-        "from": "2023-07-28",
-        "to": "2026-05-03"
-      }
-    },
-    {
-      "name": "adjspecies3",
-      "first_seen": "2020-06-04",
-      "total_downloads": 6199,
-      "data_points": 1844,
-      "date_range": {
-        "from": "2020-06-04",
-        "to": "2026-05-03"
-      }
-    }
-  ]
+  "packages": [],
+  "top_packages": []
 }
