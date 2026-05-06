@@ -244,13 +244,16 @@ async function fetchPyPITop6() {
       return;
     }
 
-    const cards = await Promise.all(packages.map(async (pkg) => {
+    const cards = packages.map((pkg) => {
       const pkgName = typeof pkg === 'string' ? pkg : pkg.name;
       const totalDownloads = typeof pkg === 'object' ? pkg.total_downloads : null;
-      return await fetchPackageCard(pkgName, totalDownloads);
-    }));
+      const version = typeof pkg === 'object' ? pkg.version : null;
+      const summary = typeof pkg === 'object' ? pkg.summary : null;
+      const requiresPython = typeof pkg === 'object' ? pkg.requires_python : null;
+      return renderPackageCard(pkgName, totalDownloads, version, summary, requiresPython);
+    });
 
-    container.innerHTML = cards.filter(c => c).join('');
+    container.innerHTML = cards.join('');
     initSpotlightCards();
   } catch (error) {
     console.error('PyPI top 6 error:', error);
@@ -259,36 +262,28 @@ async function fetchPyPITop6() {
 }
 
 // ============================================
-// All Packages Page
+// Package Card Renderer
 // ============================================
-async function fetchPackageCard(packageName, knownDownloads = null, showDetails = false) {
-  try {
-    const response = await fetch(`https://pypi.org/pypi/${packageName}/json`);
-    if (!response.ok) return null;
+function renderPackageCard(packageName, knownDownloads = null, version = null, summary = null, requiresPython = null) {
+  const downloads = knownDownloads !== null ? formatNumber(knownDownloads) : '—';
+  const displayVersion = version || '—';
+  const displaySummary = summary || 'No description available.';
 
-    const data = await response.json();
-    const info = data.info;
-    const downloads = knownDownloads !== null ? formatNumber(knownDownloads) : '—';
-
-    return `
-      <div class="card spotlight-card glow-border" style="display:flex;flex-direction:column;height:100%;">
-        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
-          <h3 style="font-family:var(--font-mono);font-size:1rem;">
-            <a href="https://pypi.org/project/${packageName}/" target="_blank" rel="noopener" style="color:var(--text);">${packageName}</a>
-          </h3>
-          <span style="font-size:0.7rem;padding:0.2rem 0.6rem;background:var(--bg-hover);border-radius:999px;color:var(--text-muted);font-family:var(--font-mono);">v${info.version}</span>
-        </div>
-        <p style="flex:1;font-size:0.875rem;color:var(--text-secondary);margin-bottom:1rem;line-height:1.5;">${info.summary || 'No description available.'}</p>
-        ${showDetails ? `<div style="display:flex;gap:1rem;font-size:0.8rem;color:var(--text-muted);margin-bottom:1rem;"><span>🐍 ${info.requires_python || 'Any'}</span></div>` : ''}
-        <div style="padding-top:1rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;margin-top:auto;">
-          <span style="font-family:var(--font-mono);font-size:1.25rem;font-weight:700;color:var(--accent-light);">${downloads}</span>
-          <span style="font-size:0.75rem;color:var(--text-muted);">total downloads</span>
-        </div>
+  return `
+    <div class="card spotlight-card glow-border" style="display:flex;flex-direction:column;height:100%;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
+        <h3 style="font-family:var(--font-mono);font-size:1rem;">
+          <a href="https://pypi.org/project/${packageName}/" target="_blank" rel="noopener" style="color:var(--text);">${packageName}</a>
+        </h3>
+        <span style="font-size:0.7rem;padding:0.2rem 0.6rem;background:var(--bg-hover);border-radius:999px;color:var(--text-muted);font-family:var(--font-mono);">v${displayVersion}</span>
       </div>
-    `;
-  } catch (error) {
-    return null;
-  }
+      <p style="flex:1;font-size:0.875rem;color:var(--text-secondary);margin-bottom:1rem;line-height:1.5;">${displaySummary}</p>
+      <div style="padding-top:1rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;margin-top:auto;">
+        <span style="font-family:var(--font-mono);font-size:1.25rem;font-weight:700;color:var(--accent-light);">${downloads}</span>
+        <span style="font-size:0.75rem;color:var(--text-muted);">total downloads</span>
+      </div>
+    </div>
+  `;
 }
 
 // ============================================

@@ -14,6 +14,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
+
 GITHUB_JSON_PATH = Path("static/data/github.json")
 PYPI_JSON_PATH = Path("static/data/pypi.json")
 MANIFEST_JSON_PATH = Path("static/data/manifest.json")
@@ -26,13 +28,40 @@ def load_json(path: Path) -> dict | list:
         return json.load(f)
 
 
+def fetch_pypi_metadata(package_name: str) -> dict:
+    """Fetch version and summary from PyPI JSON API."""
+    try:
+        resp = requests.get(
+            f"https://pypi.org/pypi/{package_name}/json",
+            headers={"User-Agent": "TechBend-Manifest/1.0"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        info = resp.json().get("info", {})
+        return {
+            "version": info.get("version", ""),
+            "summary": info.get("summary", ""),
+            "requires_python": info.get("requires_python", ""),
+        }
+    except Exception:
+        return {}
+
+
 def get_top_packages(pypi_data: dict, count: int = TOP_PACKAGES_COUNT) -> list[dict]:
-    """Return the top N packages by total_downloads."""
+    """Return the top N packages by total_downloads, enriched with PyPI metadata."""
     packages = pypi_data.get("packages", [])
     sorted_packages = sorted(
         packages, key=lambda p: p.get("total_downloads", 0), reverse=True
     )
-    return sorted_packages[:count]
+    top = sorted_packages[:count]
+
+    for pkg in top:
+        meta = fetch_pypi_metadata(pkg["name"])
+        pkg["version"] = meta.get("version", "")
+        pkg["summary"] = meta.get("summary", "")
+        pkg["requires_python"] = meta.get("requires_python", "")
+
+    return top
 
 
 def generate_manifest() -> dict:

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T10:07:27.789654+00:00",
+  "updated_at": "2026-05-06T10:28:06.965934+00:00",
   "public_repos": 120,
   "contributions_last_year": 497,
   "pinned_projects": [
@@ -127,7 +127,10 @@
       "date_range": {
         "from": "2020-06-04",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.1.4",
+      "summary": "",
+      "requires_python": ""
     },
     {
       "name": "auto-dns",
@@ -137,7 +140,10 @@
       "date_range": {
         "from": "2023-07-28",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.1.2",
+      "summary": "A DNS Python Library.",
+      "requires_python": ">=3.10,<4.0"
     },
     {
       "name": "connectiva",
@@ -237,7 +243,10 @@
       "date_range": {
         "from": "2022-09-22",
         "to": "2026-05-05"
-      }
+      },
+      "version": "1.1.1",
+      "summary": "Python client for the PGMQ Postgres extension.",
+      "requires_python": ">=3.10"
     },
     {
       "name": "pgpx",
@@ -267,7 +276,10 @@
       "date_range": {
         "from": "2017-05-27",
         "to": "2026-05-05"
-      }
+      },
+      "version": "1.0.0",
+      "summary": "git@github.com:tavallaie/pychartjs.git",
+      "requires_python": "<4.0,>=3.8"
     },
     {
       "name": "pyreveal",
@@ -287,7 +299,10 @@
       "date_range": {
         "from": "2025-02-26",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.2.2",
+      "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
+      "requires_python": ">=3.10"
     },
     {
       "name": "storyweaver",
@@ -327,7 +342,10 @@
       "date_range": {
         "from": "2024-08-14",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.3.1",
+      "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
+      "requires_python": "<4.0,>=3.8"
     },
     {
       "name": "trunco-core",
@@ -369,7 +387,10 @@
       "date_range": {
         "from": "2022-09-22",
         "to": "2026-05-05"
-      }
+      },
+      "version": "1.1.1",
+      "summary": "Python client for the PGMQ Postgres extension.",
+      "requires_python": ">=3.10"
     },
     {
       "name": "pychartjs",
@@ -379,7 +400,10 @@
       "date_range": {
         "from": "2017-05-27",
         "to": "2026-05-05"
-      }
+      },
+      "version": "1.0.0",
+      "summary": "git@github.com:tavallaie/pychartjs.git",
+      "requires_python": "<4.0,>=3.8"
     },
     {
       "name": "safarnama",
@@ -389,7 +413,10 @@
       "date_range": {
         "from": "2025-02-26",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.2.2",
+      "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
+      "requires_python": ">=3.10"
     },
     {
       "name": "trunco",
@@ -399,7 +426,10 @@
       "date_range": {
         "from": "2024-08-14",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.3.1",
+      "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
+      "requires_python": "<4.0,>=3.8"
     },
     {
       "name": "auto-dns",
@@ -409,7 +439,10 @@
       "date_range": {
         "from": "2023-07-28",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.1.2",
+      "summary": "A DNS Python Library.",
+      "requires_python": ">=3.10,<4.0"
     },
     {
       "name": "adjspecies3",
@@ -419,7 +452,10 @@
       "date_range": {
         "from": "2020-06-04",
         "to": "2026-05-05"
-      }
+      },
+      "version": "0.1.4",
+      "summary": "",
+      "requires_python": ""
     }
   ]
 }
