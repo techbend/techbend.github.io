@@ -12,12 +12,13 @@ from pathlib import Path
 import pandas as pd
 import clickhouse_connect
 
-from discover_packages import get_pypi_packages
-
 # Configuration
 USERNAME = "tavallaie"
 PYPI_DATA_DIR = Path("static/data/pypi")
 PYPI_JSON_PATH = Path("static/data/pypi.json")
+
+PACKAGES_JSON_PATH = Path("static/data/packages.json")
+
 
 # ClickPy ClickHouse connection (official public instance)
 CLICKHOUSE_HOST = "sql-clickhouse.clickhouse.com"
@@ -25,6 +26,22 @@ CLICKHOUSE_PORT = 443
 CLICKHOUSE_USER = "demo"
 CLICKHOUSE_PASSWORD = ""
 CLICKHOUSE_DATABASE = "pypi"
+
+
+def load_packages(username: str = USERNAME) -> list[str]:
+    """Load package list from packages.json; fall back to scraping if missing."""
+    if PACKAGES_JSON_PATH.exists():
+        with open(PACKAGES_JSON_PATH) as f:
+            data = json.load(f)
+        packages = data.get("packages", [])
+        if packages:
+            print(f"   Loaded {len(packages)} packages from {PACKAGES_JSON_PATH}")
+            return packages
+
+    print(f"   {PACKAGES_JSON_PATH} not found or empty, falling back to scraping...")
+    from discover_packages import get_pypi_packages
+
+    return get_pypi_packages(username)
 
 
 def get_clickhouse_client():
@@ -165,9 +182,9 @@ def main():
         print(f"   ✗ Connection failed: {e}")
         return
 
-    # Discover packages
-    print(f"\n🔎 Discovering packages for user: {USERNAME}")
-    packages = get_pypi_packages(USERNAME)
+    # Load packages (from saved list or fallback to scraping)
+    print(f"\n🔎 Loading packages for user: {USERNAME}")
+    packages = load_packages(USERNAME)
     print(f"   Found: {', '.join(packages)}")
 
     # Fetch and save each package

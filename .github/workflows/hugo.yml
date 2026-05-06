@@ -4,6 +4,11 @@ on:
     push:
         branches: [ main ]
     workflow_dispatch:
+    workflow_run:
+        workflows: ["Sync Data"]
+        types:
+            - completed
+        branches: [main]
 
 permissions:
     contents: read
