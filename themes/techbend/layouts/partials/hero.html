@@ -45,6 +45,16 @@
         <a href="https://pypi.org/user/{{ .Site.Params.pypiUser }}/" class="btn btn-outline" target="_blank" rel="noopener">
           <span>🐍</span> PyPI
         </a>
+        {{ if .Site.Params.linkedin }}
+        <a href="{{ .Site.Params.linkedin }}" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>💼</span> LinkedIn
+        </a>
+        {{ end }}
+        {{ if .Site.Params.twitter }}
+        <a href="{{ .Site.Params.twitter }}" class="btn btn-outline" target="_blank" rel="noopener">
+          <span>🐦</span> X
+        </a>
+        {{ end }}
         {{ if .Site.Params.showSponsor }}
         <a href="{{ .Site.Params.sponsorLink }}" class="btn btn-outline" target="_blank" rel="noopener">
           <span>❤️</span> Sponsor
