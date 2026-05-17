@@ -1,31 +1,6 @@
 {
   "username": "tavallaie",
-  "discovered_at": "2026-05-10T08:14:16.979390+00:00",
-  "package_count": 24,
-  "packages": [
-    "adjspecies3",
-    "auto-dns",
-    "connectiva",
-    "devdock",
-    "djangowiz",
-    "ezkernel",
-    "galactipedia",
-    "hyper-mirror",
-    "leanforge",
-    "mirava",
-    "nemosyne",
-    "pgmq",
-    "pgpx",
-    "pgxm",
-    "pychartjs",
-    "pyreveal",
-    "safarnama",
-    "storyweaver",
-    "takumitools",
-    "transmutate",
-    "trunco",
-    "trunco-core",
-    "visgen",
-    "woodsman"
-  ]
+  "discovered_at": "2026-05-17T08:27:10.327040+00:00",
+  "package_count": 0,
+  "packages": []
 }
