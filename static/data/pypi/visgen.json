@@ -1,12 +1,32 @@
 [
   {
-    "day": "2026-05-15",
+    "day": "2026-05-16",
     "version": "0.2.2",
+    "downloads": 5
+  },
+  {
+    "day": "2026-05-16",
+    "version": "0.2.1",
     "downloads": 4
+  },
+  {
+    "day": "2026-05-16",
+    "version": "0.2.0",
+    "downloads": 2
+  },
+  {
+    "day": "2026-05-16",
+    "version": "0.1.0",
+    "downloads": 2
   },
   {
     "day": "2026-05-15",
     "version": "0.2.1",
+    "downloads": 4
+  },
+  {
+    "day": "2026-05-15",
+    "version": "0.2.2",
     "downloads": 4
   },
   {
@@ -26,12 +46,12 @@
   },
   {
     "day": "2026-05-14",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "downloads": 8
   },
   {
     "day": "2026-05-14",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "downloads": 8
   },
   {
@@ -116,22 +136,22 @@
   },
   {
     "day": "2026-05-08",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "downloads": 5
   },
   {
     "day": "2026-05-08",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "downloads": 5
   },
   {
     "day": "2026-05-07",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "downloads": 8
   },
   {
     "day": "2026-05-07",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "downloads": 8
   },
   {
