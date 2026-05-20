@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T08:58:48.210486+00:00",
+  "updated_at": "2026-05-20T08:53:34.771240+00:00",
   "public_repos": 123,
   "contributions_last_year": 617,
   "pinned_projects": [
@@ -10,15 +10,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 4867,
+      "stargazers_count": 4870,
       "forks_count": 137,
-      "open_issues_count": 37,
+      "open_issues_count": 38,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-05-18T17:36:42Z",
+      "updated_at": "2026-05-19T15:16:34Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 72755,
-      "forks_count": 34664,
-      "open_issues_count": 9320,
+      "stargazers_count": 72765,
+      "forks_count": 34665,
+      "open_issues_count": 9313,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-05-19T08:52:41Z",
+      "updated_at": "2026-05-20T06:14:28Z",
       "archived": false,
       "fork": false
     },
@@ -46,7 +46,7 @@
       "html_url": "https://github.com/ChuckHend/pg_vectorize",
       "description": "Full-text and semantic search on any Postgres",
       "language": "Rust",
-      "stargazers_count": 831,
+      "stargazers_count": 830,
       "forks_count": 39,
       "open_issues_count": 6,
       "topics": [
@@ -56,7 +56,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-05-11T17:12:58Z",
+      "updated_at": "2026-05-19T18:06:38Z",
       "archived": false,
       "fork": false
     },
@@ -67,13 +67,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 508,
+      "stargazers_count": 509,
       "forks_count": 48,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-05-19T07:56:46Z",
+      "updated_at": "2026-05-20T05:01:45Z",
       "archived": false,
       "fork": false
     },
