@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-05-20T08:53:34.594447+00:00",
+  "updated_at": "2026-05-21T08:56:29.280560+00:00",
   "profile": {
     "public_repos": 123,
     "followers": 233,
@@ -11,7 +11,7 @@
     "contributions_last_year": 617
   },
   "repo_count": 6,
-  "total_stars": 79054,
+  "total_stars": 79079,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 4870,
-      "forks_count": 137,
-      "open_issues_count": 38,
+      "stargazers_count": 4874,
+      "forks_count": 136,
+      "open_issues_count": 35,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-05-19T15:16:34Z",
+      "updated_at": "2026-05-21T03:51:31Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 72765,
-      "forks_count": 34665,
-      "open_issues_count": 9313,
+      "stargazers_count": 72786,
+      "forks_count": 34673,
+      "open_issues_count": 9316,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-05-20T06:14:28Z",
+      "updated_at": "2026-05-21T07:42:11Z",
       "archived": false,
       "fork": false
     },
@@ -66,7 +66,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-05-19T18:06:38Z",
+      "updated_at": "2026-05-21T00:29:54Z",
       "archived": false,
       "fork": false
     },
@@ -83,7 +83,7 @@
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-05-20T05:01:45Z",
+      "updated_at": "2026-05-20T23:01:44Z",
       "archived": false,
       "fork": false
     },
