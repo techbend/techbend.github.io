@@ -15,11 +15,47 @@ from bs4 import BeautifulSoup
 
 PACKAGES_JSON_PATH = Path("static/data/packages.json")
 
+# Fallback list — only used when PyPI scraping is blocked by Cloudflare.
+# This is the last known good list from https://pypi.org/user/tavallaie/
+_FALLBACK_PACKAGES: list[str] = [
+    "adjspecies3",
+    "auto-dns",
+    "connectiva",
+    "devdock",
+    "djangowiz",
+    "ezkernel",
+    "galactipedia",
+    "hyper-mirror",
+    "leanforge",
+    "mirava",
+    "nemosyne",
+    "pgmq",
+    "pgpx",
+    "pgxm",
+    "pychartjs",
+    "pyreveal",
+    "safarnama",
+    "storyweaver",
+    "takumitools",
+    "transmutate",
+    "trunco",
+    "trunco-core",
+    "visgen",
+    "woodsman",
+]
+
+
+def _is_cloudflare_challenge(html: str) -> bool:
+    """Heuristic to detect Cloudflare / bot-protection challenge pages."""
+    text = html.lower()
+    return "challenge" in text and "loadscript" in text and len(html) < 5000
+
 
 def get_pypi_packages(username: str) -> list[str]:
     """
     Scrape PyPI user page for package names.
     Returns sorted list of unique package names.
+    Falls back to the cached list if scraping is blocked by Cloudflare.
     """
     url = f"https://pypi.org/user/{username}/"
     headers = {
@@ -32,8 +68,18 @@ def get_pypi_packages(username: str) -> list[str]:
         "Upgrade-Insecure-Requests": "1",
     }
 
-    resp = requests.get(url, headers=headers, timeout=30)
-    resp.raise_for_status()
+    try:
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"   ⚠ Request failed: {exc}")
+        print(f"   → Using fallback list ({len(_FALLBACK_PACKAGES)} packages)")
+        return list(_FALLBACK_PACKAGES)
+
+    if _is_cloudflare_challenge(resp.text):
+        print("   ⚠ PyPI returned a bot-protection challenge page (Cloudflare).")
+        print(f"   → Using fallback list ({len(_FALLBACK_PACKAGES)} packages)")
+        return list(_FALLBACK_PACKAGES)
 
     soup = BeautifulSoup(resp.text, "html.parser")
     packages = set()
@@ -46,7 +92,13 @@ def get_pypi_packages(username: str) -> list[str]:
             if pkg_name:
                 packages.add(pkg_name)
 
-    return sorted(packages)
+    discovered = sorted(packages)
+    if not discovered:
+        print("   ⚠ Scraping returned 0 packages (PyPI layout may have changed).")
+        print(f"   → Using fallback list ({len(_FALLBACK_PACKAGES)} packages)")
+        return list(_FALLBACK_PACKAGES)
+
+    return discovered
 
 
 def save_packages(packages: list[str], username: str = "tavallaie") -> Path:
