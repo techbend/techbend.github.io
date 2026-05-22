@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T17:30:36.900560+00:00",
+  "updated_at": "2026-05-22T08:49:16.208054+00:00",
   "public_repos": 123,
   "contributions_last_year": 619,
   "pinned_projects": [
@@ -10,7 +10,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 4878,
+      "stargazers_count": 4879,
       "forks_count": 136,
       "open_issues_count": 35,
       "topics": [
@@ -18,7 +18,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-05-21T16:40:22Z",
+      "updated_at": "2026-05-22T01:37:03Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 72794,
-      "forks_count": 34672,
+      "stargazers_count": 72806,
+      "forks_count": 34674,
       "open_issues_count": 9314,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-05-21T16:37:59Z",
+      "updated_at": "2026-05-22T07:52:41Z",
       "archived": false,
       "fork": false
     },
@@ -122,11 +122,11 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6255,
-      "data_points": 1860,
+      "total_downloads": 6259,
+      "data_points": 1861,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.1.4",
       "summary": "",
@@ -135,11 +135,11 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 7489,
-      "data_points": 1626,
+      "total_downloads": 7490,
+      "data_points": 1627,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -148,101 +148,101 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4294,
-      "data_points": 531,
+      "total_downloads": 4296,
+      "data_points": 532,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4301,
-      "data_points": 1047,
+      "total_downloads": 4305,
+      "data_points": 1049,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6057,
-      "data_points": 1575,
+      "total_downloads": 6061,
+      "data_points": 1577,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2496,
-      "data_points": 611,
+      "total_downloads": 2501,
+      "data_points": 612,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-05-19"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 628,
-      "data_points": 84,
+      "total_downloads": 634,
+      "data_points": 85,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-05-19"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 598,
-      "data_points": 81,
+      "total_downloads": 602,
+      "data_points": 82,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-05-19"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2630,
-      "data_points": 720,
+      "total_downloads": 2633,
+      "data_points": 721,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "mirava",
       "first_seen": "2026-02-13",
-      "total_downloads": 1049,
-      "data_points": 150,
+      "total_downloads": 1054,
+      "data_points": 152,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4294,
-      "data_points": 1241,
+      "total_downloads": 4295,
+      "data_points": 1242,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 63999,
-      "data_points": 3314,
+      "total_downloads": 64373,
+      "data_points": 3322,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "1.1.1",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -271,11 +271,11 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30101,
-      "data_points": 12926,
+      "total_downloads": 30115,
+      "data_points": 12933,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -294,11 +294,11 @@
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 10147,
-      "data_points": 2216,
+      "total_downloads": 10189,
+      "data_points": 2223,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -327,21 +327,21 @@
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6188,
-      "data_points": 1190,
+      "total_downloads": 6200,
+      "data_points": 1193,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 9303,
-      "data_points": 1693,
+      "total_downloads": 9319,
+      "data_points": 1697,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.3.1",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -350,31 +350,31 @@
     {
       "name": "trunco-core",
       "first_seen": "2025-02-28",
-      "total_downloads": 1994,
-      "data_points": 498,
+      "total_downloads": 1998,
+      "data_points": 500,
       "date_range": {
         "from": "2025-02-28",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "visgen",
       "first_seen": "2026-05-04",
-      "total_downloads": 1588,
-      "data_points": 52,
+      "total_downloads": 1603,
+      "data_points": 56,
       "date_range": {
         "from": "2026-05-04",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     },
     {
       "name": "woodsman",
       "first_seen": "2025-02-25",
-      "total_downloads": 2017,
-      "data_points": 481,
+      "total_downloads": 2022,
+      "data_points": 483,
       "date_range": {
         "from": "2025-02-25",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       }
     }
   ],
@@ -382,11 +382,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 63999,
-      "data_points": 3314,
+      "total_downloads": 64373,
+      "data_points": 3322,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "1.1.1",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -395,11 +395,11 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30101,
-      "data_points": 12926,
+      "total_downloads": 30115,
+      "data_points": 12933,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -408,11 +408,11 @@
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 10147,
-      "data_points": 2216,
+      "total_downloads": 10189,
+      "data_points": 2223,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -421,11 +421,11 @@
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 9303,
-      "data_points": 1693,
+      "total_downloads": 9319,
+      "data_points": 1697,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.3.1",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -434,11 +434,11 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 7489,
-      "data_points": 1626,
+      "total_downloads": 7490,
+      "data_points": 1627,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -447,11 +447,11 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6255,
-      "data_points": 1860,
+      "total_downloads": 6259,
+      "data_points": 1861,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-05-20"
+        "to": "2026-05-21"
       },
       "version": "0.1.4",
       "summary": "",
