@@ -6,17 +6,17 @@
   },
   {
     "day": "2026-05-23",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2026-05-23",
     "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2026-05-23",
     "version": "0.1.0",
-    "downloads": 2
-  },
-  {
-    "day": "2026-05-23",
-    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -27,15 +27,18 @@
   {
     "day": "2026-05-21",
     "version": "0.2.1",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2026-05-21",
     "version": "0.1.4",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
-    "day": "2026-05-20",
+    "day": "2026-05-21",
     "version": "0.1.4",
     "downloads": 2
   },
@@ -47,6 +50,11 @@
   {
     "day": "2026-05-20",
     "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2026-05-20",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -136,17 +144,17 @@
   },
   {
     "day": "2026-05-10",
-    "version": "0.2.1",
-    "downloads": 4
-  },
-  {
-    "day": "2026-05-10",
     "version": "0.1.0",
     "downloads": 4
   },
   {
     "day": "2026-05-10",
     "version": "0.1.4",
+    "downloads": 4
+  },
+  {
+    "day": "2026-05-10",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
@@ -241,12 +249,12 @@
   },
   {
     "day": "2026-04-28",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 1
   },
   {
     "day": "2026-04-28",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 1
   },
   {
@@ -271,12 +279,20 @@
   },
   {
     "day": "2026-04-25",
+<<<<<<< Updated upstream
+=======
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2026-04-25",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2026-04-25",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -386,12 +402,12 @@
   },
   {
     "day": "2026-04-15",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 3
   },
   {
     "day": "2026-04-15",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
@@ -416,12 +432,12 @@
   },
   {
     "day": "2026-04-12",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2026-04-12",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -441,12 +457,12 @@
   },
   {
     "day": "2026-04-09",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2026-04-09",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -496,7 +512,11 @@
   },
   {
     "day": "2026-04-03",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -506,7 +526,7 @@
   },
   {
     "day": "2026-04-03",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -526,12 +546,16 @@
   },
   {
     "day": "2026-03-30",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2026-03-30",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -556,7 +580,7 @@
   },
   {
     "day": "2026-03-27",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 6
   },
   {
@@ -566,6 +590,7 @@
   },
   {
     "day": "2026-03-27",
+<<<<<<< Updated upstream
     "version": "0.1.4",
     "downloads": 6
   },
@@ -573,6 +598,10 @@
     "day": "2026-03-23",
     "version": "0.1.4",
     "downloads": 2
+=======
+    "version": "0.2.1",
+    "downloads": 6
+>>>>>>> Stashed changes
   },
   {
     "day": "2026-03-23",
@@ -582,6 +611,11 @@
   {
     "day": "2026-03-23",
     "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2026-03-23",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -631,12 +665,20 @@
   },
   {
     "day": "2026-03-17",
+<<<<<<< Updated upstream
+=======
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2026-03-17",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2026-03-17",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -666,12 +708,12 @@
   },
   {
     "day": "2026-03-14",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2026-03-14",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -741,11 +783,6 @@
   },
   {
     "day": "2026-03-08",
-    "version": "0.2.1",
-    "downloads": 2
-  },
-  {
-    "day": "2026-03-08",
     "version": "0.1.0",
     "downloads": 2
   },
@@ -755,13 +792,26 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2026-03-08",
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2026-03-07",
+    "version": "0.1.4",
+    "downloads": 1
+  },
+  {
+>>>>>>> Stashed changes
     "day": "2026-03-07",
     "version": "0.1.0",
     "downloads": 1
   },
   {
     "day": "2026-03-07",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -816,7 +866,7 @@
   },
   {
     "day": "2026-03-01",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -826,7 +876,11 @@
   },
   {
     "day": "2026-03-01",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 1
   },
   {
@@ -836,7 +890,11 @@
   },
   {
     "day": "2026-02-26",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -846,7 +904,7 @@
   },
   {
     "day": "2026-02-26",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -881,12 +939,12 @@
   },
   {
     "day": "2026-02-20",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2026-02-20",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -1016,12 +1074,12 @@
   },
   {
     "day": "2026-02-03",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2026-02-03",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1126,12 +1184,12 @@
   },
   {
     "day": "2026-01-20",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 12
   },
   {
     "day": "2026-01-20",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 12
   },
   {
@@ -1166,17 +1224,21 @@
   },
   {
     "day": "2026-01-17",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2026-01-17",
     "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2026-01-17",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -1186,12 +1248,12 @@
   },
   {
     "day": "2026-01-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 6
   },
   {
     "day": "2026-01-16",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 6
   },
   {
@@ -1201,17 +1263,17 @@
   },
   {
     "day": "2026-01-14",
-    "version": "0.2.1",
-    "downloads": 2
-  },
-  {
-    "day": "2026-01-14",
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2026-01-14",
     "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-14",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -1271,12 +1333,20 @@
   },
   {
     "day": "2026-01-05",
+<<<<<<< Updated upstream
+=======
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2026-01-05",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2026-01-05",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -1436,12 +1506,12 @@
   },
   {
     "day": "2025-12-16",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
     "day": "2025-12-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 3
   },
   {
@@ -1466,12 +1536,16 @@
   },
   {
     "day": "2025-12-13",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2025-12-13",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1566,12 +1640,12 @@
   },
   {
     "day": "2025-12-04",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 10
   },
   {
     "day": "2025-12-04",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 10
   },
   {
@@ -1581,12 +1655,12 @@
   },
   {
     "day": "2025-12-03",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2025-12-03",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -1596,7 +1670,11 @@
   },
   {
     "day": "2025-11-29",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -1606,7 +1684,7 @@
   },
   {
     "day": "2025-11-29",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -1632,6 +1710,19 @@
   {
     "day": "2025-11-25",
     "version": "0.2.1",
+<<<<<<< Updated upstream
+    "downloads": 2
+  },
+  {
+    "day": "2025-11-25",
+    "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
+    "downloads": 2
+  },
+  {
+    "day": "2025-11-25",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -1640,9 +1731,9 @@
     "downloads": 2
   },
   {
-    "day": "2025-11-25",
-    "version": "0.1.4",
-    "downloads": 2
+    "day": "2025-11-24",
+    "version": "0.1.0",
+    "downloads": 4
   },
   {
     "day": "2025-11-24",
@@ -1655,8 +1746,13 @@
     "downloads": 4
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-11-24",
     "version": "0.2.1",
+=======
+    "day": "2025-11-23",
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -1696,17 +1792,17 @@
   },
   {
     "day": "2025-11-20",
-    "version": "0.2.1",
-    "downloads": 2
-  },
-  {
-    "day": "2025-11-20",
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-11-20",
     "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-11-20",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -1756,17 +1852,21 @@
   },
   {
     "day": "2025-11-13",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2025-11-13",
     "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2025-11-13",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -1846,12 +1946,12 @@
   },
   {
     "day": "2025-11-04",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-11-04",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -1866,12 +1966,12 @@
   },
   {
     "day": "2025-11-01",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-11-01",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1961,12 +2061,16 @@
   },
   {
     "day": "2025-10-23",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2025-10-23",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -1976,7 +2080,7 @@
   },
   {
     "day": "2025-10-22",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -1986,7 +2090,7 @@
   },
   {
     "day": "2025-10-22",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -2011,12 +2115,12 @@
   },
   {
     "day": "2025-10-16",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-10-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -2051,7 +2155,11 @@
   },
   {
     "day": "2025-10-12",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2061,7 +2169,7 @@
   },
   {
     "day": "2025-10-12",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -2071,12 +2179,12 @@
   },
   {
     "day": "2025-10-10",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-10-10",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -2116,17 +2224,17 @@
   },
   {
     "day": "2025-09-30",
-    "version": "0.2.1",
-    "downloads": 1
-  },
-  {
-    "day": "2025-09-30",
     "version": "0.1.0",
     "downloads": 1
   },
   {
     "day": "2025-09-30",
     "version": "0.1.4",
+    "downloads": 1
+  },
+  {
+    "day": "2025-09-30",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -2151,22 +2259,22 @@
   },
   {
     "day": "2025-09-27",
-    "version": "0.1.0",
-    "downloads": 2
-  },
-  {
-    "day": "2025-09-27",
     "version": "0.1.4",
     "downloads": 2
   },
   {
-    "day": "2025-09-26",
-    "version": "0.2.1",
-    "downloads": 3
+    "day": "2025-09-27",
+    "version": "0.1.0",
+    "downloads": 2
   },
   {
     "day": "2025-09-26",
     "version": "0.1.0",
+    "downloads": 3
+  },
+  {
+    "day": "2025-09-26",
+    "version": "0.2.1",
     "downloads": 3
   },
   {
@@ -2226,7 +2334,7 @@
   },
   {
     "day": "2025-09-21",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -2236,7 +2344,11 @@
   },
   {
     "day": "2025-09-21",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2256,12 +2368,16 @@
   },
   {
     "day": "2025-09-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-09-16",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2297,6 +2413,14 @@
   {
     "day": "2025-09-12",
     "version": "0.1.0",
+<<<<<<< Updated upstream
+=======
+    "downloads": 6
+  },
+  {
+    "day": "2025-09-12",
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 6
   },
   {
@@ -2305,11 +2429,14 @@
     "downloads": 6
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-09-12",
     "version": "0.1.4",
     "downloads": 6
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-09-10",
     "version": "0.2.1",
     "downloads": 2
@@ -2346,12 +2473,20 @@
   },
   {
     "day": "2025-09-06",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-09-06",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-09-06",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -2386,6 +2521,11 @@
   },
   {
     "day": "2025-09-03",
+    "version": "0.1.0",
+    "downloads": 7
+  },
+  {
+    "day": "2025-09-03",
     "version": "0.1.4",
     "downloads": 7
   },
@@ -2395,11 +2535,14 @@
     "downloads": 7
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-09-03",
     "version": "0.2.1",
     "downloads": 7
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-09-02",
     "version": "0.2.1",
     "downloads": 1
@@ -2456,12 +2599,16 @@
   },
   {
     "day": "2025-08-27",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2025-08-27",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2486,7 +2633,11 @@
   },
   {
     "day": "2025-08-24",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2596,10 +2747,24 @@
   },
   {
     "day": "2025-08-12",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2025-08-12",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-08-12",
+>>>>>>> Stashed changes
     "version": "0.2.1",
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-08-12",
     "version": "0.1.0",
     "downloads": 2
@@ -2610,6 +2775,8 @@
     "downloads": 2
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-08-10",
     "version": "0.2.1",
     "downloads": 4
@@ -2641,12 +2808,16 @@
   },
   {
     "day": "2025-08-05",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2025-08-05",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -2676,17 +2847,17 @@
   },
   {
     "day": "2025-07-30",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-07-30",
     "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2025-07-30",
     "version": "0.1.0",
-    "downloads": 2
-  },
-  {
-    "day": "2025-07-30",
-    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -2761,12 +2932,12 @@
   },
   {
     "day": "2025-07-23",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-07-23",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -2786,7 +2957,11 @@
   },
   {
     "day": "2025-07-21",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2796,6 +2971,7 @@
   },
   {
     "day": "2025-07-21",
+<<<<<<< Updated upstream
     "version": "0.2.1",
     "downloads": 2
   },
@@ -2807,6 +2983,9 @@
   {
     "day": "2025-07-20",
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2815,6 +2994,24 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2025-07-20",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-07-20",
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+>>>>>>> Stashed changes
+    "day": "2025-07-18",
+    "version": "0.2.1",
+    "downloads": 8
+  },
+  {
     "day": "2025-07-18",
     "version": "0.1.4",
     "downloads": 8
@@ -2825,18 +3022,27 @@
     "downloads": 8
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-07-18",
     "version": "0.1.0",
     "downloads": 8
   },
   {
     "day": "2025-07-17",
+=======
+    "day": "2025-07-17",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-07-17",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-07-17",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -2851,12 +3057,12 @@
   },
   {
     "day": "2025-07-16",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-07-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -2931,17 +3137,21 @@
   },
   {
     "day": "2025-07-07",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2025-07-07",
     "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2025-07-07",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -2967,11 +3177,14 @@
   {
     "day": "2025-07-01",
     "version": "0.1.4",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2025-07-01",
     "version": "0.2.1",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -2980,6 +3193,14 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2025-07-01",
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+>>>>>>> Stashed changes
     "day": "2025-06-26",
     "version": "0.2.1",
     "downloads": 4
@@ -2996,21 +3217,20 @@
   },
   {
     "day": "2025-06-25",
-    "version": "0.1.0",
-    "downloads": 2
-  },
-  {
-    "day": "2025-06-25",
     "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2025-06-25",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-06-24",
+=======
+    "day": "2025-06-25",
+>>>>>>> Stashed changes
     "version": "0.1.4",
     "downloads": 2
   },
@@ -3022,6 +3242,11 @@
   {
     "day": "2025-06-24",
     "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-24",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -3061,27 +3286,31 @@
   },
   {
     "day": "2025-06-19",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2025-06-19",
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-18",
+    "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-18",
     "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-06-18",
     "version": "0.2.1",
-    "downloads": 2
-  },
-  {
-    "day": "2025-06-18",
-    "version": "0.1.4",
-    "downloads": 2
-  },
-  {
-    "day": "2025-06-18",
-    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -3111,7 +3340,7 @@
   },
   {
     "day": "2025-06-14",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -3120,23 +3349,35 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2025-06-14",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+>>>>>>> Stashed changes
     "day": "2025-06-13",
     "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2025-06-12",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-06-12",
     "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2025-06-12",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -3171,12 +3412,20 @@
   },
   {
     "day": "2025-06-09",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-09",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-06-09",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -3186,12 +3435,16 @@
   },
   {
     "day": "2025-06-08",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2025-06-08",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -3281,12 +3534,12 @@
   },
   {
     "day": "2025-05-30",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-05-30",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -3322,6 +3575,14 @@
   {
     "day": "2025-05-27",
     "version": "0.1.4",
+<<<<<<< Updated upstream
+=======
+    "downloads": 2
+  },
+  {
+    "day": "2025-05-27",
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -3341,10 +3602,24 @@
   },
   {
     "day": "2025-05-24",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.4",
+    "downloads": 1
+  },
+  {
+    "day": "2025-05-24",
+    "version": "0.1.0",
+    "downloads": 1
+  },
+  {
+    "day": "2025-05-24",
+>>>>>>> Stashed changes
     "version": "0.2.1",
     "downloads": 1
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-05-24",
     "version": "0.1.4",
     "downloads": 1
@@ -3355,6 +3630,8 @@
     "downloads": 1
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-05-20",
     "version": "0.2.1",
     "downloads": 1
@@ -3367,6 +3644,11 @@
   {
     "day": "2025-05-20",
     "version": "0.1.4",
+    "downloads": 1
+  },
+  {
+    "day": "2025-05-20",
+    "version": "0.1.0",
     "downloads": 1
   },
   {
@@ -3406,7 +3688,7 @@
   },
   {
     "day": "2025-05-12",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -3416,7 +3698,7 @@
   },
   {
     "day": "2025-05-12",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -3441,12 +3723,12 @@
   },
   {
     "day": "2025-05-09",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2025-05-09",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -3461,7 +3743,11 @@
   },
   {
     "day": "2025-05-06",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -3471,8 +3757,13 @@
   },
   {
     "day": "2025-05-06",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 4
+  },
+  {
+    "day": "2025-05-05",
+    "version": "0.1.4",
+    "downloads": 2
   },
   {
     "day": "2025-05-05",
@@ -3485,11 +3776,14 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-05-05",
     "version": "0.1.0",
     "downloads": 2
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-05-04",
     "version": "0.1.0",
     "downloads": 2
@@ -3506,12 +3800,12 @@
   },
   {
     "day": "2025-05-02",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
     "day": "2025-05-02",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -3646,12 +3940,12 @@
   },
   {
     "day": "2025-04-20",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 6
   },
   {
     "day": "2025-04-20",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 6
   },
   {
@@ -3746,17 +4040,17 @@
   },
   {
     "day": "2025-04-13",
-    "version": "0.2.1",
-    "downloads": 1
-  },
-  {
-    "day": "2025-04-13",
     "version": "0.1.0",
     "downloads": 1
   },
   {
     "day": "2025-04-13",
     "version": "0.1.4",
+    "downloads": 1
+  },
+  {
+    "day": "2025-04-13",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -3871,17 +4165,21 @@
   },
   {
     "day": "2025-04-04",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.2.1",
     "downloads": 6
   },
   {
     "day": "2025-04-04",
     "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 6
   },
   {
     "day": "2025-04-04",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 6
   },
   {
@@ -3976,17 +4274,17 @@
   },
   {
     "day": "2025-03-28",
+    "version": "0.1.0",
+    "downloads": 8
+  },
+  {
+    "day": "2025-03-28",
     "version": "0.2.1",
     "downloads": 8
   },
   {
     "day": "2025-03-28",
     "version": "0.1.4",
-    "downloads": 8
-  },
-  {
-    "day": "2025-03-28",
-    "version": "0.1.0",
     "downloads": 8
   },
   {
@@ -4052,11 +4350,14 @@
   {
     "day": "2025-03-23",
     "version": "0.2.1",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2025-03-23",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
@@ -4065,11 +4366,14 @@
     "downloads": 2
   },
   {
-    "day": "2025-03-22",
-    "version": "0.1.4",
-    "downloads": 4
+<<<<<<< Updated upstream
+=======
+    "day": "2025-03-23",
+    "version": "0.1.0",
+    "downloads": 2
   },
   {
+>>>>>>> Stashed changes
     "day": "2025-03-22",
     "version": "0.1.0",
     "downloads": 4
@@ -4077,6 +4381,11 @@
   {
     "day": "2025-03-22",
     "version": "0.2.1",
+    "downloads": 4
+  },
+  {
+    "day": "2025-03-22",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -4111,12 +4420,16 @@
   },
   {
     "day": "2025-03-19",
+<<<<<<< Updated upstream
     "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2025-03-19",
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -4125,6 +4438,16 @@
     "downloads": 4
   },
   {
+    "day": "2025-03-19",
+    "version": "0.1.4",
+    "downloads": 4
+  },
+  {
+    "day": "2025-03-18",
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
     "day": "2025-03-18",
     "version": "0.2.1",
     "downloads": 2
@@ -4135,11 +4458,14 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2025-03-18",
     "version": "0.1.4",
     "downloads": 2
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2025-03-17",
     "version": "0.1.4",
     "downloads": 4
@@ -4346,12 +4672,12 @@
   },
   {
     "day": "2025-03-03",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2025-03-03",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
@@ -4381,12 +4707,12 @@
   },
   {
     "day": "2025-02-28",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
     "day": "2025-02-28",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -4521,12 +4847,12 @@
   },
   {
     "day": "2025-02-14",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 6
   },
   {
     "day": "2025-02-14",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 6
   },
   {
@@ -4567,16 +4893,24 @@
   {
     "day": "2025-02-11",
     "version": "0.2.1",
+<<<<<<< Updated upstream
     "downloads": 3
   },
   {
     "day": "2025-02-11",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 3
   },
   {
     "day": "2025-02-11",
     "version": "0.1.4",
+    "downloads": 3
+  },
+  {
+    "day": "2025-02-11",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
@@ -4596,7 +4930,7 @@
   },
   {
     "day": "2025-02-09",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
@@ -4606,7 +4940,7 @@
   },
   {
     "day": "2025-02-09",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -4651,12 +4985,12 @@
   },
   {
     "day": "2025-02-05",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
     "day": "2025-02-05",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 3
   },
   {
@@ -4676,12 +5010,12 @@
   },
   {
     "day": "2025-02-03",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-02-03",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -4736,7 +5070,7 @@
   },
   {
     "day": "2025-01-30",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -4746,22 +5080,26 @@
   },
   {
     "day": "2025-01-30",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-01-29",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2025-01-29",
     "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2025-01-29",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -4831,12 +5169,12 @@
   },
   {
     "day": "2025-01-24",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 1
   },
   {
     "day": "2025-01-24",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -4886,12 +5224,12 @@
   },
   {
     "day": "2025-01-18",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-01-18",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -4991,7 +5329,7 @@
   },
   {
     "day": "2025-01-11",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 8
   },
   {
@@ -5001,7 +5339,7 @@
   },
   {
     "day": "2025-01-11",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 8
   },
   {
@@ -5096,12 +5434,12 @@
   },
   {
     "day": "2025-01-03",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2025-01-03",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -5141,17 +5479,21 @@
   },
   {
     "day": "2024-12-30",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2024-12-30",
     "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-12-30",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -5266,10 +5608,24 @@
   },
   {
     "day": "2024-12-18",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.4",
+    "downloads": 6
+  },
+  {
+    "day": "2024-12-18",
+    "version": "0.1.0",
+    "downloads": 6
+  },
+  {
+    "day": "2024-12-18",
+>>>>>>> Stashed changes
     "version": "0.2.1",
     "downloads": 6
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-12-18",
     "version": "0.1.4",
     "downloads": 6
@@ -5280,6 +5636,8 @@
     "downloads": 6
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2024-12-17",
     "version": "0.1.0",
     "downloads": 2
@@ -5316,12 +5674,20 @@
   },
   {
     "day": "2024-12-15",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2024-12-15",
+<<<<<<< Updated upstream
     "version": "0.1.0",
+=======
+    "version": "0.2.1",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -5337,6 +5703,11 @@
   {
     "day": "2024-12-14",
     "version": "0.1.4",
+    "downloads": 6
+  },
+  {
+    "day": "2024-12-14",
+    "version": "0.1.0",
     "downloads": 6
   },
   {
@@ -5386,17 +5757,17 @@
   },
   {
     "day": "2024-12-09",
-    "version": "0.1.4",
-    "downloads": 2
-  },
-  {
-    "day": "2024-12-09",
     "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2024-12-09",
     "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2024-12-09",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -5436,12 +5807,12 @@
   },
   {
     "day": "2024-12-04",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2024-12-04",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -5551,17 +5922,23 @@
   },
   {
     "day": "2024-11-19",
-    "version": "0.1.4",
-    "downloads": 6
-  },
-  {
-    "day": "2024-11-19",
     "version": "0.2.1",
     "downloads": 6
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-11-18",
     "version": "0.1.4",
+    "downloads": 4
+=======
+    "day": "2024-11-19",
+    "version": "0.1.4",
+    "downloads": 6
+>>>>>>> Stashed changes
+  },
+  {
+    "day": "2024-11-18",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -5591,12 +5968,12 @@
   },
   {
     "day": "2024-11-16",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-11-16",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -5641,12 +6018,12 @@
   },
   {
     "day": "2024-11-13",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 11
   },
   {
     "day": "2024-11-13",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 11
   },
   {
@@ -5731,12 +6108,12 @@
   },
   {
     "day": "2024-11-07",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2024-11-07",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -5777,16 +6154,24 @@
   {
     "day": "2024-11-03",
     "version": "0.1.4",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2024-11-03",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-11-03",
     "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2024-11-03",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -5851,6 +6236,11 @@
   },
   {
     "day": "2024-10-28",
+    "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-28",
     "version": "0.2.1",
     "downloads": 2
   },
@@ -5860,11 +6250,14 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-10-28",
     "version": "0.1.4",
     "downloads": 2
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2024-10-26",
     "version": "0.2.1",
     "downloads": 8
@@ -5897,11 +6290,14 @@
   {
     "day": "2024-10-24",
     "version": "0.1.4",
+<<<<<<< Updated upstream
     "downloads": 6
   },
   {
     "day": "2024-10-24",
     "version": "0.2.1",
+=======
+>>>>>>> Stashed changes
     "downloads": 6
   },
   {
@@ -5910,6 +6306,14 @@
     "downloads": 6
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2024-10-24",
+    "version": "0.2.1",
+    "downloads": 6
+  },
+  {
+>>>>>>> Stashed changes
     "day": "2024-10-23",
     "version": "0.1.4",
     "downloads": 6
@@ -5931,22 +6335,30 @@
   },
   {
     "day": "2024-10-22",
-    "version": "0.1.0",
-    "downloads": 4
-  },
-  {
-    "day": "2024-10-22",
     "version": "0.1.4",
     "downloads": 4
   },
   {
+    "day": "2024-10-22",
+    "version": "0.1.0",
+    "downloads": 4
+  },
+  {
     "day": "2024-10-21",
+<<<<<<< Updated upstream
+=======
+    "version": "0.2.1",
+    "downloads": 8
+  },
+  {
+    "day": "2024-10-21",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 8
   },
   {
     "day": "2024-10-21",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 8
   },
   {
@@ -5972,16 +6384,24 @@
   {
     "day": "2024-10-18",
     "version": "0.2.1",
+<<<<<<< Updated upstream
     "downloads": 4
   },
   {
     "day": "2024-10-18",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
     "day": "2024-10-18",
     "version": "0.1.4",
+    "downloads": 4
+  },
+  {
+    "day": "2024-10-18",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -6016,17 +6436,17 @@
   },
   {
     "day": "2024-10-15",
+    "version": "0.1.0",
+    "downloads": 3
+  },
+  {
+    "day": "2024-10-15",
     "version": "0.2.1",
     "downloads": 3
   },
   {
     "day": "2024-10-15",
     "version": "0.1.4",
-    "downloads": 3
-  },
-  {
-    "day": "2024-10-15",
-    "version": "0.1.0",
     "downloads": 3
   },
   {
@@ -6061,27 +6481,31 @@
   },
   {
     "day": "2024-10-12",
+    "version": "0.1.4",
+    "downloads": 4
+  },
+  {
+    "day": "2024-10-12",
     "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2024-10-12",
     "version": "0.1.0",
-    "downloads": 4
-  },
-  {
-    "day": "2024-10-12",
-    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2024-10-11",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 8
   },
   {
     "day": "2024-10-11",
+<<<<<<< Updated upstream
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 8
   },
   {
@@ -6121,17 +6545,21 @@
   },
   {
     "day": "2024-10-08",
+<<<<<<< Updated upstream
     "version": "0.1.4",
     "downloads": 14
   },
   {
     "day": "2024-10-08",
     "version": "0.2.1",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 14
   },
   {
     "day": "2024-10-08",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 14
   },
   {
@@ -6151,7 +6579,9 @@
   },
   {
     "day": "2024-10-06",
-    "version": "0.2.1",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -6161,8 +6591,25 @@
   },
   {
     "day": "2024-10-06",
+>>>>>>> Stashed changes
+    "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+<<<<<<< Updated upstream
+    "day": "2024-10-06",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2024-10-06",
     "version": "0.1.0",
     "downloads": 2
+=======
+    "day": "2024-10-05",
+    "version": "0.2.1",
+    "downloads": 6
+>>>>>>> Stashed changes
   },
   {
     "day": "2024-10-05",
@@ -6172,11 +6619,14 @@
   {
     "day": "2024-10-05",
     "version": "0.1.0",
+<<<<<<< Updated upstream
     "downloads": 6
   },
   {
     "day": "2024-10-05",
     "version": "0.2.1",
+=======
+>>>>>>> Stashed changes
     "downloads": 6
   },
   {
@@ -6341,12 +6791,12 @@
   },
   {
     "day": "2024-09-20",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2024-09-20",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -6396,12 +6846,12 @@
   },
   {
     "day": "2024-09-13",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2024-09-13",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -6457,26 +6907,41 @@
   {
     "day": "2024-09-07",
     "version": "0.1.0",
+<<<<<<< Updated upstream
+=======
     "downloads": 2
   },
   {
     "day": "2024-09-07",
     "version": "0.1.4",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-09-07",
+<<<<<<< Updated upstream
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2024-09-07",
+=======
+>>>>>>> Stashed changes
     "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-09-06",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2024-09-06",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -6551,12 +7016,16 @@
   },
   {
     "day": "2024-08-30",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 6
   },
   {
     "day": "2024-08-30",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 6
   },
   {
@@ -6626,12 +7095,12 @@
   },
   {
     "day": "2024-08-24",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2024-08-24",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -6661,17 +7130,21 @@
   },
   {
     "day": "2024-08-19",
+<<<<<<< Updated upstream
     "version": "0.1.4",
+=======
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-08-19",
     "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-08-19",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -6711,12 +7184,12 @@
   },
   {
     "day": "2024-08-16",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
     "day": "2024-08-16",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 3
   },
   {
@@ -6726,6 +7199,19 @@
   },
   {
     "day": "2024-08-15",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2024-08-15",
+    "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2024-08-14",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 2
   },
@@ -6745,11 +7231,14 @@
     "downloads": 2
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-08-14",
     "version": "0.1.4",
     "downloads": 2
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2024-08-13",
     "version": "0.1.4",
     "downloads": 2
@@ -6981,12 +7470,12 @@
   },
   {
     "day": "2024-07-23",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2024-07-23",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -7101,22 +7590,25 @@
   },
   {
     "day": "2024-07-14",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2024-07-14",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-07-13",
     "version": "0.1.4",
+<<<<<<< Updated upstream
     "downloads": 8
   },
   {
     "day": "2024-07-13",
     "version": "0.2.1",
+=======
+>>>>>>> Stashed changes
     "downloads": 8
   },
   {
@@ -7125,18 +7617,26 @@
     "downloads": 8
   },
   {
+<<<<<<< Updated upstream
+=======
+    "day": "2024-07-13",
+    "version": "0.2.1",
+    "downloads": 8
+  },
+  {
+>>>>>>> Stashed changes
     "day": "2024-07-11",
     "version": "0.2.1",
     "downloads": 6
   },
   {
     "day": "2024-07-11",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2024-07-11",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -7187,16 +7687,24 @@
   {
     "day": "2024-07-07",
     "version": "0.1.4",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2024-07-07",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-07-07",
     "version": "0.2.1",
+    "downloads": 2
+  },
+  {
+    "day": "2024-07-07",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -7231,12 +7739,12 @@
   },
   {
     "day": "2024-07-04",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-07-04",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
@@ -7261,10 +7769,24 @@
   },
   {
     "day": "2024-07-02",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.0",
+    "downloads": 6
+  },
+  {
+    "day": "2024-07-02",
+    "version": "0.1.4",
+    "downloads": 6
+  },
+  {
+    "day": "2024-07-02",
+>>>>>>> Stashed changes
     "version": "0.2.1",
     "downloads": 6
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-07-02",
     "version": "0.1.0",
     "downloads": 6
@@ -7275,6 +7797,8 @@
     "downloads": 6
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2024-07-01",
     "version": "0.2.1",
     "downloads": 4
@@ -7306,11 +7830,6 @@
   },
   {
     "day": "2024-06-29",
-    "version": "0.1.0",
-    "downloads": 4
-  },
-  {
-    "day": "2024-06-29",
     "version": "0.2.1",
     "downloads": 4
   },
@@ -7320,8 +7839,13 @@
     "downloads": 4
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-06-28",
     "version": "0.1.4",
+=======
+    "day": "2024-06-29",
+    "version": "0.1.0",
+>>>>>>> Stashed changes
     "downloads": 4
   },
   {
@@ -7332,6 +7856,11 @@
   {
     "day": "2024-06-28",
     "version": "0.2.1",
+    "downloads": 4
+  },
+  {
+    "day": "2024-06-28",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -7356,12 +7885,12 @@
   },
   {
     "day": "2024-06-25",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 1
   },
   {
     "day": "2024-06-25",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 1
   },
   {
@@ -7451,12 +7980,12 @@
   },
   {
     "day": "2024-06-16",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "downloads": 4
   },
   {
     "day": "2024-06-16",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
@@ -7538,15 +8067,23 @@
     "day": "2024-06-10",
     "version": "0.1.0",
     "downloads": 4
+<<<<<<< Updated upstream
   },
   {
     "day": "2024-06-09",
     "version": "0.2.1",
     "downloads": 2
+=======
+>>>>>>> Stashed changes
   },
   {
     "day": "2024-06-09",
     "version": "0.1.0",
+    "downloads": 2
+  },
+  {
+    "day": "2024-06-09",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
@@ -7621,22 +8158,30 @@
   },
   {
     "day": "2024-06-03",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 2
   },
   {
     "day": "2024-06-03",
-    "version": "0.2.1",
+    "version": "0.1.4",
     "downloads": 2
   },
   {
     "day": "2024-06-02",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.4",
+    "downloads": 5
+  },
+  {
+    "day": "2024-06-02",
+>>>>>>> Stashed changes
     "version": "0.1.0",
     "downloads": 5
   },
   {
     "day": "2024-06-02",
-    "version": "0.1.4",
+    "version": "0.2.1",
     "downloads": 5
   },
   {
@@ -7671,6 +8216,11 @@
   },
   {
     "day": "2024-05-30",
+    "version": "0.2.1",
+    "downloads": 4
+  },
+  {
+    "day": "2024-05-30",
     "version": "0.1.0",
     "downloads": 4
   },
@@ -7680,11 +8230,14 @@
     "downloads": 4
   },
   {
+<<<<<<< Updated upstream
     "day": "2024-05-30",
     "version": "0.1.4",
     "downloads": 4
   },
   {
+=======
+>>>>>>> Stashed changes
     "day": "2024-05-29",
     "version": "0.1.4",
     "downloads": 8
@@ -7717,16 +8270,24 @@
   {
     "day": "2024-05-27",
     "version": "0.2.1",
+<<<<<<< Updated upstream
     "downloads": 2
   },
   {
     "day": "2024-05-27",
     "version": "0.1.0",
+=======
+>>>>>>> Stashed changes
     "downloads": 2
   },
   {
     "day": "2024-05-27",
     "version": "0.1.4",
+    "downloads": 2
+  },
+  {
+    "day": "2024-05-27",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -7766,12 +8327,12 @@
   },
   {
     "day": "2024-05-24",
-    "version": "0.1.4",
+    "version": "0.1.0",
     "downloads": 4
   },
   {
     "day": "2024-05-24",
-    "version": "0.1.0",
+    "version": "0.1.4",
     "downloads": 4
   },
   {
@@ -7796,12 +8357,20 @@
   },
   {
     "day": "2024-05-21",
+<<<<<<< Updated upstream
+=======
+    "version": "0.2.1",
+    "downloads": 4
+  },
+  {
+    "day": "2024-05-21",
+>>>>>>> Stashed changes
     "version": "0.1.4",
     "downloads": 4
   },
   {
     "day": "2024-05-21",
-    "version": "0.2.1",
+    "version": "0.1.0",
     "downloads": 4
   },
   {

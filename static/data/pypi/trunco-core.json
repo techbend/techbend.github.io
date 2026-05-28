@@ -991,12 +991,12 @@
   },
   {
     "day": "2025-11-18",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-11-18",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
@@ -1261,12 +1261,12 @@
   },
   {
     "day": "2025-09-19",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
     "day": "2025-09-19",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1431,12 +1431,12 @@
   },
   {
     "day": "2025-08-22",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
     "day": "2025-08-22",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1451,12 +1451,12 @@
   },
   {
     "day": "2025-08-17",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
     "day": "2025-08-17",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1541,12 +1541,12 @@
   },
   {
     "day": "2025-08-02",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
     "day": "2025-08-02",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1616,12 +1616,12 @@
   },
   {
     "day": "2025-07-14",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
     "day": "2025-07-14",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
@@ -1636,12 +1636,12 @@
   },
   {
     "day": "2025-07-11",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 2
   },
   {
     "day": "2025-07-11",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 2
   },
   {
@@ -1696,6 +1696,14 @@
   },
   {
     "day": "2025-07-01",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.1",
+    "downloads": 2
+  },
+  {
+    "day": "2025-06-28",
+>>>>>>> Stashed changes
     "version": "0.1.1",
     "downloads": 2
   },
@@ -1846,12 +1854,20 @@
   },
   {
     "day": "2025-05-24",
+<<<<<<< Updated upstream
+=======
+    "version": "0.1.0",
+    "downloads": 6
+  },
+  {
+    "day": "2025-05-20",
+>>>>>>> Stashed changes
     "version": "0.1.1",
     "downloads": 6
   },
   {
     "day": "2025-05-20",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 6
   },
   {
@@ -2396,12 +2412,12 @@
   },
   {
     "day": "2025-03-13",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "downloads": 8
   },
   {
     "day": "2025-03-13",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "downloads": 8
   },
   {
