@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-05-30T08:16:11.262568+00:00",
+  "updated_at": "2026-05-31T08:34:24.166874+00:00",
   "profile": {
     "public_repos": 124,
     "followers": 235,
-    "following": 345,
+    "following": 346,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 609
+    "contributions_last_year": 625
   },
   "repo_count": 6,
-  "total_stars": 79240,
+  "total_stars": 79254,
   "repos": [
     {
       "name": "pgmq",
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 72908,
-      "forks_count": 34688,
-      "open_issues_count": 9318,
+      "stargazers_count": 72922,
+      "forks_count": 34693,
+      "open_issues_count": 9310,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-05-30T07:13:46Z",
+      "updated_at": "2026-05-31T08:20:31Z",
       "archived": false,
       "fork": false
     },
