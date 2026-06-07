@@ -1,5 +1,15 @@
 [
   {
+    "day": "2026-06-06",
+    "version": "0.2.0",
+    "downloads": 24
+  },
+  {
+    "day": "2026-06-06",
+    "version": "0.1.0",
+    "downloads": 16
+  },
+  {
     "day": "2026-06-05",
     "version": "0.2.0",
     "downloads": 9
@@ -561,12 +571,12 @@
   },
   {
     "day": "2026-03-17",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "downloads": 3
   },
   {
     "day": "2026-03-17",
-    "version": "0.2.0",
+    "version": "0.1.0",
     "downloads": 3
   },
   {
