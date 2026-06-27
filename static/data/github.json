@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-06-26T08:50:11.234360+00:00",
+  "updated_at": "2026-06-27T08:25:51.861436+00:00",
   "profile": {
-    "public_repos": 126,
+    "public_repos": 127,
     "followers": 235,
     "following": 349,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 739
+    "contributions_last_year": 740
   },
   "repo_count": 6,
-  "total_stars": 79836,
+  "total_stars": 79846,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 4983,
+      "stargazers_count": 4984,
       "forks_count": 139,
-      "open_issues_count": 41,
+      "open_issues_count": 40,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-06-25T15:52:29Z",
+      "updated_at": "2026-06-27T00:51:33Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73425,
-      "forks_count": 34781,
-      "open_issues_count": 9434,
+      "stargazers_count": 73432,
+      "forks_count": 34783,
+      "open_issues_count": 9443,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-06-26T08:43:49Z",
+      "updated_at": "2026-06-27T08:23:15Z",
       "archived": false,
       "fork": false
     },
@@ -56,7 +56,7 @@
       "html_url": "https://github.com/ChuckHend/pg_vectorize",
       "description": "Full-text and semantic search on any Postgres",
       "language": "Rust",
-      "stargazers_count": 830,
+      "stargazers_count": 831,
       "forks_count": 40,
       "open_issues_count": 7,
       "topics": [
@@ -66,7 +66,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-06-25T11:20:06Z",
+      "updated_at": "2026-06-27T03:00:12Z",
       "archived": false,
       "fork": false
     },
@@ -94,7 +94,7 @@
       "html_url": "https://github.com/tavallaie/pyreveal",
       "description": "PyReveal is a Python library that allows users to generate Reveal.js presentations programmatically. With PyReveal, you can easily create slides, set themes, transitions, and even add custom backgrounds like images or videos.",
       "language": "Python",
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "forks_count": 1,
       "open_issues_count": 0,
       "topics": [
@@ -103,7 +103,7 @@
       ],
       "homepage": "",
       "created_at": "2023-09-29T00:13:58Z",
-      "updated_at": "2026-06-26T03:36:33Z",
+      "updated_at": "2026-06-26T22:07:39Z",
       "archived": false,
       "fork": false
     },
