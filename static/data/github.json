@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-07-06T09:55:40.323784+00:00",
+  "updated_at": "2026-07-07T09:23:24.006856+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 237,
@@ -8,10 +8,10 @@
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 757
+    "contributions_last_year": 766
   },
   "repo_count": 6,
-  "total_stars": 80016,
+  "total_stars": 80010,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5002,
+      "stargazers_count": 5004,
       "forks_count": 140,
-      "open_issues_count": 37,
+      "open_issues_count": 36,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-07-06T09:29:57Z",
+      "updated_at": "2026-07-07T06:52:16Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73581,
-      "forks_count": 34826,
-      "open_issues_count": 9403,
+      "stargazers_count": 73572,
+      "forks_count": 34827,
+      "open_issues_count": 9401,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-06T09:51:06Z",
+      "updated_at": "2026-07-07T09:11:42Z",
       "archived": false,
       "fork": false
     },
@@ -77,13 +77,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 519,
+      "stargazers_count": 520,
       "forks_count": 49,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-07-05T02:26:07Z",
+      "updated_at": "2026-07-07T07:08:06Z",
       "archived": false,
       "fork": false
     },
