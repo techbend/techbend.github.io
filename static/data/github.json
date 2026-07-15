@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-07-14T07:46:32.800076+00:00",
+  "updated_at": "2026-07-15T07:50:23.716372+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 238,
@@ -11,7 +11,7 @@
     "contributions_last_year": 775
   },
   "repo_count": 6,
-  "total_stars": 80251,
+  "total_stars": 80285,
   "repos": [
     {
       "name": "pgmq",
@@ -22,13 +22,13 @@
       "language": "PLpgSQL",
       "stargazers_count": 5025,
       "forks_count": 139,
-      "open_issues_count": 36,
+      "open_issues_count": 31,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-07-14T06:40:55Z",
+      "updated_at": "2026-07-15T02:47:01Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73789,
-      "forks_count": 35009,
-      "open_issues_count": 9416,
+      "stargazers_count": 73823,
+      "forks_count": 35010,
+      "open_issues_count": 9421,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-14T07:31:30Z",
+      "updated_at": "2026-07-15T07:46:02Z",
       "archived": false,
       "fork": false
     },
@@ -83,7 +83,7 @@
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-07-13T11:54:52Z",
+      "updated_at": "2026-07-15T07:13:22Z",
       "archived": false,
       "fork": false
     },
