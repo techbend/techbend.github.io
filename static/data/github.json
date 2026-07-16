@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-07-15T07:50:23.716372+00:00",
+  "updated_at": "2026-07-16T07:55:11.415535+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 238,
@@ -8,10 +8,10 @@
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 775
+    "contributions_last_year": 777
   },
   "repo_count": 6,
-  "total_stars": 80285,
+  "total_stars": 80302,
   "repos": [
     {
       "name": "pgmq",
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73823,
-      "forks_count": 35010,
-      "open_issues_count": 9421,
+      "stargazers_count": 73839,
+      "forks_count": 35016,
+      "open_issues_count": 9426,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-15T07:46:02Z",
+      "updated_at": "2026-07-16T07:12:57Z",
       "archived": false,
       "fork": false
     },
@@ -77,13 +77,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 523,
-      "forks_count": 49,
+      "stargazers_count": 524,
+      "forks_count": 50,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-07-15T07:13:22Z",
+      "updated_at": "2026-07-16T07:49:32Z",
       "archived": false,
       "fork": false
     },
