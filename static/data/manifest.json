@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T08:07:24.311281+00:00",
+  "updated_at": "2026-07-22T08:07:56.460118+00:00",
   "public_repos": 127,
   "contributions_last_year": 775,
   "pinned_projects": [
@@ -10,7 +10,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5028,
+      "stargazers_count": 5032,
       "forks_count": 139,
       "open_issues_count": 32,
       "topics": [
@@ -18,7 +18,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-07-21T02:57:59Z",
+      "updated_at": "2026-07-21T20:43:30Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73843,
-      "forks_count": 34964,
-      "open_issues_count": 9451,
+      "stargazers_count": 73881,
+      "forks_count": 34970,
+      "open_issues_count": 9463,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-21T07:16:29Z",
+      "updated_at": "2026-07-22T07:06:47Z",
       "archived": false,
       "fork": false
     },
