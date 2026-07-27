@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-07-26T08:07:46.029364+00:00",
+  "updated_at": "2026-07-27T09:30:15.316537+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 239,
@@ -8,10 +8,10 @@
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 777
+    "contributions_last_year": 775
   },
   "repo_count": 6,
-  "total_stars": 80405,
+  "total_stars": 80430,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5037,
-      "forks_count": 139,
-      "open_issues_count": 31,
+      "stargazers_count": 5038,
+      "forks_count": 140,
+      "open_issues_count": 32,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-07-25T16:59:28Z",
+      "updated_at": "2026-07-27T04:31:19Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73927,
-      "forks_count": 35007,
-      "open_issues_count": 9484,
+      "stargazers_count": 73951,
+      "forks_count": 35013,
+      "open_issues_count": 9488,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-26T08:07:15Z",
+      "updated_at": "2026-07-27T09:29:32Z",
       "archived": false,
       "fork": false
     },
@@ -66,7 +66,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-07-12T02:28:00Z",
+      "updated_at": "2026-07-27T02:41:18Z",
       "archived": false,
       "fork": false
     },
