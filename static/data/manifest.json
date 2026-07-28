@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T09:30:15.471286+00:00",
+  "updated_at": "2026-07-28T08:14:06.972772+00:00",
   "public_repos": 127,
-  "contributions_last_year": 775,
+  "contributions_last_year": 797,
   "pinned_projects": [
     {
       "name": "pgmq",
@@ -18,7 +18,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-07-27T04:31:19Z",
+      "updated_at": "2026-07-27T22:22:16Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 73951,
-      "forks_count": 35013,
-      "open_issues_count": 9488,
+      "stargazers_count": 73935,
+      "forks_count": 35023,
+      "open_issues_count": 9482,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-07-27T09:29:32Z",
+      "updated_at": "2026-07-28T07:27:13Z",
       "archived": false,
       "fork": false
     },
@@ -67,13 +67,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 527,
+      "stargazers_count": 528,
       "forks_count": 49,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-07-24T11:03:37Z",
+      "updated_at": "2026-07-27T13:52:39Z",
       "archived": false,
       "fork": false
     },
@@ -122,24 +122,21 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6524,
-      "data_points": 1924,
+      "total_downloads": 6527,
+      "data_points": 1925,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-07-26"
-      },
-      "version": "0.1.4",
-      "summary": "",
-      "requires_python": ""
+        "to": "2026-07-27"
+      }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 7912,
-      "data_points": 1730,
+      "total_downloads": 7921,
+      "data_points": 1732,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -148,101 +145,104 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4539,
-      "data_points": 590,
+      "total_downloads": 4542,
+      "data_points": 591,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4664,
-      "data_points": 1137,
+      "total_downloads": 4671,
+      "data_points": 1139,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6522,
-      "data_points": 1711,
+      "total_downloads": 6537,
+      "data_points": 1714,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-07-26"
-      }
+        "to": "2026-07-27"
+      },
+      "version": "0.2.1",
+      "summary": "DjangoWiz: A simple and powerful toolkit to automate the generation of serializers, viewsets, URLs, and Docker configurations for your Django projects.",
+      "requires_python": "<4.0,>=3.10"
     },
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2713,
-      "data_points": 664,
+      "total_downloads": 2715,
+      "data_points": 665,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 862,
-      "data_points": 138,
+      "total_downloads": 865,
+      "data_points": 139,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-07-24"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 836,
-      "data_points": 141,
+      "total_downloads": 839,
+      "data_points": 142,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2816,
-      "data_points": 770,
+      "total_downloads": 2819,
+      "data_points": 771,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "mirava",
       "first_seen": "2026-02-13",
-      "total_downloads": 1408,
-      "data_points": 244,
+      "total_downloads": 1412,
+      "data_points": 246,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-07-24"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4508,
-      "data_points": 1299,
+      "total_downloads": 4509,
+      "data_points": 1300,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 121535,
-      "data_points": 3874,
+      "total_downloads": 123440,
+      "data_points": 3880,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.1.2",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -251,31 +251,31 @@
     {
       "name": "pgpx",
       "first_seen": "2024-10-18",
-      "total_downloads": 3507,
-      "data_points": 477,
+      "total_downloads": 3508,
+      "data_points": 478,
       "date_range": {
         "from": "2024-10-18",
-        "to": "2026-07-24"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "pgxm",
       "first_seen": "2025-09-21",
-      "total_downloads": 981,
-      "data_points": 231,
+      "total_downloads": 982,
+      "data_points": 232,
       "date_range": {
         "from": "2025-09-21",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30607,
-      "data_points": 13150,
+      "total_downloads": 30613,
+      "data_points": 13152,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -284,21 +284,21 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5491,
-      "data_points": 1323,
+      "total_downloads": 5497,
+      "data_points": 1324,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11089,
-      "data_points": 2512,
+      "total_downloads": 11091,
+      "data_points": 2514,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -307,41 +307,41 @@
     {
       "name": "storyweaver",
       "first_seen": "2024-05-29",
-      "total_downloads": 2068,
-      "data_points": 547,
+      "total_downloads": 2069,
+      "data_points": 548,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-07-24"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "takumitools",
       "first_seen": "2024-05-29",
-      "total_downloads": 2130,
-      "data_points": 549,
+      "total_downloads": 2131,
+      "data_points": 550,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-07-24"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6497,
-      "data_points": 1304,
+      "total_downloads": 6504,
+      "data_points": 1307,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 10556,
-      "data_points": 1884,
+      "total_downloads": 10560,
+      "data_points": 1886,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.0.0",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -350,31 +350,31 @@
     {
       "name": "trunco-core",
       "first_seen": "2025-02-28",
-      "total_downloads": 2213,
-      "data_points": 575,
+      "total_downloads": 2214,
+      "data_points": 576,
       "date_range": {
         "from": "2025-02-28",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "visgen",
       "first_seen": "2026-05-04",
-      "total_downloads": 2216,
-      "data_points": 228,
+      "total_downloads": 2217,
+      "data_points": 229,
       "date_range": {
         "from": "2026-05-04",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       }
     },
     {
       "name": "woodsman",
       "first_seen": "2025-02-25",
-      "total_downloads": 2245,
-      "data_points": 556,
+      "total_downloads": 2246,
+      "data_points": 557,
       "date_range": {
         "from": "2025-02-25",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       }
     }
   ],
@@ -382,11 +382,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 121535,
-      "data_points": 3874,
+      "total_downloads": 123440,
+      "data_points": 3880,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.1.2",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -395,11 +395,11 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30607,
-      "data_points": 13150,
+      "total_downloads": 30613,
+      "data_points": 13152,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -408,11 +408,11 @@
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11089,
-      "data_points": 2512,
+      "total_downloads": 11091,
+      "data_points": 2514,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-07-25"
+        "to": "2026-07-27"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -421,11 +421,11 @@
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 10556,
-      "data_points": 1884,
+      "total_downloads": 10560,
+      "data_points": 1886,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "1.0.0",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -434,28 +434,28 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 7912,
-      "data_points": 1730,
+      "total_downloads": 7921,
+      "data_points": 1732,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-07-26"
+        "to": "2026-07-27"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
       "requires_python": ">=3.10,<4.0"
     },
     {
-      "name": "adjspecies3",
-      "first_seen": "2020-06-04",
-      "total_downloads": 6524,
-      "data_points": 1924,
+      "name": "djangowiz",
+      "first_seen": "2024-05-14",
+      "total_downloads": 6537,
+      "data_points": 1714,
       "date_range": {
-        "from": "2020-06-04",
-        "to": "2026-07-26"
+        "from": "2024-05-14",
+        "to": "2026-07-27"
       },
-      "version": "0.1.4",
-      "summary": "",
-      "requires_python": ""
+      "version": "0.2.1",
+      "summary": "DjangoWiz: A simple and powerful toolkit to automate the generation of serializers, viewsets, URLs, and Docker configurations for your Django projects.",
+      "requires_python": "<4.0,>=3.10"
     }
   ]
 }
