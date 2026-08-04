@@ -1,16 +1,16 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-03T09:21:24.637484+00:00",
+  "updated_at": "2026-08-04T08:19:39.455537+00:00",
   "package_count": 24,
   "packages": [
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6543,
-      "data_points": 1930,
+      "total_downloads": 6545,
+      "data_points": 1931,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
@@ -26,11 +26,11 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4555,
-      "data_points": 597,
+      "total_downloads": 4556,
+      "data_points": 598,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
@@ -56,111 +56,111 @@
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2725,
-      "data_points": 669,
+      "total_downloads": 2726,
+      "data_points": 670,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 880,
-      "data_points": 144,
+      "total_downloads": 881,
+      "data_points": 145,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 850,
-      "data_points": 145,
+      "total_downloads": 854,
+      "data_points": 146,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2827,
-      "data_points": 773,
+      "total_downloads": 2830,
+      "data_points": 774,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "mirava",
       "first_seen": "2026-02-13",
-      "total_downloads": 1429,
-      "data_points": 249,
+      "total_downloads": 1434,
+      "data_points": 251,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4516,
-      "data_points": 1303,
+      "total_downloads": 4520,
+      "data_points": 1304,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 129534,
-      "data_points": 3926,
+      "total_downloads": 130425,
+      "data_points": 3931,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "pgpx",
       "first_seen": "2024-10-18",
-      "total_downloads": 3515,
-      "data_points": 482,
+      "total_downloads": 3517,
+      "data_points": 483,
       "date_range": {
         "from": "2024-10-18",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "pgxm",
       "first_seen": "2025-09-21",
-      "total_downloads": 988,
-      "data_points": 235,
+      "total_downloads": 990,
+      "data_points": 236,
       "date_range": {
         "from": "2025-09-21",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30630,
-      "data_points": 13159,
+      "total_downloads": 30640,
+      "data_points": 13162,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-07-31"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5509,
-      "data_points": 1328,
+      "total_downloads": 5522,
+      "data_points": 1331,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-07-31"
+        "to": "2026-08-03"
       }
     },
     {
@@ -196,41 +196,41 @@
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6507,
-      "data_points": 1309,
+      "total_downloads": 6513,
+      "data_points": 1312,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-07-28"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 10600,
-      "data_points": 1897,
+      "total_downloads": 10612,
+      "data_points": 1902,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "trunco-core",
       "first_seen": "2025-02-28",
-      "total_downloads": 2219,
-      "data_points": 580,
+      "total_downloads": 2223,
+      "data_points": 582,
       "date_range": {
         "from": "2025-02-28",
-        "to": "2026-08-01"
+        "to": "2026-08-03"
       }
     },
     {
       "name": "visgen",
       "first_seen": "2026-05-04",
-      "total_downloads": 2234,
-      "data_points": 240,
+      "total_downloads": 2236,
+      "data_points": 241,
       "date_range": {
         "from": "2026-05-04",
-        "to": "2026-08-02"
+        "to": "2026-08-03"
       }
     },
     {
