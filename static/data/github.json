@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-10T07:09:22.668458+00:00",
+  "updated_at": "2026-08-11T06:47:26.194129+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 242,
@@ -11,7 +11,7 @@
     "contributions_last_year": 808
   },
   "repo_count": 6,
-  "total_stars": 80784,
+  "total_stars": 80786,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5070,
+      "stargazers_count": 5073,
       "forks_count": 141,
       "open_issues_count": 31,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-10T04:26:27Z",
+      "updated_at": "2026-08-10T21:05:59Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 74262,
-      "forks_count": 35180,
-      "open_issues_count": 9562,
+      "stargazers_count": 74260,
+      "forks_count": 35193,
+      "open_issues_count": 9544,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-10T07:08:32Z",
+      "updated_at": "2026-08-11T06:35:27Z",
       "archived": false,
       "fork": false
     },
@@ -77,13 +77,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 532,
+      "stargazers_count": 533,
       "forks_count": 48,
       "open_issues_count": 12,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-08-06T18:07:12Z",
+      "updated_at": "2026-08-10T22:23:39Z",
       "archived": false,
       "fork": false
     },
