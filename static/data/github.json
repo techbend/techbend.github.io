@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-13T07:12:11.274418+00:00",
+  "updated_at": "2026-08-15T06:20:07.003412+00:00",
   "profile": {
     "public_repos": 127,
     "followers": 243,
@@ -8,10 +8,10 @@
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 812
+    "contributions_last_year": 814
   },
   "repo_count": 6,
-  "total_stars": 80839,
+  "total_stars": 80866,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5081,
+      "stargazers_count": 5088,
       "forks_count": 141,
-      "open_issues_count": 31,
+      "open_issues_count": 32,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-12T14:13:28Z",
+      "updated_at": "2026-08-15T05:49:23Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 74304,
-      "forks_count": 35199,
-      "open_issues_count": 9497,
+      "stargazers_count": 74323,
+      "forks_count": 35205,
+      "open_issues_count": 9485,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-13T06:29:13Z",
+      "updated_at": "2026-08-15T05:30:21Z",
       "archived": false,
       "fork": false
     },
@@ -94,7 +94,7 @@
       "html_url": "https://github.com/tavallaie/pyreveal",
       "description": "PyReveal is a Python library that allows users to generate Reveal.js presentations programmatically. With PyReveal, you can easily create slides, set themes, transitions, and even add custom backgrounds like images or videos.",
       "language": "Python",
-      "stargazers_count": 22,
+      "stargazers_count": 23,
       "forks_count": 1,
       "open_issues_count": 0,
       "topics": [
@@ -103,7 +103,7 @@
       ],
       "homepage": "",
       "created_at": "2023-09-29T00:13:58Z",
-      "updated_at": "2026-06-26T22:07:39Z",
+      "updated_at": "2026-08-14T08:27:32Z",
       "archived": false,
       "fork": false
     },
