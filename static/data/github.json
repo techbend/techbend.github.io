@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-18T06:24:59.991526+00:00",
+  "updated_at": "2026-08-19T06:25:30.553962+00:00",
   "profile": {
     "public_repos": 128,
-    "followers": 243,
-    "following": 354,
+    "followers": 242,
+    "following": 355,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 819
+    "contributions_last_year": 848
   },
   "repo_count": 6,
-  "total_stars": 80929,
+  "total_stars": 80952,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5091,
+      "stargazers_count": 5093,
       "forks_count": 141,
       "open_issues_count": 31,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-17T20:52:44Z",
+      "updated_at": "2026-08-19T01:59:54Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 74383,
-      "forks_count": 35222,
-      "open_issues_count": 9528,
+      "stargazers_count": 74405,
+      "forks_count": 35233,
+      "open_issues_count": 9527,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-18T05:26:09Z",
+      "updated_at": "2026-08-19T03:26:05Z",
       "archived": false,
       "fork": false
     },
@@ -56,7 +56,7 @@
       "html_url": "https://github.com/ChuckHend/pg_vectorize",
       "description": "Full-text and semantic search on any Postgres",
       "language": "Rust",
-      "stargazers_count": 832,
+      "stargazers_count": 831,
       "forks_count": 40,
       "open_issues_count": 6,
       "topics": [
@@ -66,7 +66,7 @@
       ],
       "homepage": "https://chuckhend.github.io/pg_vectorize/",
       "created_at": "2023-07-24T19:26:09Z",
-      "updated_at": "2026-08-11T13:01:48Z",
+      "updated_at": "2026-08-19T01:59:56Z",
       "archived": false,
       "fork": false
     },
@@ -83,7 +83,7 @@
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-08-10T22:23:39Z",
+      "updated_at": "2026-08-19T05:37:44Z",
       "archived": false,
       "fork": false
     },
@@ -116,14 +116,14 @@
       "language": "Python",
       "stargazers_count": 67,
       "forks_count": 10,
-      "open_issues_count": 6,
+      "open_issues_count": 0,
       "topics": [
         "postgresql",
         "python"
       ],
       "homepage": "https://pgmq.github.io/pgmq-py/",
       "created_at": "2025-08-19T13:38:53Z",
-      "updated_at": "2026-08-17T10:13:09Z",
+      "updated_at": "2026-08-18T13:39:33Z",
       "archived": false,
       "fork": false
     }
