@@ -1,16 +1,16 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-20T06:26:44.168146+00:00",
+  "updated_at": "2026-08-21T06:27:57.690346+00:00",
   "package_count": 24,
   "packages": [
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6590,
-      "data_points": 1947,
+      "total_downloads": 6594,
+      "data_points": 1948,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
@@ -26,61 +26,61 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4597,
-      "data_points": 611,
+      "total_downloads": 4602,
+      "data_points": 612,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4754,
-      "data_points": 1167,
+      "total_downloads": 4764,
+      "data_points": 1169,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6615,
-      "data_points": 1752,
+      "total_downloads": 6631,
+      "data_points": 1755,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2754,
-      "data_points": 679,
+      "total_downloads": 2760,
+      "data_points": 680,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 906,
-      "data_points": 154,
+      "total_downloads": 910,
+      "data_points": 155,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 873,
-      "data_points": 155,
+      "total_downloads": 877,
+      "data_points": 156,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
@@ -96,11 +96,11 @@
     {
       "name": "mirava",
       "first_seen": "2026-02-13",
-      "total_downloads": 1478,
-      "data_points": 269,
+      "total_downloads": 1482,
+      "data_points": 271,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
@@ -116,11 +116,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 151178,
-      "data_points": 4081,
+      "total_downloads": 153318,
+      "data_points": 4089,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
@@ -146,31 +146,31 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30731,
-      "data_points": 13199,
+      "total_downloads": 30734,
+      "data_points": 13200,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5571,
-      "data_points": 1353,
+      "total_downloads": 5580,
+      "data_points": 1356,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-08-18"
+        "to": "2026-08-20"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11594,
-      "data_points": 2638,
+      "total_downloads": 11611,
+      "data_points": 2645,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-08-19"
+        "to": "2026-08-20"
       }
     },
     {
