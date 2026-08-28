@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T17:04:40.997679+00:00",
+  "updated_at": "2026-08-28T17:52:54.791380+00:00",
   "public_repos": 129,
-  "contributions_last_year": 967,
+  "contributions_last_year": 974,
   "pinned_projects": [
     {
       "name": "pgmq",
@@ -10,7 +10,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5113,
+      "stargazers_count": 5126,
       "forks_count": 141,
       "open_issues_count": 27,
       "topics": [
@@ -18,7 +18,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-27T00:06:39Z",
+      "updated_at": "2026-08-28T17:32:47Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 75017,
-      "forks_count": 35283,
-      "open_issues_count": 9602,
+      "stargazers_count": 75022,
+      "forks_count": 35287,
+      "open_issues_count": 9624,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-27T16:54:08Z",
+      "updated_at": "2026-08-28T16:27:38Z",
       "archived": false,
       "fork": false
     },
@@ -78,26 +78,6 @@
       "fork": false
     },
     {
-      "name": "pyreveal",
-      "full_name": "tavallaie/pyreveal",
-      "owner": "tavallaie",
-      "html_url": "https://github.com/tavallaie/pyreveal",
-      "description": "PyReveal is a Python library that allows users to generate Reveal.js presentations programmatically. With PyReveal, you can easily create slides, set themes, transitions, and even add custom backgrounds like images or videos.",
-      "language": "Python",
-      "stargazers_count": 23,
-      "forks_count": 1,
-      "open_issues_count": 0,
-      "topics": [
-        "python3",
-        "reveal-js"
-      ],
-      "homepage": "",
-      "created_at": "2023-09-29T00:13:58Z",
-      "updated_at": "2026-08-14T08:27:32Z",
-      "archived": false,
-      "fork": false
-    },
-    {
       "name": "pgmq-py",
       "full_name": "pgmq/pgmq-py",
       "owner": "pgmq",
@@ -106,7 +86,7 @@
       "language": "Python",
       "stargazers_count": 68,
       "forks_count": 10,
-      "open_issues_count": 3,
+      "open_issues_count": 2,
       "topics": [
         "postgresql",
         "python"
@@ -116,27 +96,56 @@
       "updated_at": "2026-08-26T04:13:40Z",
       "archived": false,
       "fork": false
+    },
+    {
+      "name": "kombu",
+      "full_name": "celery/kombu",
+      "owner": "celery",
+      "html_url": "https://github.com/celery/kombu",
+      "description": "Messaging library for Python.",
+      "language": "Python",
+      "stargazers_count": 3136,
+      "forks_count": 1027,
+      "open_issues_count": 231,
+      "topics": [
+        "celery",
+        "kombu",
+        "message-queue",
+        "messaging",
+        "python",
+        "python-3",
+        "python-library",
+        "python3",
+        "rabbitmq",
+        "redis",
+        "sqs"
+      ],
+      "homepage": "http://kombu.readthedocs.org/",
+      "created_at": "2010-06-23T10:10:24Z",
+      "updated_at": "2026-08-27T05:56:16Z",
+      "archived": false,
+      "fork": false
     }
   ],
   "packages": [
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6615,
-      "data_points": 1953,
+      "total_downloads": 6616,
+      "data_points": 1954,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8100,
-      "data_points": 1777,
+      "total_downloads": 8108,
+      "data_points": 1779,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -145,21 +154,21 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4617,
-      "data_points": 617,
+      "total_downloads": 4619,
+      "data_points": 618,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4798,
-      "data_points": 1175,
+      "total_downloads": 4802,
+      "data_points": 1177,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       }
     },
     {
@@ -188,11 +197,11 @@
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 927,
-      "data_points": 161,
+      "total_downloads": 929,
+      "data_points": 162,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       }
     },
     {
@@ -228,21 +237,21 @@
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4559,
-      "data_points": 1320,
+      "total_downloads": 4561,
+      "data_points": 1321,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 162196,
-      "data_points": 4156,
+      "total_downloads": 162985,
+      "data_points": 4168,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.1.3",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -251,11 +260,11 @@
     {
       "name": "pgpx",
       "first_seen": "2024-10-18",
-      "total_downloads": 3560,
-      "data_points": 499,
+      "total_downloads": 3561,
+      "data_points": 500,
       "date_range": {
         "from": "2024-10-18",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       }
     },
     {
@@ -271,11 +280,11 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30790,
-      "data_points": 13230,
+      "total_downloads": 30793,
+      "data_points": 13232,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -284,11 +293,11 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5597,
-      "data_points": 1364,
+      "total_downloads": 5602,
+      "data_points": 1367,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       }
     },
     {
@@ -307,11 +316,11 @@
     {
       "name": "storyweaver",
       "first_seen": "2024-05-29",
-      "total_downloads": 2114,
-      "data_points": 568,
+      "total_downloads": 2115,
+      "data_points": 569,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       }
     },
     {
@@ -337,11 +346,11 @@
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 10857,
-      "data_points": 1981,
+      "total_downloads": 10866,
+      "data_points": 1986,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.0.0",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -350,11 +359,11 @@
     {
       "name": "trunco-core",
       "first_seen": "2025-02-28",
-      "total_downloads": 2285,
-      "data_points": 612,
+      "total_downloads": 2289,
+      "data_points": 614,
       "date_range": {
         "from": "2025-02-28",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       }
     },
     {
@@ -382,11 +391,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 162196,
-      "data_points": 4156,
+      "total_downloads": 162985,
+      "data_points": 4168,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.1.3",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -395,11 +404,11 @@
     {
       "name": "pychartjs",
       "first_seen": "2017-05-27",
-      "total_downloads": 30790,
-      "data_points": 13230,
+      "total_downloads": 30793,
+      "data_points": 13232,
       "date_range": {
         "from": "2017-05-27",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.0.0",
       "summary": "git@github.com:tavallaie/pychartjs.git",
@@ -421,11 +430,11 @@
     {
       "name": "trunco",
       "first_seen": "2024-08-14",
-      "total_downloads": 10857,
-      "data_points": 1981,
+      "total_downloads": 10866,
+      "data_points": 1986,
       "date_range": {
         "from": "2024-08-14",
-        "to": "2026-08-26"
+        "to": "2026-08-27"
       },
       "version": "1.0.0",
       "summary": "An agile, powerful Python framework for creating dynamic UIs with seamless web integration.",
@@ -434,11 +443,11 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8100,
-      "data_points": 1777,
+      "total_downloads": 8108,
+      "data_points": 1779,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-08-25"
+        "to": "2026-08-27"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",

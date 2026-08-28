@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-27T17:04:40.808782+00:00",
+  "updated_at": "2026-08-28T17:52:54.609981+00:00",
   "profile": {
     "public_repos": 129,
-    "followers": 243,
+    "followers": 244,
     "following": 357,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 967
+    "contributions_last_year": 974
   },
   "repo_count": 6,
-  "total_stars": 81587,
+  "total_stars": 84718,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5113,
+      "stargazers_count": 5126,
       "forks_count": 141,
       "open_issues_count": 27,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-27T00:06:39Z",
+      "updated_at": "2026-08-28T17:32:47Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 75017,
-      "forks_count": 35283,
-      "open_issues_count": 9602,
+      "stargazers_count": 75022,
+      "forks_count": 35287,
+      "open_issues_count": 9624,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-27T16:54:08Z",
+      "updated_at": "2026-08-28T16:27:38Z",
       "archived": false,
       "fork": false
     },
@@ -88,26 +88,6 @@
       "fork": false
     },
     {
-      "name": "pyreveal",
-      "full_name": "tavallaie/pyreveal",
-      "owner": "tavallaie",
-      "html_url": "https://github.com/tavallaie/pyreveal",
-      "description": "PyReveal is a Python library that allows users to generate Reveal.js presentations programmatically. With PyReveal, you can easily create slides, set themes, transitions, and even add custom backgrounds like images or videos.",
-      "language": "Python",
-      "stargazers_count": 23,
-      "forks_count": 1,
-      "open_issues_count": 0,
-      "topics": [
-        "python3",
-        "reveal-js"
-      ],
-      "homepage": "",
-      "created_at": "2023-09-29T00:13:58Z",
-      "updated_at": "2026-08-14T08:27:32Z",
-      "archived": false,
-      "fork": false
-    },
-    {
       "name": "pgmq-py",
       "full_name": "pgmq/pgmq-py",
       "owner": "pgmq",
@@ -116,7 +96,7 @@
       "language": "Python",
       "stargazers_count": 68,
       "forks_count": 10,
-      "open_issues_count": 3,
+      "open_issues_count": 2,
       "topics": [
         "postgresql",
         "python"
@@ -124,6 +104,35 @@
       "homepage": "https://pgmq.github.io/pgmq-py/",
       "created_at": "2025-08-19T13:38:53Z",
       "updated_at": "2026-08-26T04:13:40Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "kombu",
+      "full_name": "celery/kombu",
+      "owner": "celery",
+      "html_url": "https://github.com/celery/kombu",
+      "description": "Messaging library for Python.",
+      "language": "Python",
+      "stargazers_count": 3136,
+      "forks_count": 1027,
+      "open_issues_count": 231,
+      "topics": [
+        "celery",
+        "kombu",
+        "message-queue",
+        "messaging",
+        "python",
+        "python-3",
+        "python-library",
+        "python3",
+        "rabbitmq",
+        "redis",
+        "sqs"
+      ],
+      "homepage": "http://kombu.readthedocs.org/",
+      "created_at": "2010-06-23T10:10:24Z",
+      "updated_at": "2026-08-27T05:56:16Z",
       "archived": false,
       "fork": false
     }
