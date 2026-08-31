@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-08-30T10:54:07.863799+00:00",
+  "updated_at": "2026-08-31T12:08:15.355474+00:00",
   "profile": {
     "public_repos": 129,
     "followers": 245,
@@ -8,10 +8,10 @@
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 974
+    "contributions_last_year": 973
   },
   "repo_count": 6,
-  "total_stars": 84988,
+  "total_stars": 85009,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5133,
+      "stargazers_count": 5136,
       "forks_count": 141,
       "open_issues_count": 28,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-08-30T10:43:11Z",
+      "updated_at": "2026-08-31T08:27:00Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 75284,
-      "forks_count": 35295,
-      "open_issues_count": 9605,
+      "stargazers_count": 75302,
+      "forks_count": 35315,
+      "open_issues_count": 9610,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-08-30T10:42:21Z",
+      "updated_at": "2026-08-31T12:03:05Z",
       "archived": false,
       "fork": false
     },
@@ -115,8 +115,8 @@
       "description": "Messaging library for Python.",
       "language": "Python",
       "stargazers_count": 3137,
-      "forks_count": 1030,
-      "open_issues_count": 233,
+      "forks_count": 1031,
+      "open_issues_count": 225,
       "topics": [
         "celery",
         "kombu",
@@ -132,7 +132,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-08-30T08:46:36Z",
+      "updated_at": "2026-08-31T11:31:32Z",
       "archived": false,
       "fork": false
     }
