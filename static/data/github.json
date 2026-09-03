@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-09-02T10:10:27.615428+00:00",
+  "updated_at": "2026-09-03T10:22:13.885721+00:00",
   "profile": {
     "public_repos": 130,
     "followers": 244,
@@ -11,7 +11,7 @@
     "contributions_last_year": 1
   },
   "repo_count": 6,
-  "total_stars": 85301,
+  "total_stars": 85304,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5137,
+      "stargazers_count": 5139,
       "forks_count": 141,
-      "open_issues_count": 28,
+      "open_issues_count": 27,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-09-01T07:01:00Z",
+      "updated_at": "2026-09-03T05:45:56Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 75592,
-      "forks_count": 35315,
-      "open_issues_count": 9633,
+      "stargazers_count": 75593,
+      "forks_count": 35316,
+      "open_issues_count": 9625,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-09-02T10:08:36Z",
+      "updated_at": "2026-09-03T09:32:53Z",
       "archived": false,
       "fork": false
     },
@@ -132,7 +132,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-09-02T04:31:33Z",
+      "updated_at": "2026-09-03T10:06:19Z",
       "archived": false,
       "fork": false
     }
