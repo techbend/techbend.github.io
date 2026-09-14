@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-09-13T10:47:29.952894+00:00",
+  "updated_at": "2026-09-14T11:14:07.834131+00:00",
   "profile": {
     "public_repos": 133,
-    "followers": 264,
-    "following": 369,
+    "followers": 265,
+    "following": 371,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
     "contributions_last_year": 1
   },
   "repo_count": 6,
-  "total_stars": 99063,
+  "total_stars": 99349,
   "repos": [
     {
       "name": "pgmq",
@@ -22,13 +22,13 @@
       "language": "Rust",
       "stargazers_count": 5269,
       "forks_count": 144,
-      "open_issues_count": 30,
+      "open_issues_count": 27,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-09-13T01:37:42Z",
+      "updated_at": "2026-09-14T00:10:57Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 76867,
-      "forks_count": 35378,
-      "open_issues_count": 9641,
+      "stargazers_count": 77141,
+      "forks_count": 35382,
+      "open_issues_count": 9650,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-09-13T09:49:55Z",
+      "updated_at": "2026-09-14T11:06:41Z",
       "archived": false,
       "fork": false
     },
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13177,
-      "forks_count": 1662,
-      "open_issues_count": 104,
+      "stargazers_count": 13189,
+      "forks_count": 1664,
+      "open_issues_count": 107,
       "topics": [
         "ai",
         "assistant",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-09-13T09:39:52Z",
+      "updated_at": "2026-09-14T10:36:08Z",
       "archived": false,
       "fork": false
     },
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-09-13T06:16:21Z",
+      "updated_at": "2026-09-13T15:30:23Z",
       "archived": false,
       "fork": false
     }
