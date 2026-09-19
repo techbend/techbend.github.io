@@ -1,46 +1,46 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-09-18T10:14:22.482549+00:00",
+  "updated_at": "2026-09-19T09:56:12.925863+00:00",
   "package_count": 24,
   "packages": [
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6666,
-      "data_points": 1970,
+      "total_downloads": 6669,
+      "data_points": 1971,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8177,
-      "data_points": 1805,
+      "total_downloads": 8184,
+      "data_points": 1807,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4664,
-      "data_points": 635,
+      "total_downloads": 4666,
+      "data_points": 636,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4862,
-      "data_points": 1200,
+      "total_downloads": 4869,
+      "data_points": 1202,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
@@ -56,11 +56,11 @@
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2824,
-      "data_points": 699,
+      "total_downloads": 2826,
+      "data_points": 700,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
@@ -86,11 +86,11 @@
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2904,
-      "data_points": 801,
+      "total_downloads": 2905,
+      "data_points": 802,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
@@ -116,11 +116,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 185817,
-      "data_points": 4395,
+      "total_downloads": 186804,
+      "data_points": 4400,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
@@ -156,51 +156,51 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5696,
-      "data_points": 1402,
+      "total_downloads": 5698,
+      "data_points": 1403,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-09-16"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11872,
-      "data_points": 2747,
+      "total_downloads": 11887,
+      "data_points": 2750,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "storyweaver",
       "first_seen": "2024-05-29",
-      "total_downloads": 2145,
-      "data_points": 580,
+      "total_downloads": 2147,
+      "data_points": 581,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "takumitools",
       "first_seen": "2024-05-29",
-      "total_downloads": 2201,
-      "data_points": 581,
+      "total_downloads": 2203,
+      "data_points": 582,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6646,
-      "data_points": 1379,
+      "total_downloads": 6648,
+      "data_points": 1380,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-09-17"
+        "to": "2026-09-18"
       }
     },
     {
