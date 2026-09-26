@@ -1,36 +1,36 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-09-25T10:48:27.072868+00:00",
+  "updated_at": "2026-09-26T10:29:41.502358+00:00",
   "package_count": 24,
   "packages": [
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6676,
-      "data_points": 1975,
+      "total_downloads": 6678,
+      "data_points": 1976,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8193,
-      "data_points": 1813,
+      "total_downloads": 8199,
+      "data_points": 1814,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4675,
-      "data_points": 640,
+      "total_downloads": 4677,
+      "data_points": 641,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
@@ -46,31 +46,31 @@
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6773,
-      "data_points": 1802,
+      "total_downloads": 6779,
+      "data_points": 1805,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2832,
-      "data_points": 703,
+      "total_downloads": 2833,
+      "data_points": 704,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 985,
-      "data_points": 181,
+      "total_downloads": 989,
+      "data_points": 182,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
@@ -86,11 +86,11 @@
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2912,
-      "data_points": 806,
+      "total_downloads": 2914,
+      "data_points": 807,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
@@ -106,41 +106,41 @@
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4614,
-      "data_points": 1339,
+      "total_downloads": 4616,
+      "data_points": 1340,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 194402,
-      "data_points": 4451,
+      "total_downloads": 195752,
+      "data_points": 4459,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "pgpx",
       "first_seen": "2024-10-18",
-      "total_downloads": 3611,
-      "data_points": 516,
+      "total_downloads": 3613,
+      "data_points": 517,
       "date_range": {
         "from": "2024-10-18",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "pgxm",
       "first_seen": "2025-09-21",
-      "total_downloads": 1082,
-      "data_points": 269,
+      "total_downloads": 1083,
+      "data_points": 270,
       "date_range": {
         "from": "2025-09-21",
-        "to": "2026-09-23"
+        "to": "2026-09-25"
       }
     },
     {
@@ -156,21 +156,21 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5720,
-      "data_points": 1410,
+      "total_downloads": 5722,
+      "data_points": 1411,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11946,
-      "data_points": 2771,
+      "total_downloads": 11962,
+      "data_points": 2778,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-09-24"
+        "to": "2026-09-25"
       }
     },
     {
