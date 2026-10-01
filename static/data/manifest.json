@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T11:34:09.382784+00:00",
+  "updated_at": "2026-10-01T12:02:39.895611+00:00",
   "public_repos": 135,
   "contributions_last_year": 1,
   "pinned_projects": [
@@ -10,7 +10,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "Rust",
-      "stargazers_count": 5304,
+      "stargazers_count": 5305,
       "forks_count": 149,
       "open_issues_count": 28,
       "topics": [
@@ -18,7 +18,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-09-30T04:14:49Z",
+      "updated_at": "2026-09-30T21:36:58Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77368,
-      "forks_count": 37028,
-      "open_issues_count": 9742,
+      "stargazers_count": 77374,
+      "forks_count": 37044,
+      "open_issues_count": 9728,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-09-30T11:08:41Z",
+      "updated_at": "2026-10-01T11:42:23Z",
       "archived": false,
       "fork": false
     },
@@ -46,9 +46,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13357,
-      "forks_count": 1699,
-      "open_issues_count": 116,
+      "stargazers_count": 13358,
+      "forks_count": 1701,
+      "open_issues_count": 115,
       "topics": [
         "ai",
         "assistant",
@@ -62,7 +62,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-09-30T05:10:47Z",
+      "updated_at": "2026-10-01T10:22:59Z",
       "archived": false,
       "fork": false
     },
@@ -79,7 +79,7 @@
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-09-15T04:04:48Z",
+      "updated_at": "2026-09-30T23:28:44Z",
       "archived": false,
       "fork": false
     },
@@ -110,9 +110,9 @@
       "html_url": "https://github.com/celery/kombu",
       "description": "Messaging library for Python.",
       "language": "Python",
-      "stargazers_count": 3143,
-      "forks_count": 1062,
-      "open_issues_count": 208,
+      "stargazers_count": 3144,
+      "forks_count": 1064,
+      "open_issues_count": 210,
       "topics": [
         "celery",
         "kombu",
@@ -128,7 +128,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-09-30T10:44:39Z",
+      "updated_at": "2026-09-30T18:32:49Z",
       "archived": false,
       "fork": false
     }
@@ -137,21 +137,21 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6687,
-      "data_points": 1980,
+      "total_downloads": 6689,
+      "data_points": 1981,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8210,
-      "data_points": 1819,
+      "total_downloads": 8222,
+      "data_points": 1821,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -160,31 +160,31 @@
     {
       "name": "connectiva",
       "first_seen": "2024-08-03",
-      "total_downloads": 4683,
-      "data_points": 644,
+      "total_downloads": 4684,
+      "data_points": 645,
       "date_range": {
         "from": "2024-08-03",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "devdock",
       "first_seen": "2024-05-31",
-      "total_downloads": 4890,
-      "data_points": 1211,
+      "total_downloads": 4894,
+      "data_points": 1213,
       "date_range": {
         "from": "2024-05-31",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6791,
-      "data_points": 1810,
+      "total_downloads": 6795,
+      "data_points": 1811,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.2.1",
       "summary": "DjangoWiz: A simple and powerful toolkit to automate the generation of serializers, viewsets, URLs, and Docker configurations for your Django projects.",
@@ -193,51 +193,51 @@
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2842,
-      "data_points": 707,
+      "total_downloads": 2845,
+      "data_points": 708,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 998,
-      "data_points": 184,
+      "total_downloads": 1002,
+      "data_points": 185,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-09-28"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "heygen",
       "first_seen": "2026-09-26",
-      "total_downloads": 352,
-      "data_points": 4,
+      "total_downloads": 356,
+      "data_points": 5,
       "date_range": {
         "from": "2026-09-26",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 956,
-      "data_points": 181,
+      "total_downloads": 957,
+      "data_points": 182,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "leanforge",
       "first_seen": "2023-08-04",
-      "total_downloads": 2922,
-      "data_points": 809,
+      "total_downloads": 2927,
+      "data_points": 810,
       "date_range": {
         "from": "2023-08-04",
-        "to": "2026-09-28"
+        "to": "2026-09-30"
       }
     },
     {
@@ -253,21 +253,21 @@
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4622,
-      "data_points": 1344,
+      "total_downloads": 4623,
+      "data_points": 1345,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 200280,
-      "data_points": 4497,
+      "total_downloads": 201213,
+      "data_points": 4510,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -309,21 +309,21 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5732,
-      "data_points": 1414,
+      "total_downloads": 5735,
+      "data_points": 1415,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11998,
-      "data_points": 2795,
+      "total_downloads": 12003,
+      "data_points": 2798,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -407,11 +407,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 200280,
-      "data_points": 4497,
+      "total_downloads": 201213,
+      "data_points": 4510,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -433,11 +433,11 @@
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 11998,
-      "data_points": 2795,
+      "total_downloads": 12003,
+      "data_points": 2798,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -459,11 +459,11 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8210,
-      "data_points": 1819,
+      "total_downloads": 8222,
+      "data_points": 1821,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -472,11 +472,11 @@
     {
       "name": "djangowiz",
       "first_seen": "2024-05-14",
-      "total_downloads": 6791,
-      "data_points": 1810,
+      "total_downloads": 6795,
+      "data_points": 1811,
       "date_range": {
         "from": "2024-05-14",
-        "to": "2026-09-29"
+        "to": "2026-09-30"
       },
       "version": "0.2.1",
       "summary": "DjangoWiz: A simple and powerful toolkit to automate the generation of serializers, viewsets, URLs, and Docker configurations for your Django projects.",
