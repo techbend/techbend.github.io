@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-10-08T12:27:30.583689+00:00",
+  "updated_at": "2026-10-09T12:16:40.663178+00:00",
   "profile": {
     "public_repos": 136,
     "followers": 264,
@@ -11,7 +11,7 @@
     "contributions_last_year": 1
   },
   "repo_count": 6,
-  "total_stars": 100036,
+  "total_stars": 100073,
   "repos": [
     {
       "name": "pgmq",
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77562,
-      "forks_count": 37549,
-      "open_issues_count": 9846,
+      "stargazers_count": 77590,
+      "forks_count": 37710,
+      "open_issues_count": 9855,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-10-08T12:15:06Z",
+      "updated_at": "2026-10-09T12:11:19Z",
       "archived": false,
       "fork": false
     },
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13394,
+      "stargazers_count": 13403,
       "forks_count": 1700,
-      "open_issues_count": 58,
+      "open_issues_count": 53,
       "topics": [
         "ai",
         "assistant",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-10-08T12:20:46Z",
+      "updated_at": "2026-10-09T12:02:52Z",
       "archived": false,
       "fork": false
     },
@@ -121,8 +121,8 @@
       "description": "Messaging library for Python.",
       "language": "Python",
       "stargazers_count": 3147,
-      "forks_count": 1066,
-      "open_issues_count": 210,
+      "forks_count": 1067,
+      "open_issues_count": 214,
       "topics": [
         "celery",
         "kombu",
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-10-08T12:02:47Z",
+      "updated_at": "2026-10-09T09:02:04Z",
       "archived": false,
       "fork": false
     }
