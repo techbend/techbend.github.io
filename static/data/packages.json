@@ -1,7 +1,7 @@
 {
   "username": "tavallaie",
-  "discovered_at": "2026-10-11T12:25:34.780197+00:00",
-  "package_count": 27,
+  "discovered_at": "2026-10-18T10:41:14.212935+00:00",
+  "package_count": 24,
   "packages": [
     "adjspecies3",
     "auto-dns",
@@ -10,8 +10,6 @@
     "djangowiz",
     "ezkernel",
     "galactipedia",
-    "heygen",
-    "hotword",
     "hyper-mirror",
     "leanforge",
     "mirava",
@@ -22,7 +20,6 @@
     "pychartjs",
     "pyreveal",
     "safarnama",
-    "sokhanvar",
     "storyweaver",
     "takumitools",
     "transmutate",
