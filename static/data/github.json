@@ -1,6 +1,6 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-10-20T10:38:05.743290+00:00",
+  "updated_at": "2026-10-21T10:49:04.647367+00:00",
   "profile": {
     "public_repos": 137,
     "followers": 265,
@@ -11,7 +11,7 @@
     "contributions_last_year": 1
   },
   "repo_count": 6,
-  "total_stars": 100389,
+  "total_stars": 100324,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5340,
+      "stargazers_count": 5342,
       "forks_count": 151,
       "open_issues_count": 29,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-10-20T00:31:14Z",
+      "updated_at": "2026-10-21T09:37:08Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77770,
-      "forks_count": 38770,
-      "open_issues_count": 9781,
+      "stargazers_count": 77713,
+      "forks_count": 38201,
+      "open_issues_count": 9602,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-10-20T10:31:43Z",
+      "updated_at": "2026-10-21T10:47:44Z",
       "archived": false,
       "fork": false
     },
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13519,
-      "forks_count": 1727,
-      "open_issues_count": 52,
+      "stargazers_count": 13509,
+      "forks_count": 1665,
+      "open_issues_count": 55,
       "topics": [
         "ai",
         "assistant",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-10-20T09:52:03Z",
+      "updated_at": "2026-10-21T09:28:01Z",
       "archived": false,
       "fork": false
     },
@@ -102,7 +102,7 @@
       "language": "Python",
       "stargazers_count": 71,
       "forks_count": 10,
-      "open_issues_count": 3,
+      "open_issues_count": 4,
       "topics": [
         "postgresql",
         "python"
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-10-20T08:05:35Z",
+      "updated_at": "2026-10-21T07:43:56Z",
       "archived": false,
       "fork": false
     }
