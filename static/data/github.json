@@ -1,9 +1,9 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-10-24T09:58:59.489229+00:00",
+  "updated_at": "2026-10-25T10:22:58.117695+00:00",
   "profile": {
     "public_repos": 137,
-    "followers": 265,
+    "followers": 266,
     "following": 384,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
@@ -11,7 +11,7 @@
     "contributions_last_year": 1
   },
   "repo_count": 6,
-  "total_stars": 100404,
+  "total_stars": 100427,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5350,
+      "stargazers_count": 5353,
       "forks_count": 150,
       "open_issues_count": 29,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-10-23T13:48:30Z",
+      "updated_at": "2026-10-25T08:39:33Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77751,
-      "forks_count": 38218,
-      "open_issues_count": 9322,
+      "stargazers_count": 77762,
+      "forks_count": 38007,
+      "open_issues_count": 9305,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-10-24T09:40:14Z",
+      "updated_at": "2026-10-25T10:14:08Z",
       "archived": false,
       "fork": false
     },
@@ -56,8 +56,8 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13543,
-      "forks_count": 1669,
+      "stargazers_count": 13552,
+      "forks_count": 1673,
       "open_issues_count": 62,
       "topics": [
         "ai",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-10-24T06:17:26Z",
+      "updated_at": "2026-10-25T08:54:51Z",
       "archived": false,
       "fork": false
     },
@@ -84,7 +84,7 @@
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
       "stargazers_count": 538,
-      "forks_count": 50,
+      "forks_count": 51,
       "open_issues_count": 9,
       "topics": [],
       "homepage": "",
@@ -121,8 +121,8 @@
       "description": "Messaging library for Python.",
       "language": "Python",
       "stargazers_count": 3151,
-      "forks_count": 1085,
-      "open_issues_count": 231,
+      "forks_count": 1086,
+      "open_issues_count": 232,
       "topics": [
         "celery",
         "kombu",
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-10-24T04:07:44Z",
+      "updated_at": "2026-10-24T13:18:24Z",
       "archived": false,
       "fork": false
     }
