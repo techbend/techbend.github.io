@@ -1,0 +1,17 @@
+{{ if .Site.Params.showCommunity }}
+<section class="section section-alt" id="community">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>{{ .Site.Params.sections.community.title }}</h2>
+    </div>
+    <div class="grid grid-2 gap-6 community-grid stagger-children">
+      {{ range .Site.Params.communityItems }}
+      <a href="{{ .href }}" class="card spotlight-card community-card" target="_blank" rel="noopener">
+        <h3>{{ .title }}</h3>
+        <p>{{ .body }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

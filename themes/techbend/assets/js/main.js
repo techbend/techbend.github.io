@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initRevealAnimations();
   initSpotlightCards();
-  initTypewriter();
   fetchHeroStats();
   fetchGitHubPinned();
   fetchPyPITop6();
@@ -109,66 +108,23 @@ function initSpotlightCards() {
 }
 
 // ============================================
-// Typewriter Effect
-// ============================================
-function initTypewriter() {
-  const el = document.getElementById('typewriterText');
-  if (!el) return;
-
-  const text = el.textContent.trim();
-  el.textContent = '';
-  el.classList.add('typewriter');
-
-  let i = 0;
-  const speed = 30;
-
-  function type() {
-    if (i < text.length) {
-      el.textContent += text.charAt(i);
-      i++;
-      setTimeout(type, speed);
-    } else {
-      setTimeout(() => {
-        el.style.borderRight = 'none';
-      }, 1000);
-    }
-  }
-
-  // Start after a short delay
-  setTimeout(type, 500);
-}
-
-// ============================================
-// Hero Stats
+// Hero stats (live PGMQ stars)
 // ============================================
 async function fetchHeroStats() {
-  const container = document.getElementById('heroStats');
-  if (!container) return;
+  const starEl = document.getElementById('pgmq-stars');
+  const cardEl = document.getElementById('pgmq-stars-card');
+  if (!starEl && !cardEl) return;
 
   try {
     const response = await fetch('/data/manifest.json');
-    if (!response.ok) throw new Error('Failed to load manifest.json');
+    if (!response.ok) return;
     const data = await response.json();
+    const repos = data.pinned_projects || [];
+    const pgmq = repos.find((repo) => repo.name === 'pgmq' || repo.full_name === 'pgmq/pgmq');
+    if (!pgmq || !pgmq.stargazers_count) return;
 
-    const publicRepos = data.public_repos || '—';
-    const packageCount = (data.packages || []).length;
-    const contributions = data.contributions_last_year || '—';
-
-    container.innerHTML = `
-      <div class="card card-glass" style="text-align:center;">
-        <div style="font-size:2rem;font-weight:700;font-family:var(--font-mono);color:var(--accent-light);margin-bottom:0.25rem;">${publicRepos}</div>
-        <div style="font-size:0.875rem;color:var(--text-muted);">GitHub Repos</div>
-      </div>
-      <div class="card card-glass" style="text-align:center;">
-        <div style="font-size:2rem;font-weight:700;font-family:var(--font-mono);color:var(--accent-light);margin-bottom:0.25rem;">${packageCount || '—'}</div>
-        <div style="font-size:0.875rem;color:var(--text-muted);">PyPI Packages</div>
-      </div>
-      <div class="card card-glass" style="text-align:center;">
-        <div style="font-size:2rem;font-weight:700;font-family:var(--font-mono);color:var(--accent-cyan);margin-bottom:0.25rem;">${contributions}</div>
-        <div style="font-size:0.875rem;color:var(--text-muted);">Contributions (last year)</div>
-      </div>
-    `;
-    container.classList.add('visible');
+    if (starEl) starEl.textContent = formatNumber(pgmq.stargazers_count);
+    if (cardEl) cardEl.textContent = `${formatNumber(pgmq.stargazers_count)} GitHub stars`;
   } catch (e) { }
 }
 

@@ -1,96 +1,93 @@
 <section class="section hero-section">
-  <!-- Aurora Background -->
   <div class="aurora">
     <div class="aurora-blob aurora-blob-1"></div>
     <div class="aurora-blob aurora-blob-2"></div>
-    <div class="aurora-blob aurora-blob-3"></div>
     <div class="grid-pattern"></div>
   </div>
 
   <div class="container hero-content">
-    <div class="text-center max-w-2xl mx-auto">
-      <!-- Avatar -->
-      <div class="reveal avatar-wrapper">
-        <div class="avatar-frame">
-          <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatarEmail }}?s=400&d=identicon" alt="{{ .Site.Params.hero.name }}" class="avatar-img" />
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1 class="reveal hero-title">
+          {{ .Site.Params.hero.name }}
+        </h1>
+
+        {{ if .Site.Params.credentials }}
+        <ul class="credential-list reveal reveal-delay-1">
+          {{ range .Site.Params.credentials }}
+          <li>
+            <a href="{{ .href }}" target="_blank" rel="noopener">{{ .label }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+
+        <p class="reveal reveal-delay-2 hero-subtitle">
+          {{ .Site.Params.hero.subtitle | default .Site.Params.description }}
+        </p>
+
+        {{ if .Site.Params.hero.currentWork }}
+        <p class="reveal reveal-delay-2 hero-current">
+          {{ if .Site.Params.hero.currentWorkUrl }}
+          <a href="{{ .Site.Params.hero.currentWorkUrl }}" target="_blank" rel="noopener">{{ .Site.Params.hero.currentWork }}</a>
+          {{ else }}
+          {{ .Site.Params.hero.currentWork }}
+          {{ end }}
+        </p>
+        {{ end }}
+
+        <div class="reveal reveal-delay-3 hero-links">
+          {{ if .Site.Params.showCalendar }}
+          <a href="{{ .Site.Params.calLink }}" class="btn btn-primary" target="_blank" rel="noopener">
+            {{ .Site.Params.hero.primaryCta | default "Book a call" }}
+          </a>
+          {{ end }}
+          {{ if .Site.Params.github }}
+          <a href="https://github.com/{{ .Site.Params.github }}" class="btn btn-outline" target="_blank" rel="noopener">
+            {{ .Site.Params.hero.secondaryCta | default "GitHub" }}
+          </a>
+          {{ end }}
+          {{ if .Site.Params.twitter }}
+          <a href="{{ .Site.Params.twitter }}" class="btn btn-outline" target="_blank" rel="noopener">
+            {{ .Site.Params.hero.xCta | default "X" }}
+          </a>
+          {{ end }}
+          {{ if .Site.Params.linkedin }}
+          <a href="{{ .Site.Params.linkedin }}" class="btn btn-outline" target="_blank" rel="noopener">
+            {{ .Site.Params.hero.linkedinCta | default "LinkedIn" }}
+          </a>
+          {{ end }}
         </div>
+
+        {{ if .Site.Params.hero.stats }}
+        <dl class="reveal reveal-delay-4 hero-proof">
+          {{ range .Site.Params.hero.stats }}
+          <div class="hero-proof-item">
+            <dt>{{ .label }}</dt>
+            <dd {{ if .id }}id="{{ .id }}"{{ end }}>{{ .value }}</dd>
+          </div>
+          {{ end }}
+        </dl>
+        {{ end }}
+      </div>
+
+      <div class="hero-portrait reveal">
+        <div class="avatar-frame">
+          <img
+            src="{{ .Site.Params.avatar | default (printf "https://github.com/%s.png?size=400" .Site.Params.github) }}"
+            alt="{{ .Site.Params.hero.name }}"
+            class="avatar-img"
+            width="400"
+            height="400"
+          />
+        </div>
+        {{ if .Site.Params.hero.statusText }}
         <div class="badge badge-success status-glow">
           <span class="pulse-dot"></span>
           {{ .Site.Params.hero.statusText }}
         </div>
-      </div>
-
-      <!-- Name -->
-      <h1 class="reveal reveal-delay-1 gradient-text hero-title">
-        {{ .Site.Params.hero.name }}
-      </h1>
-
-      <!-- Subtitle with Typewriter -->
-      <div class="reveal reveal-delay-2 mb-6">
-        <p class="hero-subtitle" id="typewriterText">
-          {{ .Site.Params.hero.subtitle | default .Site.Params.description }}
-        </p>
-      </div>
-
-      <!-- Links -->
-      <div class="reveal reveal-delay-3 hero-links">
-        {{ if .Site.Params.showCalendar }}
-        <a href="{{ .Site.Params.calLink }}" class="btn btn-primary" target="_blank" rel="noopener">
-          <span>📅</span> Book a Call
-        </a>
         {{ end }}
-        <a href="https://github.com/{{ .Site.Params.github }}" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>💻</span> GitHub
-        </a>
-        <a href="https://pypi.org/user/{{ .Site.Params.pypiUser }}/" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>🐍</span> PyPI
-        </a>
-        {{ if .Site.Params.linkedin }}
-        <a href="{{ .Site.Params.linkedin }}" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>💼</span> LinkedIn
-        </a>
-        {{ end }}
-        {{ if .Site.Params.twitter }}
-        <a href="{{ .Site.Params.twitter }}" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>🐦</span> X
-        </a>
-        {{ end }}
-        {{ if .Site.Params.showSponsor }}
-        <a href="{{ .Site.Params.sponsorLink }}" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>❤️</span> Sponsor
-        </a>
-        {{ end }}
-        <a href="{{ .Site.Params.blogLink }}" class="btn btn-outline" target="_blank" rel="noopener">
-          <span>📝</span> Blog
-        </a>
-      </div>
-
-      <!-- Email -->
-      <div class="reveal reveal-delay-3 hero-email">
-        <a href="mailto:{{ .Site.Params.email }}">✉️ {{ .Site.Params.email }}</a>
-      </div>
-
-      <!-- Stats -->
-      <div class="reveal reveal-delay-4 stagger-children hero-stats" id="heroStats">
-        <div class="card card-glass hero-stat-card">
-          <div class="skeleton skeleton-stat-value"></div>
-          <div class="skeleton skeleton-stat-label"></div>
-        </div>
-        <div class="card card-glass hero-stat-card">
-          <div class="skeleton skeleton-stat-value"></div>
-          <div class="skeleton skeleton-stat-label"></div>
-        </div>
-        <div class="card card-glass hero-stat-card">
-          <div class="skeleton skeleton-stat-value"></div>
-          <div class="skeleton skeleton-stat-label"></div>
-        </div>
       </div>
     </div>
-  </div>
-
-  <!-- Scroll Indicator -->
-  <div class="scroll-indicator">
-    <span>Scroll</span>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
   </div>
 </section>

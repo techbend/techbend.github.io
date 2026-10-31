@@ -1,29 +1,40 @@
 ---
 title: "Projects"
-description: "Open source Python libraries and tools I've built."
-draft: true
+description: "Open-source work across AI systems, speech, Python, and developer tools."
 ---
 
-My projects span developer tooling, database utilities, and productivity enhancers.
+I maintain PGMQ, contribute to speech and Python projects, and ship libraries for developer workflows.
 
-## Featured Libraries
+## Messaging
+
+### PGMQ
+
+[PGMQ](https://github.com/pgmq/pgmq) is a lightweight message queue on PostgreSQL, with more than 5,000 GitHub stars. I maintain the project and contribute to its [Python client](https://github.com/pgmq/pgmq-py).
+
+### Kombu
+
+Contributor to [Kombu](https://github.com/celery/kombu), the messaging library used by Celery.
+
+## Speech and audio
+
+- [Hugging Face speech-to-speech](https://github.com/huggingface/speech-to-speech) — open-source voice agents. Contributor.
+- [Perth](https://github.com/resemble-ai/Perth) — open audio watermarking. Contributor.
+- [Open GPTLive](https://github.com/tavallaie/open-gptlive-poc) — a local voice assistant you talk to in the browser. Author.
+- [wikiwaves](https://github.com/tavallaie/wikiwaves) — Wikipedia-to-podcast pipeline. Author.
+
+## Python
+
+Contributions to [CPython](https://github.com/python/cpython), [WasmEdge](https://github.com/WasmEdge/WasmEdge), [Supabase](https://github.com/supabase/supabase), and [Robyn](https://github.com/robyn-rs/robyn).
+
+## Libraries I built
 
 | Package | Description |
 |---------|-------------|
-| [woodsman](https://pypi.org/project/woodsman/) | Generic SQL database viewer with interactive exploration |
-| [storyweaver](https://pypi.org/project/storyweaver/) | React + Storybook + FastAPI setup automation |
-| [leanforge](https://pypi.org/project/leanforge/) | Django Lean Canvas business planning |
-| [connectiva](https://pypi.org/project/connectiva/) | Database connectivity toolkit |
-| [devdock](https://pypi.org/project/devdock/) | Docker development environment manager |
-| [pgmq](https://pypi.org/project/pgmq/) | PostgreSQL message queue |
+| [DevDock](https://github.com/tavallaie/devdock) | Manage development containers and reuse Docker and Compose configurations |
+| [Transmutate](https://github.com/tavallaie/transmutate) | Transform and serialize data models into multiple formats |
+| [Connectiva](https://github.com/tavallaie/connectiva) | Connect services through a unified Python communication library |
+| [Trunco](https://github.com/tavallaie/trunco) | Build dynamic web interfaces with Python and HTMX |
+| [PyReveal](https://github.com/tavallaie/pyreveal) | Create Reveal.js presentations with Python |
+| [Woodsman](https://pypi.org/project/woodsman/) | Browse and explore SQL databases |
 
-<a href="/packages/" class="btn btn-primary">📦 View All Packages with Download Stats</a>
-
-## GitHub Organizations
-
-- **[Personal](https://github.com/tavallaie)** — Main code and experiments
-- **[TechBend](https://github.com/techbend)** — Organization for hosting, books, and tools
-
-## All Packages
-
-See the [full list on PyPI →](https://pypi.org/user/tavallaie/)
+Browse [all Python packages on PyPI](https://pypi.org/user/tavallaie/).

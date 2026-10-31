@@ -8,11 +8,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if and .Title (not .IsHome) }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
 <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" type="text/plain" title="llms.txt" href="{{ "llms.txt" | absURL }}">
+<link rel="alternate" type="text/plain" title="llm.txt" href="{{ "llm.txt" | absURL }}">
 
-<meta property="og:title" content="{{ .Title | default .Site.Title }}">
+<meta property="og:title" content="{{ if and .Title (not .IsHome) }}{{ .Title }} — {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ .Params.description | default .Site.Params.description }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ if .IsHome }}profile{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.Params.avatar }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if and .Title (not .IsHome) }}{{ .Title }} — {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ .Params.description | default .Site.Params.description }}">
+<meta name="twitter:image" content="{{ .Site.Params.avatar }}">
+{{ if .Site.Params.twitter }}
+<meta name="twitter:site" content="@AliTavallaie">
+{{ end }}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,4 +50,69 @@
     const theme = saved || (prefersDark ? 'dark' : 'light');
     document.documentElement.setAttribute('data-theme', theme);
   })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ .Site.BaseURL }}#person",
+      "name": {{ .Site.Params.author | jsonify }},
+      "url": {{ .Site.BaseURL | jsonify }},
+      "image": {{ .Site.Params.avatar | jsonify }},
+      "email": {{ printf "mailto:%s" .Site.Params.email | jsonify }},
+      "jobTitle": "Software engineer",
+      "description": {{ .Site.Params.description | jsonify }},
+      "sameAs": [
+        {{ printf "https://github.com/%s" .Site.Params.github | jsonify }},
+        {{ .Site.Params.linkedin | jsonify }},
+        {{ .Site.Params.twitter | jsonify }},
+        {{ printf "https://pypi.org/user/%s/" .Site.Params.pypiUser | jsonify }},
+        {{ .Site.Params.blogLink | jsonify }}
+      ],
+      "knowsAbout": [{{ range $i, $k := .Site.Params.knowsAbout }}{{ if $i }}, {{ end }}{{ $k | jsonify }}{{ end }}],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "PyTorch Foundation",
+          "url": "https://pytorch.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Python Software Foundation",
+          "url": "https://www.python.org/psf/"
+        }
+      ]{{ if .Site.Params.badges }},
+      "hasCredential": [
+        {{ range $i, $b := .Site.Params.badges }}{{ if $i }},{{ end }}
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": {{ $b.name | jsonify }},
+          "url": {{ $b.href | jsonify }},
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": {{ $b.issuer | jsonify }}
+          }
+        }{{ end }}
+      ]{{ end }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ .Site.BaseURL }}#website",
+      "url": {{ .Site.BaseURL | jsonify }},
+      "name": {{ .Site.Title | jsonify }},
+      "description": {{ .Site.Params.description | jsonify }},
+      "publisher": { "@id": "{{ .Site.BaseURL }}#person" }
+    }{{ if .IsHome }},
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ .Permalink }}#profile",
+      "url": {{ .Permalink | jsonify }},
+      "name": {{ .Site.Params.author | jsonify }},
+      "mainEntity": { "@id": "{{ .Site.BaseURL }}#person" }
+    }{{ end }}
+  ]
+}
 </script>

@@ -1,0 +1,64 @@
+# Ali Tavallaie
+
+> PyTorch Foundation Ambassador (2026–2028). Maintainer of PGMQ. PSF Diversity and Inclusion Workgroup member. Builds AI systems and open-source software across generative AI, audio technology, voice agents, MLOps, and AI infrastructure.
+
+Ali Tavallaie (TechBend) is a software engineer in Yerevan, Armenia. He has more than 15 years of professional experience. He maintains PGMQ, a PostgreSQL message queue with more than 5,000 GitHub stars, contributes to CPython, Hugging Face speech-to-speech, Perth, and Kombu, and speaks at conferences including PyDay Iran, TehPug, and Yandex Back to Back. Contact: ali@techbend.dev.
+
+## Identity
+
+- [Homepage](https://techbend.dev/): Primary profile, selected work, and booking
+- [About](https://techbend.dev/about/): Biography, roles, and contact
+- [Selected work](https://techbend.dev/resume/): Roles, open-source work, teaching
+- [Projects](https://techbend.dev/projects/): PGMQ, speech, Python libraries
+- [Full profile for agents](https://techbend.dev/llms-full.txt): Longer machine-readable biography
+- [Blog](https://blog.techbend.dev/): Writing on Python, databases, and AI
+
+## Topics
+
+GenAI, MLOps, Speech, Distributed systems, Python, PyTorch, PGMQ
+
+## Open source
+
+- [PGMQ](https://github.com/pgmq/pgmq): Maintainer. Lightweight message queue on PostgreSQL, 5,000+ GitHub stars
+- [pgmq-py](https://github.com/pgmq/pgmq-py): Contributor. Python client for PGMQ
+- [Hugging Face speech-to-speech](https://github.com/huggingface/speech-to-speech): Contributor. Open-source voice agents
+- [Perth](https://github.com/resemble-ai/Perth): Contributor. Open audio watermarking (Resemble AI)
+- [Open GPTLive](https://github.com/tavallaie/open-gptlive-poc): Author. Local voice assistant in the browser
+- [wikiwaves](https://github.com/tavallaie/wikiwaves): Author. Wikipedia-to-podcast pipeline
+- [CPython](https://github.com/python/cpython): Contributor
+- [Kombu](https://github.com/celery/kombu): Contributor. Python messaging library used by Celery
+- [PyPI packages](https://pypi.org/user/tavallaie/): Python libraries including DevDock, Transmutate, Connectiva, Trunco, PyReveal
+
+## Community
+
+- [PyTorch Foundation Ambassadors 2026](https://pytorch.org/blog/meet-the-2026-pytorch-foundation-ambassadors/): Named to the 2026–2028 cohort (Middle East)
+- [PSF Diversity and Inclusion Workgroup](https://diversity.python.org): Member
+- [TehPug](https://x.com/TehPUG): Core member. Organizes Tehran Python meetups and talks
+- [PyTeach](https://pyteach.me/): Part of the team. Mentors students in different groups. PyTeach teaches Python through lessons and challenges.
+
+## Talks
+
+- [Back to Back](https://backtobackconf.com/yerevan/): Yandex backend conference, Yerevan, 2026. Talk: PGMQ, a lightweight message queue
+- [PyDay Iran](https://www.pyday.ir/): Tehran, 2025. Talk: Python, the community language: past, present, PyDay
+- [TehPug](https://www.youtube.com/watch?v=2zj-rq1gG3w): Tehran, 2024. Talk: Queues with PGMQ on PostgreSQL
+- [TehPug](https://x.com/TehPUG): Tehran meetups, including pyreveal (2023)
+- 7th National Biotechnology Conference: youngest speaker, 2011
+
+## Certificates and badges
+
+- [PyTorch Foundation Ambassador](https://www.credly.com/badges/91fd48a8-c80e-4503-a538-72ab6db8e0ff/): Credly badge, 2026
+- [Stanford Data Ocean](https://dataocean.stanford.edu/verify-certificate/d856ff3c3e414207b7fc144b83a44a3b): Stanford Genetics
+- [Machine Learning Engineering for Production (MLOps)](https://www.coursera.org/account/accomplishments/specialization/8PYED3B7JAQF): DeepLearning.AI specialization, 2022
+- [How Google does Machine Learning](https://www.coursera.org/account/accomplishments/certificate/YN52HZZPK9TE): Google Cloud, 2021
+- [MLOps Fundamentals](https://www.coursera.org/account/accomplishments/certificate/B7VNXLKJ532M): Google Cloud, 2021
+- [GitLab Certified Git Associate](https://www.credly.com/badges/d9d5962c-d7bf-418c-953f-18fdf6b9ccdf): GitLab, 2021
+- [LinkedIn certifications](https://www.linkedin.com/in/tavallaie/details/certifications/): Full list on LinkedIn
+
+## Contact
+
+- [Book a call](https://cal.com/tavallaie): Consulting and collaboration
+- [GitHub](https://github.com/tavallaie): Source code and contributions
+- [LinkedIn](https://www.linkedin.com/in/tavallaie/)
+- [X](https://x.com/AliTavallaie)
+- [Email](mailto:ali@techbend.dev): ali@techbend.dev
+- [GitHub Sponsors](https://github.com/sponsors/tavallaie)

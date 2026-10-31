@@ -8,13 +8,13 @@ theme = 'techbend'
 
 [params]
   author = 'Ali Tavallaie'
-  description = 'AI Software Engineer & Open Source Maintainer'
+  description = 'PyTorch Foundation Ambassador. Maintainer of PGMQ. PSF D&I Workgroup member. I build AI systems and open-source software across generative AI, audio, voice agents, MLOps, and AI infrastructure.'
+  knowsAbout = ['generative AI', 'audio technology', 'voice agents', 'MLOps', 'AI infrastructure', 'distributed systems', 'Python', 'PyTorch', 'PGMQ']
   gravatarEmail = 'a.tavallaie@gmail.com'
+  avatar = 'https://github.com/tavallaie.png?size=400'
 
-  # Social & External Accounts
   github = 'tavallaie'
   githubOrg = 'techbend'
-
 
   twitter = 'https://x.com/AliTavallaie'
   linkedin = 'https://www.linkedin.com/in/tavallaie/'
@@ -25,30 +25,64 @@ theme = 'techbend'
   pypiUser = 'tavallaie'
   formspreeId = ''
 
-  # Feature Toggles
-  showGithub = true
+  showGithub = false
+  showFeatured = true
+  showCommunity = true
+  showTalks = true
+  showCredentials = true
   showPyPI = true
   showBooks = false
-  showResume = false
+  showResume = true
   showSponsor = true
   showCalendar = true
 
-  # Hero Section
   [params.hero]
     name = 'Ali Tavallaie'
-    # subtitle defaults to params.description if not set
+    subtitle = "I build AI systems and open-source software, working across generative AI, audio technology, voice agents, MLOps, and AI infrastructure. I'm particularly interested in building the distributed systems that make AI workloads reliable, scalable, and capable of running over long periods of time."
     statusText = 'Available for consulting'
     statusColor = 'success'
-    avatarSize = 200
+    primaryCta = 'Book a call'
+    secondaryCta = 'GitHub'
+    xCta = 'X'
+    linkedinCta = 'LinkedIn'
 
-  # Section Configuration
+  [[params.credentials]]
+    label = 'PyTorch Foundation Ambassador'
+    href = 'https://pytorch.org/blog/meet-the-2026-pytorch-foundation-ambassadors/'
+  [[params.credentials]]
+    label = 'PGMQ maintainer'
+    href = 'https://github.com/pgmq/pgmq'
+  [[params.credentials]]
+    label = 'PSF D&I Workgroup'
+    href = 'https://diversity.python.org'
+
+  [[params.hero.stats]]
+    value = '5,000+'
+    label = 'PGMQ stars'
+    id = 'pgmq-stars'
+  [[params.hero.stats]]
+    value = '15+'
+    label = 'Years of experience'
+
   [params.sections]
     [params.sections.github]
-      title = 'Pinned Projects'
+      title = 'Open-source work'
       icon = 'github'
       viewAllText = 'View All'
+    [params.sections.featured]
+      title = 'Selected work'
+      viewAllText = 'All projects'
+      viewAllUrl = '/projects/'
+    [params.sections.community]
+      title = 'Community'
+    [params.sections.talks]
+      title = 'Talks and conferences'
+    [params.sections.credentials]
+      title = 'Certificates and badges'
+      viewAllText = 'LinkedIn'
+      viewAllUrl = 'https://www.linkedin.com/in/tavallaie/details/certifications/'
     [params.sections.pypi]
-      title = 'Top Python Libraries'
+      title = 'Python packages'
       icon = 'package'
     [params.sections.activity]
       title = 'Latest Activity'
@@ -59,22 +93,150 @@ theme = 'techbend'
       viewAllText = 'All Books'
       viewAllUrl = '/books/'
     [params.sections.booking]
-      title = "Let's Work Together"
+      title = 'Work with me'
       icon = 'calendar'
-      description = 'Have a project in mind? Want to collaborate on open source? Pick a time that works for you.'
+      description = 'Generative AI, voice agents, MLOps, or AI infrastructure. Book a time.'
       calLink = 'tavallaie'
+
+  [[params.featured]]
+    name = 'PGMQ'
+    role = 'Maintainer'
+    flagship = true
+    description = 'A lightweight message queue on PostgreSQL. I maintain the project and its Python client.'
+    url = 'https://github.com/pgmq/pgmq'
+    extra = '5,000+ GitHub stars'
+    extraId = 'pgmq-stars-card'
+  [[params.featured]]
+    name = 'Hugging Face speech-to-speech'
+    role = 'Contributor'
+    description = 'Open-source voice agents built with open models.'
+    url = 'https://github.com/huggingface/speech-to-speech'
+  [[params.featured]]
+    name = 'Perth'
+    role = 'Contributor'
+    description = 'Open audio watermarking from Resemble AI.'
+    url = 'https://github.com/resemble-ai/Perth'
+  [[params.featured]]
+    name = 'Open GPTLive'
+    role = 'Author'
+    description = 'A local voice assistant you talk to in the browser.'
+    url = 'https://github.com/tavallaie/open-gptlive-poc'
+  [[params.featured]]
+    name = 'CPython'
+    role = 'Contributor'
+    description = 'Contributions to the CPython interpreter, the reference implementation of Python.'
+    url = 'https://github.com/python/cpython'
+  [[params.featured]]
+    name = 'Kombu'
+    role = 'Contributor'
+    description = 'Messaging library for Python, used by Celery. I contribute to the project.'
+    url = 'https://github.com/celery/kombu'
+  [[params.featured]]
+    name = 'wikiwaves'
+    role = 'Author'
+    description = 'A Wikipedia-to-podcast pipeline: fetch On This Day events, curate stories, enrich them, then generate speech.'
+    url = 'https://github.com/tavallaie/wikiwaves'
+
+  [[params.communityItems]]
+    title = 'PyTorch Foundation Ambassador'
+    body = 'Named to the 2026–2028 ambassador cohort. One of 24 people selected to grow the PyTorch community through teaching, events, and open-source work.'
+    href = 'https://pytorch.org/blog/meet-the-2026-pytorch-foundation-ambassadors/'
+  [[params.communityItems]]
+    title = 'Python Software Foundation D&I Workgroup'
+    body = 'Member of the PSF Diversity and Inclusion Workgroup, which advises the Foundation on a more global Python community.'
+    href = 'https://diversity.python.org'
+  [[params.communityItems]]
+    title = 'TehPug'
+    body = 'Core member of the Tehran Python User Group. Organizes meetups, workshops, and talks.'
+    href = 'https://x.com/TehPUG'
+  [[params.communityItems]]
+    title = 'PyTeach'
+    body = 'Part of the PyTeach team. Mentors students in different groups. PyTeach teaches Python through lessons and challenges.'
+    href = 'https://pyteach.me/'
+
+  [[params.talks]]
+    title = 'PGMQ: a lightweight message queue'
+    event = 'Back to Back'
+    place = 'Yerevan'
+    year = '2026'
+    role = 'Speaker'
+    href = 'https://backtobackconf.com/yerevan/'
+  [[params.talks]]
+    title = 'Python, the community language: past, present, PyDay'
+    event = 'PyDay Iran'
+    place = 'Tehran'
+    year = '2025'
+    role = 'Speaker'
+    href = 'https://www.pyday.ir/'
+  [[params.talks]]
+    title = 'Queues with PGMQ on PostgreSQL'
+    event = 'TehPug'
+    place = 'Tehran'
+    year = '2024'
+    role = 'Speaker'
+    href = 'https://www.youtube.com/watch?v=2zj-rq1gG3w'
+  [[params.talks]]
+    title = 'Building presentations with pyreveal'
+    event = 'TehPug'
+    place = 'Tehran'
+    year = '2023'
+    role = 'Speaker'
+    href = 'https://x.com/TehPUG'
+  [[params.talks]]
+    title = 'Youngest speaker'
+    event = '7th National Biotechnology Conference'
+    place = 'Iran'
+    year = '2011'
+    role = 'Speaker'
+    href = 'https://www.linkedin.com/in/tavallaie/'
+
+  [[params.badges]]
+    name = 'PyTorch Foundation Ambassador'
+    issuer = 'Linux Foundation'
+    year = '2026'
+    href = 'https://www.credly.com/badges/91fd48a8-c80e-4503-a538-72ab6db8e0ff/'
+    image = '/images/badges/pytorch-ambassador.png'
+  [[params.badges]]
+    name = 'Stanford Data Ocean'
+    issuer = 'Stanford Genetics'
+    href = 'https://dataocean.stanford.edu/verify-certificate/d856ff3c3e414207b7fc144b83a44a3b'
+    image = '/images/badges/stanford.svg'
+  [[params.badges]]
+    name = 'Machine Learning Engineering for Production (MLOps)'
+    issuer = 'DeepLearning.AI'
+    year = '2022'
+    href = 'https://www.coursera.org/account/accomplishments/specialization/8PYED3B7JAQF'
+    image = '/images/badges/deeplearning-ai.png'
+  [[params.badges]]
+    name = 'How Google does Machine Learning'
+    issuer = 'Google Cloud'
+    year = '2021'
+    href = 'https://www.coursera.org/account/accomplishments/certificate/YN52HZZPK9TE'
+    image = '/images/badges/google-cloud.svg'
+  [[params.badges]]
+    name = 'MLOps Fundamentals'
+    issuer = 'Google Cloud'
+    year = '2021'
+    href = 'https://www.coursera.org/account/accomplishments/certificate/B7VNXLKJ532M'
+    image = '/images/badges/google-cloud.svg'
+  [[params.badges]]
+    name = 'GitLab Certified Git Associate'
+    issuer = 'GitLab'
+    year = '2021'
+    href = 'https://www.credly.com/badges/d9d5962c-d7bf-418c-953f-18fdf6b9ccdf'
+    image = '/images/badges/gitlab-git-associate.png'
 
   # Footer Configuration
   [params.footer]
     # tagline defaults to params.description if not set
+    tagline = 'AI systems, voice agents, MLOps, and the distributed systems underneath. PyTorch Foundation Ambassador.'
     copyright = 'Ali Tavallaie. Built with Hugo & caffeine.'
     showSponsor = true
 
     [[params.footer.columns]]
       title = 'Connect'
       links = [
-        { name = 'Personal GitHub', url = 'https://github.com/tavallaie', external = true },
-        { name = 'TechBend Org', url = 'https://github.com/techbend', external = true },
+        { name = 'GitHub', url = 'https://github.com/tavallaie', external = true },
         { name = 'LinkedIn', url = 'https://www.linkedin.com/in/tavallaie/', external = true },
         { name = 'X / Twitter', url = 'https://x.com/AliTavallaie', external = true },
         { name = 'PyPI', url = 'https://pypi.org/user/tavallaie/', external = true },
@@ -97,6 +259,10 @@ theme = 'techbend'
     name = 'About'
     url = '/about/'
     weight = 20
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 30
   # [[menu.main]]
   #   name = 'Books'
   #   url = '/books/'
@@ -105,7 +271,7 @@ theme = 'techbend'
     name = 'Blog'
     url = 'https://blog.techbend.dev'
     weight = 45
-  # [[menu.main]]
-  #   name = 'Resume'
-  #   url = '/resume/'
-  #   weight = 50
+  [[menu.main]]
+    name = 'Selected work'
+    url = '/resume/'
+    weight = 35

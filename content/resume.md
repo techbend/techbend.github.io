@@ -1,58 +1,43 @@
 ---
-title: "Resume"
-description: "Professional experience and skills."
+title: "Selected work"
+description: "PyTorch Foundation Ambassador. PGMQ maintainer. Generative AI, voice agents, MLOps, and AI infrastructure."
 ---
 
-## Ali Tavallaie
-**Python Developer & Open Source Maintainer**
+## Roles
 
-📧 your-email@example.com | 🔗 [github.com/techbend](https://github.com/techbend) | 🌐 [techbend.dev](https://techbend.dev)
+- **PyTorch Foundation Ambassador.** 2026–2028 cohort.
+- **Python Software Foundation.** Diversity and Inclusion Workgroup member.
+- **PGMQ.** Maintainer of a PostgreSQL message queue with more than 5,000 GitHub stars, and contributor to the [Python client](https://github.com/pgmq/pgmq-py).
 
----
+## Speech and audio
 
-### Summary
+- **[Hugging Face speech-to-speech](https://github.com/huggingface/speech-to-speech).** Contributor. Open-source voice agents built with open models.
+- **[Perth](https://github.com/resemble-ai/Perth).** Contributor. Open audio watermarking from Resemble AI.
+- **[Open GPTLive](https://github.com/tavallaie/open-gptlive-poc).** A local voice assistant you talk to in the browser.
+- **[wikiwaves](https://github.com/tavallaie/wikiwaves).** Wikipedia-to-podcast pipeline: fetch, curate, enrich, then generate speech.
 
-Python developer with extensive experience in building developer tools, web applications, and open source libraries. Maintains 20+ packages on PyPI with thousands of combined downloads. Passionate about clean code, developer experience, and building tools that solve real problems.
+## Infrastructure
 
----
+- **[CPython](https://github.com/python/cpython).** Contributor.
+- **[Kombu](https://github.com/celery/kombu).** Contributor. Messaging library used by Celery.
+- **[WasmEdge](https://github.com/WasmEdge/WasmEdge).** Contributor.
+- **[Supabase](https://github.com/supabase/supabase).** Contributor.
+- **[Robyn](https://github.com/robyn-rs/robyn).** Contributor.
 
-### Open Source
+## Tools I built
 
-**PyPI Packages (20+ libraries)**
-- `woodsman` — SQL database viewer (Feb 2025)
-- `storyweaver` — React/Storybook/FastAPI automation (May 2024)
-- `leanforge` — Django Lean Canvas framework (Aug 2023)
-- `connectiva`, `devdock`, `pgmq`, `safarnama`, and 15+ others
+- **[DevDock](https://github.com/tavallaie/devdock).** Development container management, built after Docker and Compose setup became a friction point for my team. [LinkedIn post](https://www.linkedin.com/posts/tavallaie_devdock-easy-management-for-development-activity-7202776840766152704-QYLE).
+- **[Transmutate](https://github.com/tavallaie/transmutate).** Transform and serialize data models.
+- **[Connectiva](https://github.com/tavallaie/connectiva).** Connect services through one Python communication library.
+- **[Trunco](https://github.com/tavallaie/trunco).** Dynamic web interfaces with Python and HTMX.
+- **[PyReveal](https://github.com/tavallaie/pyreveal).** Reveal.js presentations from Python.
 
-**Stats:** Combined downloads across all packages. All available at [pypi.org/user/tavallaie](https://pypi.org/user/tavallaie/)
+More packages are on [PyPI](https://pypi.org/user/tavallaie/).
 
----
+## Talks
 
-### Technical Skills
-
-| Category | Skills |
-|----------|--------|
-| **Languages** | Python, SQL, JavaScript/TypeScript, HTML/CSS |
-| **Frameworks** | Django, FastAPI, Flask, React, Hugo |
-| **Databases** | PostgreSQL, SQLite, Redis |
-| **DevOps** | Docker, GitHub Actions, AWS, Google Cloud |
-| **Tools** | Git, Linux, VS Code, Jupyter |
-
----
-
-### Education
-
-*Bachelor's Degree in Computer Science or related field*  
-*Relevant coursework: Software Engineering, Database Systems, Algorithms*
-
----
-
-### Contact
-
-I'm available for:
-- **Freelance Python development**
-- **Open source consulting**
-- **Technical writing & documentation**
-- **Code reviews & architecture advice**
-
-[Schedule a Call](https://cal.com/techbend) | [Send Email](mailto:your-email@example.com) | [GitHub Sponsors](https://github.com/sponsors/techbend)
+- **[Back to Back](https://backtobackconf.com/yerevan/).** Yandex, Yerevan, 2026. PGMQ: a lightweight message queue.
+- **[PyDay Iran](https://www.pyday.ir/).** Tehran, 2025. Python, the community language: past, present, PyDay.
+- **[TehPug](https://www.youtube.com/watch?v=2zj-rq1gG3w).** Tehran, 2024. Queues with PGMQ on PostgreSQL.
+- **[TehPug](https://x.com/TehPUG).** Tehran, 2023. Building presentations with pyreveal. Core member of the Tehran Python User Group.
+- **7th National Biotechnology Conference.** Iran, 2011. Youngest speaker.
