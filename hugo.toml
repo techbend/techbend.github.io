@@ -231,6 +231,9 @@ theme = 'techbend'
     # tagline defaults to params.description if not set
     tagline = 'AI systems, voice agents, MLOps, and the distributed systems underneath. PyTorch Foundation Ambassador.'
     copyright = 'Ali Tavallaie. Built with Hugo & caffeine.'
+    llmsLabel = 'llms.txt'
+    llmsNote = 'For AI agents'
+    llmsUrl = '/llms.txt'
     showSponsor = true
 
     [[params.footer.columns]]
@@ -246,7 +249,8 @@ theme = 'techbend'
       title = 'Content'
       links = [
         { name = 'Projects', url = '/projects/' },
-        { name = 'About', url = '/about/' }
+        { name = 'About', url = '/about/' },
+        { name = 'llms.txt', url = '/llms.txt' }
       ]
 
   # Contact Page Cards

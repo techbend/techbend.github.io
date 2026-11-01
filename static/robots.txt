@@ -47,3 +47,8 @@ User-agent: FacebookBot
 Allow: /
 
 Sitemap: https://techbend.dev/sitemap.xml
+
+# Curated overview for AI agents
+# https://techbend.dev/llms.txt
+# https://techbend.dev/llm.txt
+# https://techbend.dev/llms-full.txt

@@ -361,7 +361,11 @@
 }
 
 .footer-bottom {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
   padding-top: var(--space-8);
   border-top: 1px solid var(--border);
 }
@@ -369,6 +373,14 @@
 .footer-bottom p {
   font-size: var(--text-sm);
   color: var(--text-muted);
+}
+
+.footer-llms a {
+  color: var(--text-muted);
+}
+
+.footer-llms a:hover {
+  color: var(--text);
 }
 
 /* Section Header */
@@ -1070,6 +1082,11 @@ a.credential-card:hover {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: var(--space-8);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .nav-links,

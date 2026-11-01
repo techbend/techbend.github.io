@@ -26,6 +26,11 @@
     </div>
     <div class="footer-bottom">
       <p>© {{ now.Year }} {{ .Site.Params.footer.copyright | default (printf "%s. All rights reserved." .Site.Params.author) }}</p>
+      {{ if .Site.Params.footer.llmsUrl }}
+      <p class="footer-llms">
+        <a href="{{ .Site.Params.footer.llmsUrl }}">{{ .Site.Params.footer.llmsNote }}: {{ .Site.Params.footer.llmsLabel }}</a>
+      </p>
+      {{ end }}
     </div>
   </div>
 </footer>
