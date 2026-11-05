@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:27:59.837121+00:00",
+  "updated_at": "2026-11-05T13:42:39.142015+00:00",
   "public_repos": 137,
   "contributions_last_year": 1,
   "pinned_projects": [
@@ -10,15 +10,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5373,
-      "forks_count": 149,
+      "stargazers_count": 5378,
+      "forks_count": 150,
       "open_issues_count": 29,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-11-03T23:07:02Z",
+      "updated_at": "2026-11-05T07:04:16Z",
       "archived": false,
       "fork": false
     },
@@ -29,13 +29,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77843,
-      "forks_count": 37165,
-      "open_issues_count": 9242,
+      "stargazers_count": 77896,
+      "forks_count": 37149,
+      "open_issues_count": 9243,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-11-04T13:27:01Z",
+      "updated_at": "2026-11-05T13:30:22Z",
       "archived": false,
       "fork": false
     },
@@ -46,9 +46,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13638,
-      "forks_count": 1683,
-      "open_issues_count": 63,
+      "stargazers_count": 13641,
+      "forks_count": 1685,
+      "open_issues_count": 60,
       "topics": [
         "ai",
         "assistant",
@@ -62,7 +62,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-11-04T12:04:11Z",
+      "updated_at": "2026-11-05T11:56:59Z",
       "archived": false,
       "fork": false
     },
@@ -90,7 +90,7 @@
       "html_url": "https://github.com/pgmq/pgmq-py",
       "description": "Python client for pgmq",
       "language": "Python",
-      "stargazers_count": 71,
+      "stargazers_count": 72,
       "forks_count": 10,
       "open_issues_count": 4,
       "topics": [
@@ -99,7 +99,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq-py/",
       "created_at": "2025-08-19T13:38:53Z",
-      "updated_at": "2026-09-20T17:37:23Z",
+      "updated_at": "2026-11-04T23:37:06Z",
       "archived": false,
       "fork": false
     },
@@ -111,8 +111,8 @@
       "description": "Messaging library for Python.",
       "language": "Python",
       "stargazers_count": 3150,
-      "forks_count": 1092,
-      "open_issues_count": 235,
+      "forks_count": 1097,
+      "open_issues_count": 239,
       "topics": [
         "celery",
         "kombu",
@@ -128,7 +128,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-11-04T11:24:17Z",
+      "updated_at": "2026-11-04T14:08:16Z",
       "archived": false,
       "fork": false
     }
@@ -137,11 +137,11 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6779,
-      "data_points": 2010,
+      "total_downloads": 6780,
+      "data_points": 2011,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
@@ -193,31 +193,31 @@
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2925,
-      "data_points": 734,
+      "total_downloads": 2927,
+      "data_points": 735,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 1098,
-      "data_points": 213,
+      "total_downloads": 1100,
+      "data_points": 214,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 1051,
-      "data_points": 212,
+      "total_downloads": 1052,
+      "data_points": 213,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
@@ -243,21 +243,21 @@
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4703,
-      "data_points": 1369,
+      "total_downloads": 4704,
+      "data_points": 1370,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 250000,
-      "data_points": 4833,
+      "total_downloads": 253565,
+      "data_points": 4840,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -266,21 +266,21 @@
     {
       "name": "pgpx",
       "first_seen": "2024-10-18",
-      "total_downloads": 3699,
-      "data_points": 544,
+      "total_downloads": 3700,
+      "data_points": 545,
       "date_range": {
         "from": "2024-10-18",
-        "to": "2026-11-02"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "pgxm",
       "first_seen": "2025-09-21",
-      "total_downloads": 1178,
-      "data_points": 296,
+      "total_downloads": 1179,
+      "data_points": 297,
       "date_range": {
         "from": "2025-09-21",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
@@ -299,21 +299,21 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5934,
-      "data_points": 1481,
+      "total_downloads": 5947,
+      "data_points": 1483,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 12247,
-      "data_points": 2884,
+      "total_downloads": 12278,
+      "data_points": 2891,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-11-02"
+        "to": "2026-11-04"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
@@ -322,31 +322,31 @@
     {
       "name": "storyweaver",
       "first_seen": "2024-05-29",
-      "total_downloads": 2227,
-      "data_points": 612,
+      "total_downloads": 2229,
+      "data_points": 613,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-11-01"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "takumitools",
       "first_seen": "2024-05-29",
-      "total_downloads": 2282,
-      "data_points": 613,
+      "total_downloads": 2284,
+      "data_points": 614,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-11-01"
+        "to": "2026-11-04"
       }
     },
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6809,
-      "data_points": 1443,
+      "total_downloads": 6810,
+      "data_points": 1444,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-11-02"
+        "to": "2026-11-04"
       }
     },
     {
@@ -397,11 +397,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 250000,
-      "data_points": 4833,
+      "total_downloads": 253565,
+      "data_points": 4840,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-11-03"
+        "to": "2026-11-04"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -423,11 +423,11 @@
     {
       "name": "safarnama",
       "first_seen": "2025-02-26",
-      "total_downloads": 12247,
-      "data_points": 2884,
+      "total_downloads": 12278,
+      "data_points": 2891,
       "date_range": {
         "from": "2025-02-26",
-        "to": "2026-11-02"
+        "to": "2026-11-04"
       },
       "version": "0.2.2",
       "summary": "Safarnama is a versatile web crawler that explores websites, cleans HTML, and uses a language model to generate summaries and tags\u2014writing its own digital story. Use it via CLI or in Python projects.",
