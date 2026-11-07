@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-11-06T13:26:21.247422+00:00",
+  "updated_at": "2026-11-07T12:05:15.094696+00:00",
   "profile": {
     "public_repos": 137,
-    "followers": 266,
+    "followers": 268,
     "following": 385,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
-    "contributions_last_year": 1
+    "contributions_last_year": 2
   },
   "repo_count": 6,
-  "total_stars": 100780,
+  "total_stars": 100877,
   "repos": [
     {
       "name": "pgmq",
@@ -20,7 +20,7 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5380,
+      "stargazers_count": 5388,
       "forks_count": 150,
       "open_issues_count": 29,
       "topics": [
@@ -28,7 +28,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-11-05T21:47:54Z",
+      "updated_at": "2026-11-07T09:04:49Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 77990,
-      "forks_count": 37169,
-      "open_issues_count": 9252,
+      "stargazers_count": 78071,
+      "forks_count": 37185,
+      "open_issues_count": 9266,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-11-06T13:25:47Z",
+      "updated_at": "2026-11-07T12:01:17Z",
       "archived": false,
       "fork": false
     },
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13646,
-      "forks_count": 1684,
-      "open_issues_count": 67,
+      "stargazers_count": 13651,
+      "forks_count": 1687,
+      "open_issues_count": 69,
       "topics": [
         "ai",
         "assistant",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-11-06T11:00:28Z",
+      "updated_at": "2026-11-07T11:44:29Z",
       "archived": false,
       "fork": false
     },
@@ -83,13 +83,13 @@
       "html_url": "https://github.com/resemble-ai/Perth",
       "description": "Open Audio Watermarking Tool",
       "language": "Python",
-      "stargazers_count": 541,
+      "stargazers_count": 542,
       "forks_count": 52,
       "open_issues_count": 11,
       "topics": [],
       "homepage": "",
       "created_at": "2025-05-09T09:31:43Z",
-      "updated_at": "2026-11-03T11:47:54Z",
+      "updated_at": "2026-11-07T08:36:26Z",
       "archived": false,
       "fork": false
     },
@@ -100,7 +100,7 @@
       "html_url": "https://github.com/pgmq/pgmq-py",
       "description": "Python client for pgmq",
       "language": "Python",
-      "stargazers_count": 72,
+      "stargazers_count": 73,
       "forks_count": 10,
       "open_issues_count": 4,
       "topics": [
@@ -109,7 +109,7 @@
       ],
       "homepage": "https://pgmq.github.io/pgmq-py/",
       "created_at": "2025-08-19T13:38:53Z",
-      "updated_at": "2026-11-04T23:37:06Z",
+      "updated_at": "2026-11-06T22:41:54Z",
       "archived": false,
       "fork": false
     },
@@ -120,9 +120,9 @@
       "html_url": "https://github.com/celery/kombu",
       "description": "Messaging library for Python.",
       "language": "Python",
-      "stargazers_count": 3151,
-      "forks_count": 1097,
-      "open_issues_count": 241,
+      "stargazers_count": 3152,
+      "forks_count": 1098,
+      "open_issues_count": 244,
       "topics": [
         "celery",
         "kombu",
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-11-06T12:06:21Z",
+      "updated_at": "2026-11-07T01:06:35Z",
       "archived": false,
       "fork": false
     }
