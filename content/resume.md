@@ -36,7 +36,8 @@ More packages are on [PyPI](https://pypi.org/user/tavallaie/).
 
 ## Talks
 
-- **[Back to Back](https://backtobackconf.com/yerevan/).** Yandex, Yerevan, 2026. PGMQ: a lightweight message queue.
+- **[GitHub Open Source Friday](https://www.youtube.com/watch?v=Z7OeIemikGQ).** 2026. pgmq.
+- **[Back to Back](https://www.youtube.com/watch?v=QY_ogGX-jfc).** Yandex, Yerevan, 2026. PGMQ: a lightweight message queue.
 - **[PyDay Iran](https://www.pyday.ir/).** Tehran, 2025. Python, the community language: past, present, PyDay.
 - **[TehPug](https://www.youtube.com/watch?v=2zj-rq1gG3w).** Tehran, 2024. Queues with PGMQ on PostgreSQL.
 - **[TehPug](https://x.com/TehPUG).** Tehran, 2023. Building presentations with pyreveal. Core member of the Tehran Python User Group.
