@@ -2,7 +2,7 @@
 
 > PyTorch Foundation Ambassador (2026–2028). Maintainer of PGMQ. PSF Diversity and Inclusion Workgroup member. Builds AI systems and open-source software across generative AI, audio technology, voice agents, MLOps, and AI infrastructure.
 
-Ali Tavallaie (TechBend) is a software engineer in Yerevan, Armenia. He has more than 15 years of professional experience. He maintains PGMQ, a PostgreSQL message queue with more than 5,000 GitHub stars, contributes to CPython, Hugging Face speech-to-speech, Perth, and Kombu, and speaks at conferences including PyDay Iran, TehPug, and Yandex Back to Back. Contact: ali@techbend.dev.
+Ali Tavallaie (TechBend) is a software engineer in Yerevan, Armenia. He has more than 15 years of professional experience. He maintains PGMQ, a PostgreSQL message queue with more than 5,000 GitHub stars, contributes to CPython, Hugging Face speech-to-speech, Perth, and Kombu, and speaks at conferences including PyDay Iran, TehPug, and Yandex Back to Back. He appeared on GitHub Open Source Friday on 6 November 2026. Contact: ali@techbend.dev.
 
 ## Identity
 
@@ -38,6 +38,7 @@ GenAI, MLOps, Speech, Distributed systems, Python, PyTorch, PGMQ
 
 ## Talks
 
+- [GitHub Open Source Friday](https://www.youtube.com/watch?v=Z7OeIemikGQ): 6 November 2026. Talk on pgmq, a lightweight message queue on PostgreSQL
 - [Back to Back](https://backtobackconf.com/yerevan/): Yandex backend conference, Yerevan, 2026. Talk: PGMQ, a lightweight message queue
 - [PyDay Iran](https://www.pyday.ir/): Tehran, 2025. Talk: Python, the community language: past, present, PyDay
 - [TehPug](https://www.youtube.com/watch?v=2zj-rq1gG3w): Tehran, 2024. Talk: Queues with PGMQ on PostgreSQL

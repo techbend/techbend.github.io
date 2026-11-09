@@ -155,6 +155,12 @@ theme = 'techbend'
     href = 'https://pyteach.me/'
 
   [[params.talks]]
+    title = 'pgmq'
+    event = 'GitHub Open Source Friday'
+    year = '2026'
+    role = 'Guest'
+    href = 'https://www.youtube.com/watch?v=Z7OeIemikGQ'
+  [[params.talks]]
     title = 'PGMQ: a lightweight message queue'
     event = 'Back to Back'
     place = 'Yerevan'
