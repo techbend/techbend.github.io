@@ -42,7 +42,7 @@ GenAI, MLOps, Speech, Distributed systems, Python, PyTorch, PGMQ
 ## Talks
 
 - [GitHub Open Source Friday](https://www.youtube.com/watch?v=Z7OeIemikGQ): 6 November 2026. Talk on pgmq, a lightweight message queue on PostgreSQL
-- [Back to Back](https://backtobackconf.com/yerevan/): Yandex backend conference, Yerevan, 2026. Talk: PGMQ, a lightweight message queue
+- [Back to Back](https://www.youtube.com/watch?v=QY_ogGX-jfc): Yandex backend conference, Yerevan, 2026. Talk: PGMQ, a lightweight message queue
 - [PyDay Iran](https://www.pyday.ir/): Tehran, 2025. Talk: Python, the community language: past, present, PyDay
 - [TehPug](https://www.youtube.com/watch?v=2zj-rq1gG3w): Tehran, 2024. Talk: Queues with PGMQ on PostgreSQL
 - [TehPug](https://x.com/TehPUG): Tehran meetups, including pyreveal (2023)

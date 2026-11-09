@@ -166,7 +166,7 @@ theme = 'techbend'
     place = 'Yerevan'
     year = '2026'
     role = 'Speaker'
-    href = 'https://backtobackconf.com/yerevan/'
+    href = 'https://www.youtube.com/watch?v=QY_ogGX-jfc'
   [[params.talks]]
     title = 'Python, the community language: past, present, PyDay'
     event = 'PyDay Iran'
