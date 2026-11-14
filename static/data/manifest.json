@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:37:50.731943+00:00",
+  "updated_at": "2026-11-14T12:42:10.449925+00:00",
   "public_repos": 137,
   "contributions_last_year": 2,
   "pinned_projects": [
@@ -10,15 +10,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5395,
+      "stargazers_count": 5397,
       "forks_count": 150,
-      "open_issues_count": 31,
+      "open_issues_count": 32,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-11-13T07:23:35Z",
+      "updated_at": "2026-11-14T12:28:31Z",
       "archived": false,
       "fork": false
     },
@@ -30,12 +30,12 @@
       "description": "The Python programming language",
       "language": "Python",
       "stargazers_count": 78207,
-      "forks_count": 36586,
-      "open_issues_count": 9272,
+      "forks_count": 36594,
+      "open_issues_count": 9291,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-11-13T12:07:51Z",
+      "updated_at": "2026-11-14T12:13:39Z",
       "archived": false,
       "fork": false
     },
@@ -46,9 +46,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13685,
-      "forks_count": 1690,
-      "open_issues_count": 61,
+      "stargazers_count": 13693,
+      "forks_count": 1693,
+      "open_issues_count": 62,
       "topics": [
         "ai",
         "assistant",
@@ -62,7 +62,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-11-13T10:22:51Z",
+      "updated_at": "2026-11-14T09:47:32Z",
       "archived": false,
       "fork": false
     },
@@ -137,21 +137,21 @@
     {
       "name": "adjspecies3",
       "first_seen": "2020-06-04",
-      "total_downloads": 6813,
-      "data_points": 2019,
+      "total_downloads": 6815,
+      "data_points": 2020,
       "date_range": {
         "from": "2020-06-04",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8416,
-      "data_points": 1879,
+      "total_downloads": 8423,
+      "data_points": 1881,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
@@ -193,31 +193,31 @@
     {
       "name": "ezkernel",
       "first_seen": "2024-03-09",
-      "total_downloads": 2937,
-      "data_points": 739,
+      "total_downloads": 2938,
+      "data_points": 740,
       "date_range": {
         "from": "2024-03-09",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "galactipedia",
       "first_seen": "2026-02-09",
-      "total_downloads": 1112,
-      "data_points": 218,
+      "total_downloads": 1117,
+      "data_points": 219,
       "date_range": {
         "from": "2026-02-09",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "hyper-mirror",
       "first_seen": "2026-02-13",
-      "total_downloads": 1065,
-      "data_points": 219,
+      "total_downloads": 1069,
+      "data_points": 220,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
@@ -233,31 +233,31 @@
     {
       "name": "mirava",
       "first_seen": "2026-02-13",
-      "total_downloads": 1747,
-      "data_points": 359,
+      "total_downloads": 1753,
+      "data_points": 361,
       "date_range": {
         "from": "2026-02-13",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "nemosyne",
       "first_seen": "2021-06-25",
-      "total_downloads": 4714,
-      "data_points": 1375,
+      "total_downloads": 4715,
+      "data_points": 1376,
       "date_range": {
         "from": "2021-06-25",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 272978,
-      "data_points": 4902,
+      "total_downloads": 275701,
+      "data_points": 4909,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -299,11 +299,11 @@
     {
       "name": "pyreveal",
       "first_seen": "2023-09-29",
-      "total_downloads": 5980,
-      "data_points": 1496,
+      "total_downloads": 5989,
+      "data_points": 1499,
       "date_range": {
         "from": "2023-09-29",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
@@ -322,31 +322,31 @@
     {
       "name": "storyweaver",
       "first_seen": "2024-05-29",
-      "total_downloads": 2238,
-      "data_points": 618,
+      "total_downloads": 2241,
+      "data_points": 619,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "takumitools",
       "first_seen": "2024-05-29",
-      "total_downloads": 2292,
-      "data_points": 619,
+      "total_downloads": 2293,
+      "data_points": 620,
       "date_range": {
         "from": "2024-05-29",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
       "name": "transmutate",
       "first_seen": "2024-08-04",
-      "total_downloads": 6818,
-      "data_points": 1448,
+      "total_downloads": 6819,
+      "data_points": 1449,
       "date_range": {
         "from": "2024-08-04",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       }
     },
     {
@@ -397,11 +397,11 @@
     {
       "name": "pgmq",
       "first_seen": "2022-09-22",
-      "total_downloads": 272978,
-      "data_points": 4902,
+      "total_downloads": 275701,
+      "data_points": 4909,
       "date_range": {
         "from": "2022-09-22",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       },
       "version": "1.1.4",
       "summary": "Python client for the PGMQ Postgres extension.",
@@ -449,11 +449,11 @@
     {
       "name": "auto-dns",
       "first_seen": "2023-07-28",
-      "total_downloads": 8416,
-      "data_points": 1879,
+      "total_downloads": 8423,
+      "data_points": 1881,
       "date_range": {
         "from": "2023-07-28",
-        "to": "2026-11-12"
+        "to": "2026-11-13"
       },
       "version": "0.1.2",
       "summary": "A DNS Python Library.",
