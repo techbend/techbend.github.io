@@ -1,17 +1,17 @@
 {
   "username": "tavallaie",
-  "updated_at": "2026-11-27T15:49:08.741353+00:00",
+  "updated_at": "2026-11-28T14:44:36.284972+00:00",
   "profile": {
     "public_repos": 136,
-    "followers": 268,
-    "following": 388,
+    "followers": 267,
+    "following": 389,
     "created_at": "2014-12-15T16:59:17Z",
     "avatar_url": "https://avatars.githubusercontent.com/u/10198108?v=4",
     "html_url": "https://github.com/tavallaie",
     "contributions_last_year": 3
   },
   "repo_count": 6,
-  "total_stars": 101497,
+  "total_stars": 101335,
   "repos": [
     {
       "name": "pgmq",
@@ -20,15 +20,15 @@
       "html_url": "https://github.com/pgmq/pgmq",
       "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
       "language": "PLpgSQL",
-      "stargazers_count": 5419,
-      "forks_count": 149,
+      "stargazers_count": 5420,
+      "forks_count": 148,
       "open_issues_count": 29,
       "topics": [
         "message-queue"
       ],
       "homepage": "https://pgmq.github.io/pgmq/",
       "created_at": "2023-07-24T13:49:58Z",
-      "updated_at": "2026-11-27T08:10:03Z",
+      "updated_at": "2026-11-27T23:40:54Z",
       "archived": false,
       "fork": false
     },
@@ -39,13 +39,13 @@
       "html_url": "https://github.com/python/cpython",
       "description": "The Python programming language",
       "language": "Python",
-      "stargazers_count": 78497,
-      "forks_count": 36539,
-      "open_issues_count": 9381,
+      "stargazers_count": 78326,
+      "forks_count": 36482,
+      "open_issues_count": 9382,
       "topics": [],
       "homepage": "https://www.python.org",
       "created_at": "2017-02-10T19:23:51Z",
-      "updated_at": "2026-11-27T15:12:45Z",
+      "updated_at": "2026-11-28T13:57:34Z",
       "archived": false,
       "fork": false
     },
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/huggingface/speech-to-speech",
       "description": "Build voice agents with open-source models",
       "language": "Python",
-      "stargazers_count": 13803,
-      "forks_count": 1713,
-      "open_issues_count": 70,
+      "stargazers_count": 13810,
+      "forks_count": 1714,
+      "open_issues_count": 83,
       "topics": [
         "ai",
         "assistant",
@@ -72,7 +72,7 @@
       ],
       "homepage": "",
       "created_at": "2024-08-07T15:32:09Z",
-      "updated_at": "2026-11-27T14:49:09Z",
+      "updated_at": "2026-11-28T13:30:42Z",
       "archived": false,
       "fork": false
     },
@@ -120,9 +120,9 @@
       "html_url": "https://github.com/celery/kombu",
       "description": "Messaging library for Python.",
       "language": "Python",
-      "stargazers_count": 3158,
-      "forks_count": 1113,
-      "open_issues_count": 253,
+      "stargazers_count": 3159,
+      "forks_count": 1114,
+      "open_issues_count": 246,
       "topics": [
         "celery",
         "kombu",
@@ -138,7 +138,7 @@
       ],
       "homepage": "http://kombu.readthedocs.org/",
       "created_at": "2010-06-23T10:10:24Z",
-      "updated_at": "2026-11-27T02:46:28Z",
+      "updated_at": "2026-11-28T12:01:22Z",
       "archived": false,
       "fork": false
     }
